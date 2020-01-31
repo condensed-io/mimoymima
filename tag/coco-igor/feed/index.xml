@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Coco &amp; Igor &#8211; mimoYmima</title>
+	<atom:link href="/tag/coco-igor/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 10 May 2010 04:04:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Launch: Coco Chanel &#038; Igor Stravinsky</title>
+		<link>/launch-coco-chanel-igor-stravinsky/</link>
+				<comments>/launch-coco-chanel-igor-stravinsky/#respond</comments>
+				<pubDate>Mon, 10 May 2010 04:04:23 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Coco & Igor]]></category>
+		<category><![CDATA[mixed media workshop]]></category>
+		<category><![CDATA[movie]]></category>
+		<category><![CDATA[Sony Pictures Classics]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3152</guid>
+				<description><![CDATA[<p>We just finished working on the Sony Picture Classics film, Coco &#38; Igor in collaboration with Mixed Media Workshop.</p>
+<p>The post <a rel="nofollow" href="/launch-coco-chanel-igor-stravinsky/">Launch: Coco Chanel &#038; Igor Stravinsky</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just finished working on the Sony Picture Classics film, <a href="http://www.sonyclassics.com/cocochanelandigorstravinsky" class="Popup" title="Coco Chanel and Igor Stravinsky film">Coco &amp; Igor</a> in collaboration with <a href="http://mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a>.</p>
+
+<a href="http://www.sonyclassics.com/cocochanelandigorstravinsky" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/05/screen_coco-igor-525x406.png" alt="" title="screen_coco-igor" width="525" height="406" class="aligncenter size-medium wp-image-3155" /></a>
+
+<p>It was a challenging site to program, and ended up looking even better than we had hoped.  Please <a href="http://www.sonyclassics.com/cocochanelandigorstravinsky" class="Popup">visit the site</a> and let us know what you think.</p> <p>The post <a rel="nofollow" href="/launch-coco-chanel-igor-stravinsky/">Launch: Coco Chanel &#038; Igor Stravinsky</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-coco-chanel-igor-stravinsky/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

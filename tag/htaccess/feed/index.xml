@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>htaccess &#8211; mimoYmima</title>
+	<atom:link href="/tag/htaccess/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 17:21:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>.htaccess links</title>
+		<link>/htaccess-links/</link>
+				<comments>/htaccess-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 17:21:58 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[htaccess]]></category>
+		<category><![CDATA[server]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2115</guid>
+				<description><![CDATA[<p>The .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled... etc.</p>
+<p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">the .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled&#8230; etc&#8230;</p>
+
+<a href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_htaccess.jpg" alt="Margo on the prowl" width="525" height="115" class="aligncenter" /></a>
+
+<dl class="DictList">
+
+<dt><a class="lightview" title="Beginners Guide to .htaccess :: :: fullscreen: true" href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/">.htaccess for beginners</a></dt>
+<dd>Your .htaccess file is what you use to make configurations to a shared server on a per-directory basis.  This means that you can .  When you get server space you are typically sharing it with a lot of others, so for security and logistic reasons, the server company can&#8217;t let you change the configuration of the entire server.  The .htaccess file is what you use to make custom error pages, redirect people, restrict access to certain pages &hellip;</dd>
+
+<dt><a class="lightview" title="Password Protection with .htaccess :: :: fullscreen: true" href="http://tools.dynamicdrive.com/password/">Password Protect</a></dt>
+<dd>The best page on the net to show you how to password protect your pages using .htaccess</dd>
+				
+</dl> <p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/htaccess-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

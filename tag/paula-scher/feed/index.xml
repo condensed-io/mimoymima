@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>paula scher &#8211; mimoYmima</title>
+	<atom:link href="/tag/paula-scher/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 29 May 2010 04:38:26 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Paula is the best&#8230;</title>
+		<link>/paula-is-the-best/</link>
+				<comments>/paula-is-the-best/#respond</comments>
+				<pubDate>Sat, 29 May 2010 04:38:26 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[inspiration]]></category>
+		<category><![CDATA[logo design]]></category>
+		<category><![CDATA[paula scher]]></category>
+		<category><![CDATA[quotes]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3204</guid>
+				<description><![CDATA[<p>The designer needs to be ever present because, inevitably, at some side meeting, something will be suggested that will totally destroy the form of the logo...</p>
+<p>The post <a rel="nofollow" href="/paula-is-the-best/">Paula is the best&#8230;</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<blockquote class="Intro">The designer needs to be ever present because, inevitably, at some side meeting, something will be suggested that will totally destroy the form of the logo. Something can be suggested innocently, with the best of intentions, that will scuttle all plans, compromise all standards, and destroy the integrity of the design. The only person who can know this and stop this is the designer.</blockquote>
+
+<h2><em><a href="http://www.hillmancurtis.com/index.php?/film/watch/paula_scher/" class="Popup">Paula Scher</em></h2>
+
+<a href="http://www.hillmancurtis.com/index.php?/film/watch/paula_scher/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/05/paula_poster-525x205.jpg" alt="Paula Scher Poster" title="paula_poster" width="525" height="205" class="aligncenter size-medium wp-image-3207" /></a> <p>The post <a rel="nofollow" href="/paula-is-the-best/">Paula is the best&#8230;</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/paula-is-the-best/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

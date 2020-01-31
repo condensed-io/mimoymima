@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>peter adelman &#8211; mimoYmima</title>
+	<atom:link href="/tag/peter-adelman/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sun, 31 Dec 2017 02:53:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Peter Adelman</title>
+		<link>/peter-adelman/</link>
+				<comments>/peter-adelman/#respond</comments>
+				<pubDate>Sun, 31 Dec 2017 02:52:54 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[lawyer]]></category>
+		<category><![CDATA[litigation]]></category>
+		<category><![CDATA[peter adelman]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">/?p=7142</guid>
+				<description><![CDATA[<p>Web design for Brooklyn based boutique litigation practice.</p>
+<p>The post <a rel="nofollow" href="/peter-adelman/">Peter Adelman</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Web design for Brooklyn based boutique litigation practice.</p>
+<p><img src="/wp-content/uploads/2017/12/screenshot_website_peter-adelman.jpg" alt="Peter Adelman Website Screenshot" class="alignnone size-full" style="width: 80%; margin: 0 auto;" /></p>
+<p>The post <a rel="nofollow" href="/peter-adelman/">Peter Adelman</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/peter-adelman/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

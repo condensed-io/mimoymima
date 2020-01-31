@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Samuel L Jackson &#8211; mimoYmima</title>
+	<atom:link href="/tag/samuel-l-jackson/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 02 Mar 2015 17:47:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Mother &#038; Child</title>
+		<link>/mother-child/</link>
+				<comments>/mother-child/#respond</comments>
+				<pubDate>Fri, 16 Apr 2010 22:39:57 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[Mixed Media]]></category>
+		<category><![CDATA[Mother & Child]]></category>
+		<category><![CDATA[movie]]></category>
+		<category><![CDATA[movie websites]]></category>
+		<category><![CDATA[Samuel L Jackson]]></category>
+		<category><![CDATA[Sony Pictures Classics]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3083</guid>
+				<description><![CDATA[<p>We just finished up the website for the Sony Picture Classics Film, Mother &#38; Child.  This is another project we've done in collaboration with Mixed Media Workshop</p>
+<p>The post <a rel="nofollow" href="/mother-child/">Mother &#038; Child</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just finished up the website for the Sony Picture Classics Film, <em><a href="http://www.sonyclassics.com/motherandchild/" class="Popup">Mother &amp; Child</a></em>.  This is another project we&#8217;ve done in collaboration with <a href="http://mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a>.</p>
+
+<a href="http://www.sonyclassics.com/motherandchild/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/04/mother_homepage.jpg" alt="screenshot for Mother &amp; Child" title="mother_homepage" width="525" height="263" class="aligncenter size-full wp-image-3093" /></a>
+
+<p>Inspired by the poster artwork, we created a site that uses a lot of imagery from the movie and works in some cool transitions. The movie opens May 7th, check it out!</p>
+ <p>The post <a rel="nofollow" href="/mother-child/">Mother &#038; Child</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/mother-child/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

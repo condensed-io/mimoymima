@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>web development &#8211; mimoYmima</title>
+	<atom:link href="/tag/web-development/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 06 Jan 2018 05:33:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Front-End Programming Intern</title>
+		<link>/front-end-programming-intern/</link>
+				<comments>/front-end-programming-intern/#respond</comments>
+				<pubDate>Thu, 02 Oct 2014 15:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Jobs]]></category>
+		<category><![CDATA[front-end]]></category>
+		<category><![CDATA[intern]]></category>
+		<category><![CDATA[job]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">/?p=5490</guid>
+				<description><![CDATA[<p>We&#8217;re looking for an awesome intern who has intermediate HTML/CSS skills looking to further their knowledge by learning advanced techniques by working on some of our upcoming projects. Very good possibility of moving into a freelance position and basic knowledge about google android app development. Please send us your resume and some samples of your [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/front-end-programming-intern/">Front-End Programming Intern</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">We&#8217;re looking for an awesome intern who has intermediate HTML/CSS skills looking to further their knowledge by learning advanced techniques by working on some of our upcoming projects.  Very good possibility of moving into a freelance position and basic knowledge about <a href="https://techwitty.com.au/app-development/">google android app development</a>.  Please send us your resume and some samples of your work.  Detailed requirements below:</p>
+<h2>Requirements</h2>
+<ul class="bullet-list">
+<li>Good knowledge of HTML, CSS, and web standards.</li>
+<li>Familiarity with WordPress system and PHP template coding a big plus.</li>
+<li>Javascript/jQuery knowledge a plus.</li>
+<li>Good knowledge of graphic design tools such as Photoshop and Illustrator is a plus.</li>
+<li>Artistic sensibility and willingness to learn &#8211; <strong>Required!</strong></li>
+<li>20 hours per week minimum.</li>
+<li>3 month commitment.</li>
+</ul>
+<h2>Perks</h2>
+<ul class="bullet-list">
+<li>$100/week stipend</li>
+<li>We&#8217;ll re-imburse you for a Metrocard unlimited monthly pass</li>
+<li>A great opportunity to build up a resume with hands-on experience on professional level websites.</li>
+<li>After you have completed your internship you would get first consideration for work that we contract out to freelancers.</li>
+<li>We provide delicious lunches, Great coffee, England&#8217;s #1 Tea, &amp; frequent baked goods&#8230;  We bring  &#8216;will work for food&#8217; to the next level!</li>
+<li>Occasional Brooklyn Favorites like Terrace Bagels and joyce bakeshop !</li>
+</ul>
+<p>To Apply contact <a href="mailto:info@mimoymima.com">info@mimoYmima.com</a></p>
+<p>The post <a rel="nofollow" href="/front-end-programming-intern/">Front-End Programming Intern</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/front-end-programming-intern/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Browser Specific Stylesheets</title>
+		<link>/browser-specific-stylesheets/</link>
+				<comments>/browser-specific-stylesheets/#comments</comments>
+				<pubDate>Fri, 06 Nov 2009 20:04:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[conditional comments]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[explorer]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[ie]]></category>
+		<category><![CDATA[pc]]></category>
+		<category><![CDATA[stylesheets]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2165</guid>
+				<description><![CDATA[<p>It's unfortunate, but all browsers don't use the same rendering engines to show web pages.  This means that the same combination of HTML and CSS can look different on different browsers. Figuring out how to make your site look the same on all browsers is a big part of web design.</p>
+<p>The post <a rel="nofollow" href="/browser-specific-stylesheets/">Browser Specific Stylesheets</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">It&#8217;s unfortunate, but all browsers don&#8217;t use the same rendering engines to show web pages.  This means that the same combination of <acronym title="Hypertext Markup Language">HTML</acronym> and <acronym title="Cascading Stylesheets">CSS</acronym> can look different on different browsers. Figuring out how to make your site look the same on all browsers is a big part of web design.</p>
+
+<h2>First Thing: Clean Code</h2>
+
+<a href="https://browserlab.adobe.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_stylesheets.jpg" alt="foggy road, hard to see what is around the corner" width="525" height="195" class="aligncenter" /></a>
+
+<p>You want your HTML and CSS to be <acronym title="The World Wide Web Consortium">W3C</acronym> compliant.  This means that <a href="http://validator.w3.org/docs/why.html" class="lightview" title="HTML validator :: :: fullscreen: true">you should validate all your pages</a>.  You should <em>not</em> use tables for layout purposes, and you <em>should</em> keep all the CSS in external stylesheets.</p>
+
+<p>While you are writing this clean beautiful code you should use <a href="http://www.mozilla.com/en-US/firefox/" class="lightview" title="Get Firefox :: :: fullscreen: true">Firefox</a> to see what the page looks like.  Firefox (to my knowledge) renders pages closest to the W3C standard.</p>
+
+<h2><acronym title="Internet Explorer">IE</acronym>6</h2>
+
+<p>Once you have the general layout looking good in Firefox you should take a look at Internet Explorer 6.  If you don&#8217;t have a copy you can get a quick screenshot of any page by going to <a href="http://ipinfo.info/netrenderer/" class="Popup" title="IE Net Renderer :: See what your site looks like on Internet Explorer :: fullscreen: true">NetRenderer</a> or <a href="https://browserlab.adobe.com/" class="Popup">Adobe Browser Labs</a>.  If you&#8217;ve used CSS for your layout, you&#8217;ll probably see some problems with the way the page looks.  Many problems can be worked out just by seeing what they are and rethinking your CSS, but you will get to many points where you just need to tell IE6 a few things that you don&#8217;t want to tell other browsers.</p>
+
+<h2>Conditional Comments for IE</h2>
+
+<p>Conditional comments are special comments that are understood by IE and are used to feed just certain versions of IE pieces of HTML that the rest of the browsers in the world will ignore.  When you make the head of your HTML pages you should use these special comments to feed IE6 a specific stylesheet and also one for IE7.  With these &#8220;hack&#8221; stylesheets we will help them to look like the rest of the browsers out there.</p>
+
+<p>Separating your IE hacks also means that your good meaningful styles are in one sheet and your hacks in another, so later <span title="will this ever happen?">when nobody uses IE6 anymore</span> you can throw out the hacks easily.</p>
+
+<p>Here&#8217;s a copy of the head of our documents which shows you how we include the normal and the &#8220;hack&#8221; stylesheets.</p>
+
+<!--BEGIN: simplified mimoYmima document head to show stylesheet importing-->
+<pre class="crayon-plain-tag">&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;Cross Browser Stylesheets ~ mimoYmima&amp;lt;/title&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/basic.css&quot; media=&quot;all&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/screen.css&quot; media=&quot;screen&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/print.css&quot; media=&quot;print&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/handheld.css&quot; media=&quot;handheld&quot; /&amp;gt;
+&amp;lt;!--[if lt IE 7]&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/ie6.css&quot; media=&quot;screen&quot; /&amp;gt;&amp;lt;![endif]--&amp;gt;
+&amp;lt;!--[if IE 7]&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/ie7.css&quot; media=&quot;screen&quot; /&amp;gt;&amp;lt;![endif]--&amp;gt;
+&amp;lt;meta name=&quot;description&quot; content=&quot;Add your page description here.&quot; /&amp;gt;
+&amp;lt;script type=&quot;text/JavaScript&quot; src=&quot;/includes/global.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;</pre>
+<!--END: simplified mimoYmima document head to show stylesheet importing-->
+
+<p>In this bit of code we get all our normal sheets: basic.css, screen.css, print.css, and handheld.css (if you only have one sheet reference it instead) and then after that we pick up hacks-ie-win.css with a conditional comment as well as hacks-ie7.css.</p>
+
+<h2>Example Files</h2>				
+<p>The files in this example package show the working relationship between the different stylesheets and the index.html file.</p>				
+<h3><a href='http://www.mimoymima.com/wp-content/uploads/2009/11/cond-styles.zip'>download the example</a></h3>
+
+<h3><a href="http://feeds.feedburner.com/mym_lab">mYm Dev Feed <img src="/images/icon_rss_lg.png" width="28" height="28" title="Subscribe to the mym-dev RSS Feed" alt="RSS" /></a></h3>
+ <p>The post <a rel="nofollow" href="/browser-specific-stylesheets/">Browser Specific Stylesheets</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/browser-specific-stylesheets/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>map &#8211; mimoYmima</title>
+	<atom:link href="/tag/map/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Wed, 19 Jun 2013 17:52:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Shop by Neighborhood Map</title>
+		<link>/shop-by-neighborhood-map/</link>
+				<comments>/shop-by-neighborhood-map/#respond</comments>
+				<pubDate>Wed, 19 Jun 2013 17:52:40 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[illustration]]></category>
+		<category><![CDATA[map]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4830</guid>
+				<description><![CDATA[<p>Shop around Brooklyn and find cool stuff made in your neighborhood!</p>
+<p>The post <a rel="nofollow" href="/shop-by-neighborhood-map/">Shop by Neighborhood Map</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2013/06/brooklyn-makers-neighborhood-map.png" alt="Shop by Neighborhood Map" class="aligncenter size-full wp-image-4834" /></p>
+<p class="intro">As card-carrying Brooklynited, we love the new Shop by Neighborhood map we&#8217;ve created for Brooklyn Makers. From letterpress stationery in Clinton Hill to unique porcelain bowls in Ditmas Park, you can shop around Brooklyn and find cool stuff made in your neighborhood &#8211; check it out on <a href="http://shop.brooklynmakers.com/pages/shop-by-neighborhood" class="popup">Brooklyn Makers</a></p>
+<p>The post <a rel="nofollow" href="/shop-by-neighborhood-map/">Shop by Neighborhood Map</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/shop-by-neighborhood-map/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

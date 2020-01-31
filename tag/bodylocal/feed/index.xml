@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>BodyLocal &#8211; mimoYmima</title>
+	<atom:link href="/tag/bodylocal/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 03 Jan 2015 20:48:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Body Local</title>
+		<link>/body-local/</link>
+				<comments>/body-local/#respond</comments>
+				<pubDate>Wed, 03 Nov 2010 01:57:27 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[BodyLocal]]></category>
+		<category><![CDATA[fitness]]></category>
+		<category><![CDATA[geo]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[logo]]></category>
+		<category><![CDATA[Manhattan]]></category>
+		<category><![CDATA[nutrition]]></category>
+		<category><![CDATA[nyc]]></category>
+		<category><![CDATA[search]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[wellness]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3553</guid>
+				<description><![CDATA[<p>Toward the end of 2010 we worked on an identity project for BodyLocal, a NYC based fitness search engine.  This post is a quick play-by-play of how their logo was created.</p>
+<p>The post <a rel="nofollow" href="/body-local/">Body Local</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">We just wrapped up the identity and web design for Body Local, a NYC based fitness search engine.  They&#8217;ll be covering everything in the world of fitness, nutrition, and wellness.</p>
+
+<img src="/wp-content/uploads/2010/11/logo_body-local.png" alt="logo_body-local" class="alignnone size-full" />
+
+<h2>Homepage Design</h2>
+
+<img src="/wp-content/uploads/2011/01/comp_home.jpg" alt="comp_home" class="alignnone size-full" />
+
+<h2>Search Results Page Design</h2>
+
+<img src="/wp-content/uploads/2011/01/comp_inside.jpg" alt="comp_inside" class="alignnone size-full" />
+
+<a href="http://bodylocal.com/" title="local fitness search New York">bodylocal.com</a><p>The post <a rel="nofollow" href="/body-local/">Body Local</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/body-local/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

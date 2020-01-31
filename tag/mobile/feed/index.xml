@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>mobile &#8211; mimoYmima</title>
+	<atom:link href="/tag/mobile/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 30 Nov 2010 16:15:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>mobile site: Made In Dagenham</title>
+		<link>/mobile-site-made-in-dagenham/</link>
+				<comments>/mobile-site-made-in-dagenham/#respond</comments>
+				<pubDate>Tue, 30 Nov 2010 16:15:29 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[made in dagenham]]></category>
+		<category><![CDATA[mixed media workshop]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[Sony Pictures Classics]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3514</guid>
+				<description><![CDATA[<p>We collaborated with Mixed Media Workshop on a simple iPhone/iPad/Android version of the Made In Dagenham site.</p>
+<p>The post <a rel="nofollow" href="/mobile-site-made-in-dagenham/">mobile site: Made In Dagenham</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We made a quick iPhone/iPad/Android version of the <a href="http://www.sonyclassics.com/madeindagenham/" class="Popup">Made In Dagenham site</a>.  Looks like a good flick, check out the trailer.</p>
+
+<a href="http://www.sonyclassics.com/madeindagenham/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/11/dagenham_pic.jpg" alt="Made In Dagenham screenshot" title="dagenham_pic" class="aligncenter size-full wp-image-3515" /></a>
+
+<p>This site was made in collaboration with Ben of <a href="http://mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a>, Made in Dagenham is a Sony Pictures Classics film directed by Nigel Cole. The film stars Sally Hawkins, Miranda Richardson, Rosamund Pike.</p><p>The post <a rel="nofollow" href="/mobile-site-made-in-dagenham/">mobile site: Made In Dagenham</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/mobile-site-made-in-dagenham/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Mobile links</title>
+		<link>/mobile-links/</link>
+				<comments>/mobile-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:38:22 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[cel phone]]></category>
+		<category><![CDATA[handheld]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[mobile]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2143</guid>
+				<description><![CDATA[<p>With iPhones and other smart phones replacing most people's traditional cel phones, web designers can start to really deliver solid HTML content to mobile devices, here's a few articles to get you started</p>
+<p>The post <a rel="nofollow" href="/mobile-links/">Mobile links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">With iPhones and other smart phones replacing most people&#8217;s traditional cel phones, web designers can start to really deliver solid HTML content to mobile devices, here&#8217;s a few articles to get you started</p>
+
+<a href="http://code.flickr.com/blog/2008/10/27/lessons-learned-while-building-an-iphone-site/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_mobile-links.jpg" alt="img_mobile-links" title="img_mobile-links" width="525" height="106" class="aligncenter size-full wp-image-2301" /></a>
+
+<dl class="DictList">
+
+<dt><a class="lightview" href="http://code.flickr.com/blog/2008/10/27/lessons-learned-while-building-an-iphone-site/" title="Lessons learned while making the iphone minisite for flickr :: :: fullscreen: true">iPhone Lessons Learned</a></dt>
+<dd>A great article about the lessons learned while putting together the iPhone minisite for flickr.</dd>
+
+<dt><a class="lightview" href="http://iphonemicrosites.com/tutorials/php-auto-bowser-detection/" title="Best way to feed content to the iphone :: :: fullscreen: true">PHP Browser detection for the iPhone</a></dt>
+<dd>This seems to be the shortest and easiest way to feed content to the iphone.</dd>
+
+<dt><a class="lightview" href="http://iphonemicrosites.com/articles/6-tips-to-optimize-your-current-site-for-the-iphone/" title="iphone tips :: :: fullscreen: true">iPhone Tips</a></dt>
+<dd>Six tips to optimize your website for the iphone.</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/mobile-links/">Mobile links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/mobile-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

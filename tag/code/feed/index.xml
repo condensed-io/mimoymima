@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>code &#8211; mimoYmima</title>
+	<atom:link href="/tag/code/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 17 Aug 2015 19:07:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>The smart way to disable your sidebar</title>
+		<link>/disable-sidebar/</link>
+				<comments>/disable-sidebar/#comments</comments>
+				<pubDate>Thu, 11 Mar 2010 21:24:51 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[custom fields]]></category>
+		<category><![CDATA[disable sidebar]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936</guid>
+				<description><![CDATA[<p>If you find yourself making a new WordPress template for pages that are identical to others on your site but just don't have a sidebar, consider this technique instead which lets you turn the sidebar off selectively on a page by page basis.</p>
+<p>The post <a rel="nofollow" href="/disable-sidebar/">The smart way to disable your sidebar</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">If you find yourself making a new WordPress template for pages that are identical to others on your site but just don&#8217;t have a sidebar, consider this technique instead which lets you turn the sidebar off selectively on a page by page basis.</p>
+
+<h2>Add this to functions.php</h2>
+<pre class="crayon-plain-tag">&lt;?php // look to see if we've disabled sidebar in a custom field, if not show it
+	$disableSidebar = get_post_meta($post-&gt;ID, 'disableSidebar', $single = true);
+	if ($disableSidebar !== 'true') { get_sidebar(); }
+?&gt;</pre>
+
+<h2>index.php, page.php &#8230; etc.</h2>
+<p>Next find the file that has the sidebar in it.  If you want this to work on all blog posts, it&#8217;s probably single.php, or if you add it to index.php and/or page.php it&#8217;ll work on other types of pages.  Once you find your sidebar you need to put a bit of code before it and a bit of code after it.  In the beginning bit looks to see if the custom field is set on your page, the second bit is just the end of the &#8216;if&#8217; statement</p>
+
+<pre class="crayon-plain-tag">&lt;!--BEGIN: sidebar~main--&gt;
+&lt;?php // to disable this sidebar on a page by page basis just add a custom field to your page or post of disableSidebar = true
+$disableSidebar = get_post_meta($post-&gt;ID, 'disableSidebar', $single = true);
+if ($disableSidebar !== 'true'): ?&gt;
+
+&lt;!--BEGIN: my sidebar, yours may look a little different--&gt;
+&lt;aside id=&quot;sidebar-main&quot;&gt;
+	&lt;h1&gt;Main Sidebar&lt;/h1&gt;
+	&lt;?php dynamic_sidebar('sidebar-main'); ?&gt;
+&lt;/aside&gt;
+&lt;!--END: my sidebar--&gt;
+
+&lt;?php endif; ?&gt;
+&lt;!--END: sidebar~main--&gt;</pre>
+
+<h2>what it does</h2>
+
+<p>It checks to see if you have a custom field set in your post to disable the sidebar and if you do it turns off the sidebar</p>
+
+<h2>how to use it</h2>
+<p>Just make a new custom field for your page called <strong>disableSidebar</strong> and set it to <strong>true</strong>.  That&#8217;s it.</p> <p>The post <a rel="nofollow" href="/disable-sidebar/">The smart way to disable your sidebar</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/disable-sidebar/feed/</wfw:commentRss>
+		<slash:comments>68</slash:comments>
+							</item>
+		<item>
+		<title>The mother of all WordPress body tags</title>
+		<link>/wordpress-body-tag/</link>
+				<comments>/wordpress-body-tag/#comments</comments>
+				<pubDate>Tue, 02 Mar 2010 22:05:23 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903</guid>
+				<description><![CDATA[<p>It took us a long time to perfect this gorgeous body tag, it includes everything you'd want as a front end developer.</p>
+<p>The post <a rel="nofollow" href="/wordpress-body-tag/">The mother of all WordPress body tags</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">It took us a long time to perfect this gorgeous body tag, it includes everything you&#8217;d want as a front end developer, it inserts the name of the page you&#8217;re on into the class attribute, it adds the pages parent as the id, works on home, 404, search, tag, and category pages as well.</p>
+
+<p class="sys warn">NOTE: we&#8217;ve updated the code to also show what template you&#8217;re using, so if you have an old version, grab it again below</p>
+
+<div class="photo"><img src="http://www.mimoymima.com/wp-content/uploads/2010/03/img_waves.jpg" alt="" title="img_waves" width="525" height="93" class="aligncenter size-full wp-image-2948" /></div>
+
+<p><em>NOTE:</em> In order for this to work you&#8217;ll need to set your permalink structure to something that uses post names in the urls instead of numbers.  You set that in <strong>Settings &gt; Permalinks</strong>.  We suggest /%postname%/</p>
+
+<p>So without further ado, here&#8217;s it is:</p>
+
+<pre class="crayon-plain-tag">&lt;body
+	id=&quot;
+		&lt;?php
+		$post_parent = get_post($post-&gt;post_parent);
+		$parentSlug = $post_parent-&gt;post_name;
+		if (is_category()) { echo &quot;CategoryPage&quot;; }
+		elseif (is_search()) { echo &quot;SearchResults&quot;; }
+		elseif (is_tag()) { echo &quot;Tag&quot;; }
+		else { echo $parentSlug; }
+		?&gt;&quot;
+	class=&quot;
+		&lt;?php global $wp_query;
+		$template_name = get_post_meta( $wp_query-&gt;post-&gt;ID, '_wp_page_template', true );
+		$tn = str_replace(&quot;.php&quot;, &quot;&quot;, $template_name); echo &quot;template-&quot;.$tn.&quot; &quot;; ?&gt;
+		&lt;?php
+		if (is_category()) { echo 'category'; }
+		elseif (is_search()) { echo 'search'; }
+		elseif (is_tag()) { echo &quot;tag&quot;; }
+		elseif (is_home()) { echo &quot;home&quot;; }
+		elseif (is_404()) { echo &quot;page404&quot;; }
+		else { echo $post-&gt;post_name; }
+		?&gt;&quot;
+&gt;</pre>
+
+<p>Also here&#8217;s a more compact version <em>(less readable but still works the same)</em> if you want to save space in your template and don&#8217;t think you&#8217;ll be editing the code.  You should probably just use this one:</p>
+
+<pre class="crayon-plain-tag">&lt;body id=&quot;&lt;?php $post_parent = get_post($post-&gt;post_parent); $parentSlug = $post_parent-&gt;post_name; if (is_category()) { echo &quot;category-template&quot;; } elseif (is_archive()) { echo &quot;archive-template&quot;; } elseif (is_search()) { echo &quot;search-results&quot;; } elseif (is_tag()) { echo &quot;tag-template&quot;; } else { echo $parentSlug; } ?&gt;&quot; class=&quot;&lt;?php global $wp_query; $template_name = get_post_meta( $wp_query-&gt;post-&gt;ID, '_wp_page_template', true ); $tn = str_replace(&quot;.php&quot;, &quot;&quot;, $template_name); echo &quot;template-&quot;.$tn.&quot; &quot;; if (is_category()) { echo 'category'; } elseif (is_search()) { echo 'search'; } elseif (is_tag()) { echo &quot;tag&quot;; } elseif (is_home()) { echo &quot;home&quot;; } elseif (is_404()) { echo &quot;page404&quot;; } else { echo $post-&gt;post_name; } ?&gt;&quot;&gt;</pre><p>The post <a rel="nofollow" href="/wordpress-body-tag/">The mother of all WordPress body tags</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/wordpress-body-tag/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+							</item>
+	</channel>
+</rss>

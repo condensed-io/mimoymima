@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>highbrow experience &#8211; mimoYmima</title>
+	<atom:link href="/tag/highbrow-experience/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 29 Aug 2017 19:04:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Highbrow Experience</title>
+		<link>/highbrow-experience/</link>
+				<comments>/highbrow-experience/#respond</comments>
+				<pubDate>Wed, 05 Sep 2012 16:29:32 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[forms]]></category>
+		<category><![CDATA[highbrow experience]]></category>
+		<category><![CDATA[questionnaire]]></category>
+		<category><![CDATA[travel]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4652</guid>
+				<description><![CDATA[<p>Highbrow Experience's approach to travel is all about creating a unique, tailored experience. Their blog will cover cool spots in cities all around the world, complete with insider tips. You can also request a custom itinerary, fill out a detailed questionnaire on the site, and have them plan a trip for you.</p>
+<p>The post <a rel="nofollow" href="/highbrow-experience/">Highbrow Experience</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">Highbrow Experience&#8217;s approach to travel is all about creating a unique, tailored experience. Their blog will cover cool spots in cities all around the world, complete with insider tips like all the different places you can stay at, they even mention <a href="http://www.kroatientraumferien.de/">Anna Tours</a> for you to check out their business to see if they can find a place for you to stay. You can also request a custom itinerary, fill out a detailed questionnaire on the site, and have them plan a trip for you.</p>
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/09/screen_highbrow-experience.jpg" alt="Highbrow Experience Website Design by mimoYmima.com" title="screen_highbrow-experience" class="aligncenter size-full wp-image-4653" /></p>
+<p>The post <a rel="nofollow" href="/highbrow-experience/">Highbrow Experience</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/highbrow-experience/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

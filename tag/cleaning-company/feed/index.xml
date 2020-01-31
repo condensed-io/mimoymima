@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>cleaning company &#8211; mimoYmima</title>
+	<atom:link href="/tag/cleaning-company/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 30 Dec 2017 18:15:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Mint Cleaning</title>
+		<link>/mint-cleaning/</link>
+				<comments>/mint-cleaning/#respond</comments>
+				<pubDate>Wed, 30 Nov 2016 17:39:30 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[cleaning company]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[logo]]></category>
+		<category><![CDATA[mint cleaning]]></category>
+		<category><![CDATA[nyc]]></category>
+
+		<guid isPermaLink="false">/?p=7117</guid>
+				<description><![CDATA[<p>Just finishing an Identity for a fresh NYC cleaning company</p>
+<p>The post <a rel="nofollow" href="/mint-cleaning/">Mint Cleaning</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2017/12/logo_mint-cleaning.png" alt="Mint Cleaning Logo" class="alignnone size-full" /></p>
+<p>Just finishing an Identity for a fresh NYC cleaning company</p>
+<p><img src="/wp-content/uploads/2017/12/cards_mint-cleaning.jpg" alt="Mint Cleaning Logo" class="alignnone size-full" style="width: 70%; margin: 0 auto;" /></p>
+<p>The post <a rel="nofollow" href="/mint-cleaning/">Mint Cleaning</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/mint-cleaning/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Typepad to WordPress Migration	</title>
+	<atom:link href="/typepad-to-wordpress-migration/feed/" rel="self" type="application/rss+xml" />
+	<link>/typepad-to-wordpress-migration/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 06 Jan 2015 23:25:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: cordblomquist				</title>
+				<link>/typepad-to-wordpress-migration/#comment-166</link>
+		<dc:creator><![CDATA[cordblomquist]]></dc:creator>
+		<pubDate>Tue, 06 Jan 2015 23:25:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-166</guid>
+					<description><![CDATA[The regex queries suggested above are just some of the queries that TP2WP runs on TypePad MTIF export files. I created the TP2WP service with my friend Pete Snyder after we migrated Marginal Revolution from TypePad to WordPress. Our process first converts the MTIF file to WordPress XML and then relies on a modified version of the WordPress importer to move over file attachments such as images or MP3 files. You can check it out at http://tp2wp.com]]>/</description>
+		<content:encoded><![CDATA[<p>The regex queries suggested above are just some of the queries that TP2WP runs on TypePad MTIF export files. I created the TP2WP service with my friend Pete Snyder after we migrated Marginal Revolution from TypePad to WordPress. Our process first converts the MTIF file to WordPress XML and then relies on a modified version of the WordPress importer to move over file attachments such as images or MP3 files. You can check it out at <a href="http://tp2wp.com/" rel="nofollow ugc">http://tp2wp.com/</a></p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: mimoymima				</title>
+				<link>/typepad-to-wordpress-migration/#comment-12</link>
+		<dc:creator><![CDATA[mimoymima]]></dc:creator>
+		<pubDate>Thu, 02 Dec 2010 17:54:14 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-12</guid>
+					<description><![CDATA[no problem, love the way you titled your page :D  if you&#039;ve been stuck on TypePad for this long and you are a legitimate blog you really do need to ESCAPE ! ]]></description>
+		<content:encoded><![CDATA[<p>no problem, love the way you titled your page 😀  if you&#039;ve been stuck on TypePad for this long and you are a legitimate blog you really do need to ESCAPE ! </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Nuthatch				</title>
+				<link>/typepad-to-wordpress-migration/#comment-11</link>
+		<dc:creator><![CDATA[Nuthatch]]></dc:creator>
+		<pubDate>Thu, 02 Dec 2010 17:41:34 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-11</guid>
+					<description><![CDATA[Thanks for some of these tips, I used them in my migration. I have details on my site. ]]></description>
+		<content:encoded><![CDATA[<p>Thanks for some of these tips, I used them in my migration. I have details on my site. </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: WORDPRESSMIGRATION				</title>
+				<link>/typepad-to-wordpress-migration/#comment-10</link>
+		<dc:creator><![CDATA[WORDPRESSMIGRATION]]></dc:creator>
+		<pubDate>Sat, 28 Aug 2010 06:06:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-10</guid>
+					<description><![CDATA[Great list for further detail pls visit
+ 
+
+ 
+&lt;a href=&quot;http://wpmigrationhelp.com/&quot; rel=&quot;nofollow&quot;&gt;WORDPRESS MIGRATION&lt;/a&gt; ]]></description>
+		<content:encoded><![CDATA[<p>Great list for further detail pls visit</p>
+<p><a href="http://wpmigrationhelp.com/" rel="nofollow">WORDPRESS MIGRATION</a> </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Phil				</title>
+				<link>/typepad-to-wordpress-migration/#comment-9</link>
+		<dc:creator><![CDATA[Phil]]></dc:creator>
+		<pubDate>Sun, 06 Jun 2010 15:27:23 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-9</guid>
+					<description><![CDATA[nice checklist. ]]></description>
+		<content:encoded><![CDATA[<p>nice checklist. </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: mimoymima				</title>
+				<link>/typepad-to-wordpress-migration/#comment-8</link>
+		<dc:creator><![CDATA[mimoymima]]></dc:creator>
+		<pubDate>Thu, 08 Apr 2010 16:02:34 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-8</guid>
+					<description><![CDATA[If you find something that&#039;s not on the list please leave a comment, we will probably be doing this again one day and I remember it being a huge pain ]]></description>
+		<content:encoded><![CDATA[<p>If you find something that&#039;s not on the list please leave a comment, we will probably be doing this again one day and I remember it being a huge pain </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Ross				</title>
+				<link>/typepad-to-wordpress-migration/#comment-6</link>
+		<dc:creator><![CDATA[Ross]]></dc:creator>
+		<pubDate>Mon, 15 Mar 2010 17:12:13 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863#comment-6</guid>
+					<description><![CDATA[Great checklist.  This will cerrtainly help with our upcoming migration! ]]></description>
+		<content:encoded><![CDATA[<p>Great checklist.  This will cerrtainly help with our upcoming migration! </p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

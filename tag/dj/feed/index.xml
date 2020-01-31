@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dj &#8211; mimoYmima</title>
+	<atom:link href="/tag/dj/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 13 Jan 2015 02:19:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>DJ SUPADISCO</title>
+		<link>/dj-supadisco/</link>
+				<comments>/dj-supadisco/#respond</comments>
+				<pubDate>Fri, 12 Dec 2014 21:38:39 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[dj]]></category>
+		<category><![CDATA[San Francisco]]></category>
+		<category><![CDATA[supadisco]]></category>
+
+		<guid isPermaLink="false">/?p=6270</guid>
+				<description><![CDATA[<p>DJ SUPADISCO is a Brooklyn Based DJ who who pulls tracks from the his vaults but his set never feels dated, so we decided to keep his identity modern and clean with a classic touch:</p>
+<p>The post <a rel="nofollow" href="/dj-supadisco/">DJ SUPADISCO</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>DJ SUPADISCO is a Brooklyn Based DJ who who pulls tracks from the his vaults but his set never feels dated, so we decided to keep his identity modern and clean with a classic touch:</p>
+<p><img src="/wp-content/uploads/2015/01/logo_dj-supadisco.png" alt="logo_dj-supadisco" class="alignnone size-full wp-image-6271" srcset="/wp-content/uploads/2015/01/logo_dj-supadisco.png 1325w, /wp-content/uploads/2015/01/logo_dj-supadisco-300x92.png 300w, /wp-content/uploads/2015/01/logo_dj-supadisco-1024x315.png 1024w" sizes="(max-width: 1325px) 100vw, 1325px" /></p>
+<p>The post <a rel="nofollow" href="/dj-supadisco/">DJ SUPADISCO</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/dj-supadisco/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Alain Resnais &#8211; mimoYmima</title>
+	<atom:link href="/tag/alain-resnais/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 29 Jun 2010 00:10:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Launch: Wild Grass</title>
+		<link>/launch-wild-grass/</link>
+				<comments>/launch-wild-grass/#respond</comments>
+				<pubDate>Tue, 29 Jun 2010 00:10:22 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Alain Resnais]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[mixed media workshop]]></category>
+		<category><![CDATA[Sony Pictures Classics]]></category>
+		<category><![CDATA[Wild Grass]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3263</guid>
+				<description><![CDATA[<p>We just programmed a simple site for the Sony Pictures Classics film, Wild Grass, in conjunction with Mixed Media Workshop.  The film is directed by Alain Resnais (Hiroshima Mon Amour &#38; Last Year at Marienbad)</p>
+<p>The post <a rel="nofollow" href="/launch-wild-grass/">Launch: Wild Grass</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just programmed a simple site for the Sony Pictures Classics film <a href="http://www.sonyclassics.com/wildgrass/" class="Popup">Wild Grass</a> in conjunction with <a href="http://mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a>.  The film is directed by Alain Resnais <em>(Hiroshima Mon Amour &amp; Last Year at Marienbad)</em></p>
+
+<a href="http://www.sonyclassics.com/wildgrass/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/06/photo_wildgrass.jpg" alt="" title="photo_wildgrass" width="525" height="171" class="aligncenter size-full wp-image-3264" /></a> <p>The post <a rel="nofollow" href="/launch-wild-grass/">Launch: Wild Grass</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-wild-grass/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>piano &#8211; mimoYmima</title>
+	<atom:link href="/tag/piano/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 06 Oct 2014 20:42:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Lafayette Harris</title>
+		<link>/lafayette-harris/</link>
+				<comments>/lafayette-harris/#respond</comments>
+				<pubDate>Sat, 30 Sep 2006 15:50:14 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[lafayette harris]]></category>
+		<category><![CDATA[piano]]></category>
+
+		<guid isPermaLink="false">/?p=5438</guid>
+				<description><![CDATA[<p>Lafayette Harris is a Brooklyn based jazz pianist who&#8217;s played with all the big name jazz musicians from back in the day. We made his site which included an extensive history section to show off his life&#8217;s work.</p>
+<p>The post <a rel="nofollow" href="/lafayette-harris/">Lafayette Harris</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Lafayette Harris is a Brooklyn based jazz pianist who&#8217;s played with all the big name jazz musicians from back in the day.  We made his site which included an extensive history section to show off his life&#8217;s work.</p>
+<p><img src="/wp-content/uploads/2014/09/screen_lafayette-harris.jpg" alt="screen_lafayette-harris" class="alignnone size-full wp-image-5439" srcset="/wp-content/uploads/2014/09/screen_lafayette-harris.jpg 583w, /wp-content/uploads/2014/09/screen_lafayette-harris-238x300.jpg 238w" sizes="(max-width: 583px) 100vw, 583px" /></p>
+<p>The post <a rel="nofollow" href="/lafayette-harris/">Lafayette Harris</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/lafayette-harris/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

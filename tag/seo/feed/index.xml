@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SEO &#8211; mimoYmima</title>
+	<atom:link href="/tag/seo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 20:54:43 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>SEO links</title>
+		<link>/seo-links/</link>
+				<comments>/seo-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:54:43 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2151</guid>
+				<description><![CDATA[<p>The most innovative well designed site is worthless if nobody sees it, here's some search engine optimiaztion tools to help you get more visitors.</p>
+<p>The post <a rel="nofollow" href="/seo-links/">SEO links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">The most innovative well designed site is worthless if nobody sees it, here&#8217;s some search engine optimiaztion tools to help you get more visitors.</p>
+
+<dl class="DictList">
+
+<dt><a class="lightview" href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&#038;answer=156412" title="Remove A Page From Google :: :: fullscreen: true">Remove a page from Google</a></dt>
+<dd>If an outdated page on your site still shows up on google you can use this tool to remove it (as long as the page brings up a 404 error).</dd>
+
+<dt><a class="lightview" href="http://forum.modrewrite.com/viewforum.php?f=12" title="Learn About mod_rewrite :: :: fullscreen: true">Learn about mod_rewrite</a></dt>
+<dd>mod_rewrite is a module running on most apache servers that allows you to do all kinds of transformations and redirects on your urls.  The cryptic codes it uses are <a href="http://www.zytrax.com/tech/web/regex.htm">regular expressions</a></dd>
+
+<dt><a class="lightview" href="http://www.ragepank.com/redirect-check/" title="Redirect Check :: :: fullscreen: true">Redirect Check</a></dt>
+<dd>This tool looks at a number of different URLs for your homepage, and reports back on the response code given by each. To be completely safe, a 200 response should only be returned by one page. Other pages should return a 404 or 301. Anything else could be a potential duplicate content problem.</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/seo-links/">SEO links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/seo-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

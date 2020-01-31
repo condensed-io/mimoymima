@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>illustrator &#8211; mimoYmima</title>
+	<atom:link href="/tag/illustrator/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 20:32:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Illustrator links</title>
+		<link>/illustrator-links/</link>
+				<comments>/illustrator-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:32:45 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[drawing]]></category>
+		<category><![CDATA[illustrator]]></category>
+		<category><![CDATA[links]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2139</guid>
+				<description><![CDATA[<p>Illustrator is not only the best drawing program available, it's tools for handling type and vector shapes makes it perfect for designing websites.</p>
+<p>The post <a rel="nofollow" href="/illustrator-links/">Illustrator links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Illustrator is not only the best drawing program available, it&#8217;s tools for handling type and vector shapes makes it perfect for designing websites.</p>
+
+<a href="http://veerle.duoh.com/blog/archive-summary/category/Tutorials"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/illustrator_img.jpg" alt="pen nib" width="525" height="122" class="aligncenter size-full wp-image-2634" /></a>
+
+
+<dl class="DictList">
+
+<dt><a class="lightview" href="http://veerle.duoh.com/blog/archive-summary/category/Tutorials" title="Great Illustrator Tutorials :: :: fullscreen: true">Veerle&#8217;s Blog</a></dt>
+<dd>Amongst other things, Veerle has some great illustrator tutorials.</dd>
+
+<dt><a class="lightview" href="http://www.ndesign-studio.com/resources/tutorials/" title="More Tutorials! :: :: fullscreen: true">n.design studio</a></dt>
+<dd>Lots of Tutorials.</dd>
+
+<dt><a class="lightview" href="http://www.smashingmagazine.com/2007/02/03/adobe-illustrator-tutorials/" title="Smashing Mag Flash Tutorials for 2007 :: :: fullscreen: true">Smashing 2007</a></dt>
+
+<dt><a class="lightview" href="http://www.smashingmagazine.com/2008/02/05/illustrator-tutorials-best-of/" title="Smashing Mag Flash Tutorials for 2008 :: :: fullscreen: true">Smashing 2008</a></dt>
+<dd>Collections of Illustrator tutorials showing how to acheive specific techniques</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/illustrator-links/">Illustrator links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/illustrator-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

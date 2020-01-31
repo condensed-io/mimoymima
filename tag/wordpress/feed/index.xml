@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wordpress &#8211; mimoYmima</title>
+	<atom:link href="/tag/wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 10 Jan 2019 03:53:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>launch: YPI</title>
+		<link>/launch-ypi/</link>
+				<comments>/launch-ypi/#respond</comments>
+				<pubDate>Tue, 05 Feb 2013 17:09:56 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[ypi]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4803</guid>
+				<description><![CDATA[<p>A boutique introductions firm that takes a fresh approach to matchmaking.</p>
+<p>The post <a rel="nofollow" href="/launch-ypi/">launch: YPI</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2013/01/screen-ypi-1.jpg" alt="YPI website by mimoYmima" class="aligncenter size-full wp-image-4806" /></p>
+<p class="intro">A boutique introductions firm that takes a fresh approach to matchmaking. Their approach is not based on algorithms &#8211; they take the time to actually get to know each client. They&#8217;re staffed with people, not robots.</p>
+<p>The post <a rel="nofollow" href="/launch-ypi/">launch: YPI</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-ypi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>A better body-class function for WordPress</title>
+		<link>/better-body-class-function-wordpress/</link>
+				<comments>/better-body-class-function-wordpress/#comments</comments>
+				<pubDate>Tue, 01 Jan 2013 20:23:59 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[body class wordpress]]></category>
+		<category><![CDATA[custom template name]]></category>
+		<category><![CDATA[functions]]></category>
+		<category><![CDATA[parent page]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4778</guid>
+				<description><![CDATA[<p>We wrote this function because the native WordPress function for adding body classes creates way too many, most are never used, and it doesn't create some that you do need.</p>
+<p>The post <a rel="nofollow" href="/better-body-class-function-wordpress/">A better body-class function for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">UPDATE– Jan. 25, 2015: moving the parent page name checks into the conditional statement to avoid silent errors // UPDATE– Oct. 20, 2013: Thanks to Marty (see comments below), for convincing us to change out our method for body classes to filter the default WP body_class() function instead of creating our own.  It still gives you all the advantages of our original function plus the classes you get by default.</p>
+<h2>Here&#8217;s what it does</h2>
+<ul class="bullet-list">
+<li>First, check to see if you are on one of the following and create a class if so: home, 404, category, search, tag.</li>
+<li>We then make a class prefixed by page_ that has the name of the page or post in it.</li>
+<li>Then we check to see if the page has a parent, if so, we create a class prefixed by parent_ and put the parent name there.</li>
+<li>Finally we make a class with the prefix template_ and put the name of the template used there.</li>
+</ul>
+<h2>The PHP</h2>
+<p>Add this stuff to your functions.php file, or just <a href="http://html5.mimoymima.com/" class="popup">use our html5 shell</a> and it&#8217;s built in.</p>
+<p></p><pre class="crayon-plain-tag">// Add to the body_class function
+function condensed_body_class($classes) {
+    global $post;
+
+    // add a class for the name of the page - later might want to remove the auto generated pageid class which isn't very useful
+    if( is_page()) {
+        $pn = $post-&gt;post_name;
+        $classes[] = &quot;page_&quot;.$pn;
+    }
+
+    // add a class for the parent page name
+    if ( is_page() &amp;&amp; $post-&gt;post_parent ) {
+        $post_parent = get_post($post-&gt;post_parent);
+        $parentSlug = $post_parent-&gt;post_name;
+        $classes[] = &quot;parent_&quot;.$parentSlug;
+    }
+
+    // add class for the name of the custom template used (if any)
+    $temp = get_page_template();
+    if ( $temp != null ) {
+        $path = pathinfo($temp);
+        $tmp = $path['filename'] . &quot;.&quot; . $path['extension'];
+        $tn= str_replace(&quot;.php&quot;, &quot;&quot;, $tmp);
+        $classes[] = &quot;template_&quot;.$tn;
+    }
+
+    return $classes;
+
+}
+
+add_filter('body_class', 'condensed_body_class');</pre><p></p>
+<h2>The HTML</h2>
+<p></p><pre class="crayon-plain-tag">&amp;lt;body class=&quot;&amp;lt;?php body_class(); ?&amp;gt;&quot;&amp;gt;</pre><p></p>
+<h2>Your Help</h2>
+<p>Let us know if you see ways to make it better, probably more conditions could be added to the beginning to take into consideration more template types.</p>
+<p>The post <a rel="nofollow" href="/better-body-class-function-wordpress/">A better body-class function for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/better-body-class-function-wordpress/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>Beygl</title>
+		<link>/beygl/</link>
+				<comments>/beygl/#respond</comments>
+				<pubDate>Thu, 15 Nov 2012 20:55:47 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[bagel]]></category>
+		<category><![CDATA[beygl]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[restaurant]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4757</guid>
+				<description><![CDATA[<p>This new Park Slope eatery has amazing bagels, or as they like to call them, beygls.  They are true to the old school methods, creating them in small batches with the best ingredients.</p>
+<p>The post <a rel="nofollow" href="/beygl/">Beygl</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">This new Park Slope eatery has *amazing* bagels, or as they like to spell them: beygls.  The funny spelling comes from the word&#8217;s yiddish origin.  These guys really know and love the process of making these things, so we spent some time illustrating a cool process page that shows how it&#8217;s done. We also like how they source wholesome local ingredients from other New York and Brooklyn vendors. You can check out their delicious menu on the website, or if you&#8217;re in the Slope stop by and pick up a beygl.</p>
+<h2>Illustration and Design</h2>
+<p><a href="http://beyglparkslope.com/" class="popup"><img src="/wp-content/uploads/2012/11/web-design_beygl-park-slope_process.jpg" alt="web-design_beygl-park-slope_process" class="alignnone size-full wp-image-5696" srcset="/wp-content/uploads/2012/11/web-design_beygl-park-slope_process.jpg 1281w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_process-180x300.jpg 180w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_process-616x1024.jpg 616w" sizes="(max-width: 1281px) 100vw, 1281px" /></a></p>
+<p><a href="http://beyglparkslope.com/" class="popup"><img src="/wp-content/uploads/2012/11/web-design_beygl-park-slope_home.jpg" alt="web-design_beygl-park-slope_home" class="alignnone size-full wp-image-5697" srcset="/wp-content/uploads/2012/11/web-design_beygl-park-slope_home.jpg 1281w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_home-300x266.jpg 300w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_home-1024x908.jpg 1024w" sizes="(max-width: 1281px) 100vw, 1281px" /></a></p>
+<p><a href="http://beyglparkslope.com/">* visit the site</a></p>
+<p>The post <a rel="nofollow" href="/beygl/">Beygl</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/beygl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Kris Murphy Photography</title>
+		<link>/kris-murphy-photography/</link>
+				<comments>/kris-murphy-photography/#respond</comments>
+				<pubDate>Tue, 12 Apr 2011 17:36:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[animation]]></category>
+		<category><![CDATA[flash]]></category>
+		<category><![CDATA[kris murphy photography]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[paintings]]></category>
+		<category><![CDATA[photo gallery]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3754</guid>
+				<description><![CDATA[<p>From the beginning we were very excited about designing Kris' website because she started off by telling us how awesome our work is and how she wanted us to come up with original animated art to be the theme for her site.</p>
+<p>The post <a rel="nofollow" href="/kris-murphy-photography/">Kris Murphy Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">From the beginning we were very excited about designing <a href="http://krismurphyphotography.com/" title="kris murphy photography - kids, adults, pets photography, Ft. Lauderdale, Florida">Kris&#8217; website</a> because she started off by telling us how awesome she thought our work was and how she wanted us to come up with original animated art to be the theme for her site!</p>
+
+<p>As inspiration Kris showed us a book by <a href="/wp-content/uploads/2014/12/eric-carle_draw-me-a-star.jpg" title="this is the book we used as inspiration for the Kris Murphy site">Eric Carle</a>.  We made a bunch of paintings and cut out pieces to bring into flash, where animation superhero, <a href="http://kihu.blogspot.com/" title="Kim Hui - this blog sucks - animation">Kim Hui</a>,  brought them to life.</p>
+
+<h2>Original Paintings</h2>
+
+<img src="/wp-content/uploads/2011/04/brent-lagerman_original-paintings.jpg" alt="brent-lagerman_original-paintings" class="alignnone size-full wp-image-6774" srcset="/wp-content/uploads/2011/04/brent-lagerman_original-paintings.jpg 1800w, /wp-content/uploads/2011/04/brent-lagerman_original-paintings-300x124.jpg 300w, /wp-content/uploads/2011/04/brent-lagerman_original-paintings-1024x423.jpg 1024w" sizes="(max-width: 1800px) 100vw, 1800px" />
+
+<h2>Add Magic</h2>
+
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/fish.swf">
+<param name="movie" value="/wp-content/themes/mimoymima-theme/flash/fish.swf" />
+<param name="bgcolor" value="000000" />
+You need flash to watch these animations
+</object>
+</div>
+
+<img src="/wp-content/uploads/2011/04/kris-murphy_me.jpg" alt="kris-murphy_me" class="alignnone size-full wp-image-5926" srcset="/wp-content/uploads/2011/04/kris-murphy_me.jpg 1314w, /wp-content/uploads/2011/04/kris-murphy_me-300x274.jpg 300w, /wp-content/uploads/2011/04/kris-murphy_me-1024x935.jpg 1024w" sizes="(max-width: 1314px) 100vw, 1314px" />
+
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/stars.swf">
+<param name="movie" value="/wp-content/themes/mimoymima-theme/flash/stars.swf" />
+<param name="bgcolor" value="000000" />
+You need flash to watch these animations
+</object>
+</div>
+
+<img src="/wp-content/uploads/2011/04/kris-murphy_spirits.jpg" alt="kris-murphy_spirits" class="alignnone size-full wp-image-5928" srcset="/wp-content/uploads/2011/04/kris-murphy_spirits.jpg 1314w, /wp-content/uploads/2011/04/kris-murphy_spirits-300x295.jpg 300w, /wp-content/uploads/2011/04/kris-murphy_spirits-1024x1005.jpg 1024w" sizes="(max-width: 1314px) 100vw, 1314px" />
+
+<img src="/wp-content/uploads/2011/04/kris-murphy_studio.jpg" alt="kris-murphy_studio" class="alignnone size-full wp-image-5927" srcset="/wp-content/uploads/2011/04/kris-murphy_studio.jpg 1314w, /wp-content/uploads/2011/04/kris-murphy_studio-294x300.jpg 294w, /wp-content/uploads/2011/04/kris-murphy_studio-1003x1024.jpg 1003w" sizes="(max-width: 1314px) 100vw, 1314px" /><p>The post <a rel="nofollow" href="/kris-murphy-photography/">Kris Murphy Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/kris-murphy-photography/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>WordPress for iOS</title>
+		<link>/wordpress-for-ios/</link>
+				<comments>/wordpress-for-ios/#respond</comments>
+				<pubDate>Thu, 17 Mar 2011 02:13:02 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[geotagging]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/2011/03/lab/wordpress-for-ios/</guid>
+				<description><![CDATA[<p>Messing around with WordPress for iOS, overall I like it, I accidentally deleted a post by trying to cancel out of uploading an image somehow, so it&#8217;s not perfect yet, but has a lot of promise. One awesome feature that it includes is geo tagging your posts. A slew of cool applications for this come [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/wordpress-for-ios/">WordPress for iOS</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Messing around with WordPress for iOS, overall I like it, I accidentally deleted a post by trying to cancel out of uploading an image somehow, so it&#8217;s not perfect yet, but has a lot of promise.  One awesome feature that it includes is geo tagging your posts.  A slew of cool applications for this come to mind, can&#8217;t wait to try hooking into the geo data on the template side.</p>
+<p>&#8212;</p>
+<p>Ok, now that the post got published I&#8217;m going to go back to trying to upload the photo I took at the Big East Tournament.</p>
+<p><a href="http://www.mimoymima.com/2011/03/lab/wordpress-for-ios/attachment/20110316-103832-jpg/" rel="attachment wp-att-3683"><img src="http://www.mimoymima.com/wp-content/uploads/2011/03/20110316-103832-525x392.jpg" alt="" title="20110316-103832.jpg" class="aligncenter size-medium wp-image-3683" /></a></p>
+<p>The post <a rel="nofollow" href="/wordpress-for-ios/">WordPress for iOS</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/wordpress-for-ios/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>HTML5 Shell for WordPress</title>
+		<link>/html5-shell-for-wordpress/</link>
+				<comments>/html5-shell-for-wordpress/#comments</comments>
+				<pubDate>Tue, 30 Nov 2010 16:11:19 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[framework]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[shell]]></category>
+		<category><![CDATA[theme]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3520</guid>
+				<description><![CDATA[<p>We've updated our Wordpress shell to take advantage of HTML5, we're also making it freely available as an open source which we're hoping will help out others and force us to keep making it better.</p>
+<p>The post <a rel="nofollow" href="/html5-shell-for-wordpress/">HTML5 Shell for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;ve updated our WordPress shell to take advantage of HTML5, we&#8217;re also making it freely available as an open source project which we&#8217;re hoping will help others who are making custom WordPress themes and also push us to keep making it better.</p>
+
+<a href="http://html5.mimoymima.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2010/11/shell_photo.jpg" alt="HTML5 Shell For WordPress - screenshot" title="shell_photo" class="aligncenter size-full wp-image-3522" /></a>
+
+<h3><a href="http://html5.mimoymima.com/">Visit the HTML5 WordPress Shell Project Page</a></h3><p>The post <a rel="nofollow" href="/html5-shell-for-wordpress/">HTML5 Shell for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/html5-shell-for-wordpress/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>Dr. Amy Yasko</title>
+		<link>/dr-amy-yasko/</link>
+				<comments>/dr-amy-yasko/#respond</comments>
+				<pubDate>Thu, 02 Sep 2010 03:57:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[alternative medicine]]></category>
+		<category><![CDATA[autism]]></category>
+		<category><![CDATA[dr. amy yasko]]></category>
+		<category><![CDATA[logo design]]></category>
+		<category><![CDATA[redesign]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3302</guid>
+				<description><![CDATA[<p>We just finished up the re-design of Dr. Amy Yasko's website.  The challenge with this one was to create a warm welcoming introduction for parents to a site that has very complicated scientific subject matter.</p>
+<p>The post <a rel="nofollow" href="/dr-amy-yasko/">Dr. Amy Yasko</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just finished up the re-design of <a href="http://www.dramyyasko.com/">Dr. Amy Yasko&#8217;s website</a>.  The challenge with this one was to create a warm welcoming introduction for parents to a site that has very complicated scientific subject matter.</p>
+
+<h2>Website Designs</h2>
+
+<a href="http://www.dramyyasko.com/"><img src="/wp-content/uploads/2010/09/dr-amy-yasko_web-design-home.jpg" alt="Dr. Amy Yasko - Website Design - homepage" class="alignnone size-full" /></a>
+
+<p>We designed the site to feel like a friendly warm place to learn about the program.  We take every opportunity we can to show a photo of a child that&#8217;s been helped by her program because that&#8217;s what it&#8217;s all about.</p>
+
+Patients considering filing suit against their doctors should be sure to consult a <a href = "https://www.warren-kallianos.com/brain-injury-attorneys/">Charlotte brain injury lawyers</a>. You can find <a href="http://www.resurgencebehavioralhealth.com/">this center</a> and medical malpractice attorney near you using the search tools below.
+
+<p>Dr Amy has been treating children with autism for years customizing holistic medicine treatments for each child based on specialized tests she&#8217;s developed, while using other wellness measures as a recreation and exercise with equipment as a <a href="https://www.amazon.com/URBNFit-Mini-Pilates-Ball-Stretching/dp/B074KRSXP1">pilates ball</a> so kids become more social.  Her old site was too technical though and left most mothers running for the hills.</p>
+
+<a href="http://www.dramyyasko.com/" title="alternative treatment for Autism"><img src="/wp-content/uploads/2010/09/dr-amy-yasko_web-design-blog.jpg" alt="Dr. Amy Yasko - Website Design - blog page" class="alignnone size-full" /></a>
+
+<h2>Logo Concept</h2>
+
+<p>Although not chosen by the client, we really liked to <a href = "https://smokea.com/">buy smokea headshop products</a> concept, the canary was suggested by Amy&#8217;s team as a good symbol for her practice because of their sensitivity to foreign substances <em>(something they share with Autistic children)</em>.</p>
+
+<img title="alternative treatment for Autism" src="/wp-content/uploads/2010/09/logo_amy-yasko_concept-mimoymima.png" alt="Logo: Amy Yasko Concept by mimoYmima" class="alignnone size-full" />
+
+<a href="http://www.dramyyasko.com/" title="alternative treatment for Autism">dramyyasko.com</a>
+
+<p>NOTE: We collaborated with <a href="http://www.health-journalist.com/" class="popup">health journalist, Alison Rose Levy</a> on the content for this project.</p><p>The post <a rel="nofollow" href="/dr-amy-yasko/">Dr. Amy Yasko</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/dr-amy-yasko/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Launch: The Way</title>
+		<link>/launch-the-way/</link>
+				<comments>/launch-the-way/#respond</comments>
+				<pubDate>Tue, 24 Aug 2010 15:03:55 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[art film]]></category>
+		<category><![CDATA[Camino do Santiago Compostela]]></category>
+		<category><![CDATA[Emelio Estevez]]></category>
+		<category><![CDATA[flash]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[movie website]]></category>
+		<category><![CDATA[The Way]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3324</guid>
+				<description><![CDATA[<p>We're just getting back from our annual trip to Spain, coincidentally while there we launched a site for a film set on the Camino de Santiago a Compostela - 'The Way' directed by Emelio Estevez.</p>
+<p>The post <a rel="nofollow" href="/launch-the-way/">Launch: The Way</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;re just getting back from our annual trip to Spain, while we were there we coincidentally launched a site for a film set on the <em>Camino de Santiago a Compostela</em> &#8211; &#8216;The Way&#8217; directed by Emelio Estevez.</p>
+
+<a href="http://theway-themovie.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/08/the-way_photo.jpg" alt="Screenshot for The Way - a film by Emelio Estevez" title="the-way_photo" width="525" height="274" class="aligncenter size-full wp-image-3328" /></a>
+
+<p>&#8216;The Way&#8217; was directed by Emelio Estevez, and stars his father, Martin Sheen.  In the movie Emelio&#8217;s character is somehow killed on the <em>Camino de Santiago a Compostela</em>, a religious pilgrimage through Spain.  We haven&#8217;t seen the film yet, so we&#8217;re not sure how he dies, no spoilers here&#8230; but from the trailer we&#8217;ve gathered that his father takes his son&#8217;s ashes and goes on the camino himself.</p>
+
+<p>Thanks to Ben at <a href="http://www.mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a> for getting this great job for us and collaborating on the work.  Together we achieved some cool results with this site, and we&#8217;re very proud of the way it came out, also can&#8217;t wait to see the film, we&#8217;re big fans of Emelio!!</p><p>The post <a rel="nofollow" href="/launch-the-way/">Launch: The Way</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-the-way/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Launch: Treehouse Reps</title>
+		<link>/launch-treehouse-reps/</link>
+				<comments>/launch-treehouse-reps/#comments</comments>
+				<pubDate>Wed, 23 Jun 2010 02:48:09 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[kids]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[photography]]></category>
+		<category><![CDATA[treehouse reps]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3253</guid>
+				<description><![CDATA[<p>The site for Treehouse Reps is live and it looks pretty slick.  We brought the identity work we created for them to life with some flash animation.  The goal was to create a feeling of childhood innocence while at the same time keeping it looking very professional and polished.</p>
+<p>The post <a rel="nofollow" href="/launch-treehouse-reps/">Launch: Treehouse Reps</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[The site for <a href="http://www.treehousereps.com/" class="Popup">Treehouse Reps is live</a> and it looks pretty slick.  We brought the identity work we created for them to life with some flash animation.  The goal was to create a feeling of childhood innocence while at the same time keeping it looking very professional and polished.
+
+<a href="http://www.treehousereps.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/06/photo_treehouse.jpg" alt="" title="photo_treehouse" width="525" height="575" class="aligncenter size-full wp-image-3256" /></a>
+  <p>The post <a rel="nofollow" href="/launch-treehouse-reps/">Launch: Treehouse Reps</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-treehouse-reps/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>You and Europe Photo Contest</title>
+		<link>/you-and-europe-photo-contest/</link>
+				<comments>/you-and-europe-photo-contest/#comments</comments>
+				<pubDate>Tue, 25 May 2010 04:19:40 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[etc]]></category>
+		<category><![CDATA[photo contest]]></category>
+		<category><![CDATA[Spring O'Brien]]></category>
+		<category><![CDATA[sweepstakes]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3193</guid>
+				<description><![CDATA[<p>We recently finished the programming on our first online sweepstakes.  It's a photo contest and anyone can enter (anyone but us unfortunately) ... just upload a photo of you in Europe and you could win a four day trip to Budapest and a Leica camera.</p>
+<p>The post <a rel="nofollow" href="/you-and-europe-photo-contest/">You and Europe Photo Contest</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We recently finished the programming on our first online sweepstakes.  It&#8217;s a photo contest and anyone can enter (anyone but us unfortunately) &#8230; just upload a photo of you in Europe and you could win a four day trip to Budapest and a Leica camera.</p>
+
+<a href="http://www.visiteurope.com/youandeurope" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/05/etc_photo1.jpg" alt="" title="etc_photo" width="525" height="181" class="aligncenter size-full wp-image-3195" /></a>
+
+<p>To enter, go to the <a href="http://www.visiteurope.com/youandeurope">visit Europe website</a>, scroll down a bit and then click the link that says <strong>&#8216;Enter the You And Europe Photo Contest&#8217;</strong>.<br />  Good Luck!</p>
+
+
+ <p>The post <a rel="nofollow" href="/you-and-europe-photo-contest/">You and Europe Photo Contest</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/you-and-europe-photo-contest/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

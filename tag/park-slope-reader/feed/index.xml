@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>park slope reader &#8211; mimoYmima</title>
+	<atom:link href="/tag/park-slope-reader/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Wed, 25 Nov 2009 04:59:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Our new winter ad</title>
+		<link>/our-new-winter-ad/</link>
+				<comments>/our-new-winter-ad/#respond</comments>
+				<pubDate>Wed, 25 Nov 2009 04:59:32 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ad]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[christmas]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[park slope reader]]></category>
+		<category><![CDATA[winter]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2368</guid>
+				<description><![CDATA[<p>We designed our new ad for the Park Slope Reader's winter edition, check 'er out:</p>
+<p>The post <a rel="nofollow" href="/our-new-winter-ad/">Our new winter ad</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[It&#8217;s that time again, we just designed our Park Slope Reader Quarterly ad, here&#8217;s a preview.  I originally posted the first try below, but Teresa thought it looked too &#8216;hobo&#8217;.  I was trying for cute and worn, but I agree it&#8217;s a little run down lookin&#8230;  So we gave frosty a makeover and here&#8217;s what we came up with:
+
+<h2>Second Try</h2>
+<a href="http://www.mimoymima.com/wp-content/uploads/2009/11/img_winter-ad-2-alt.jpg"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_winter-ad-2-alt.jpg" alt="img_winter-ad-2-alt" title="img_winter-ad-2-alt" width="747" height="442" class="aligncenter size-full wp-image-2378" /></a>
+
+<h2>First Try</h2>
+<a href="http://www.mimoymima.com/wp-content/uploads/2009/11/img_winter-ad-2.jpg"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_winter-ad-2.jpg" alt="img_winter-ad-2" title="img_winter-ad-2" width="747" height="493" class="aligncenter" /></a>
+ <p>The post <a rel="nofollow" href="/our-new-winter-ad/">Our new winter ad</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/our-new-winter-ad/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Our New Summer Ad</title>
+		<link>/our-new-summer-ad/</link>
+				<comments>/our-new-summer-ad/#comments</comments>
+				<pubDate>Mon, 01 Jun 2009 05:03:18 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[advertising]]></category>
+		<category><![CDATA[park slope reader]]></category>
+		<category><![CDATA[summer]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=627</guid>
+				<description><![CDATA[<p>After recycling the Spring ad we used last year in the Park Slope Reader and feeling like it was a wasted opportunity we decided to go all out and make a brand new summer ad!</p>
+<p>The post <a rel="nofollow" href="/our-new-summer-ad/">Our New Summer Ad</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2009/05/ps-reader_summer-ad2.png" alt="ah wish we were really snorkeling... Gotta make it to the beach people, it&#039;s the summer :D" title="ps-reader_summer-ad2" width="748" height="491" class="size-full wp-image-628" /> </p>
+<p>The post <a rel="nofollow" href="/our-new-summer-ad/">Our New Summer Ad</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/our-new-summer-ad/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

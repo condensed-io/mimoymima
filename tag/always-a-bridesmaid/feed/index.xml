@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>always a bridesmaid &#8211; mimoYmima</title>
+	<atom:link href="/tag/always-a-bridesmaid/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 24 Sep 2010 03:55:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Launch: Just About Married</title>
+		<link>/launch-just-about-married/</link>
+				<comments>/launch-just-about-married/#respond</comments>
+				<pubDate>Fri, 24 Sep 2010 03:55:51 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[always a bridesmaid]]></category>
+		<category><![CDATA[just about married]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[wordpress site]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3395</guid>
+				<description><![CDATA[<p>We recently finished the Just About Married site, they're a New York based event planning company specializing in 'day of' coordination.  So if you're down to the wire and need something spectacular you know who to call.</p>
+<p>The post <a rel="nofollow" href="/launch-just-about-married/">Launch: Just About Married</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We recently finished the <a href="http://justaboutmarriedny.com/" class="Popup">Just About Married</a> site, they&#8217;re a New York based event planning company specializing in <em>&#8216;day of&#8217;</em> coordination.  So if you&#8217;re down to the wire and need something spectacular you know who to call.</p>
+
+<a href="http://justaboutmarriedny.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/09/married_photo.jpg" alt="Just About Married" title="married_photo" class="aligncenter size-full wp-image-3397" /></a><p>The post <a rel="nofollow" href="/launch-just-about-married/">Launch: Just About Married</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-just-about-married/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

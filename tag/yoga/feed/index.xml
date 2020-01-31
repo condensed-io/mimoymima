@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>yoga &#8211; mimoYmima</title>
+	<atom:link href="/tag/yoga/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 26 Dec 2014 22:34:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Bend &#038; Bloom Yoga</title>
+		<link>/bend-and-bloom-yoga/</link>
+				<comments>/bend-and-bloom-yoga/#comments</comments>
+				<pubDate>Fri, 09 Oct 2009 19:13:43 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[yoga]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1626</guid>
+				<description><![CDATA[<p>Making this site has motivated us to grab our yoga mats and get into the down dog! Bend and Bloom Yoga, of Park Slope is an amazing space - it's on a side street, so you wouldn't expect to find a huge and bright yoga studio there...</p>
+<p>The post <a rel="nofollow" href="/bend-and-bloom-yoga/">Bend &#038; Bloom Yoga</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Check out the new site we made for <a href="http://bendandbloom.com/" title="yoga studio - Park Slope, Brooklyn">Bend and Bloom Yoga</a> in Park Slope. Making this site has motivated us to grab our yoga mats.</p>
+<p><a href="http://bendandbloom.com/"> <img src="http://www.mimoymima.com/wp-content/uploads/2009/10/yoga-ninja.jpg" alt="yoga ninja" title="Bend and Bloom Yoga owner, Amy Quinn Suplina" width="525" height="330" class="aligncenter size-full wp-image-1982" /></a></p>
+<p>Bend &amp; Bloom Yoga Studio owner, Amy Quinn Suplina</p>
+<h2>The Website Design</h2>
+<p><img src="/wp-content/uploads/2009/10/design_bend-and-bloom-yoga.jpg" alt="design_bend-and-bloom-yoga" class="alignnone size-full wp-image-5998" srcset="/wp-content/uploads/2009/10/design_bend-and-bloom-yoga.jpg 1148w, /wp-content/uploads/2009/10/design_bend-and-bloom-yoga-300x294.jpg 300w, /wp-content/uploads/2009/10/design_bend-and-bloom-yoga-1024x1004.jpg 1024w" sizes="(max-width: 1148px) 100vw, 1148px" /></p>
+<p>This site has a full featured content management system so the staff at Bend and Bloom can easily keep the site up to date, and also features some flash image areas and javascript slideshows to bring some life to the photos of her space. </p>
+<p>The post <a rel="nofollow" href="/bend-and-bloom-yoga/">Bend &#038; Bloom Yoga</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/bend-and-bloom-yoga/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

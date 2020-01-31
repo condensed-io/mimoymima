@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=https://mimoymima.com/tag/feed/">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "https://mimoymima.com/tag/feed/";
+		</script>
+
+		<p>You are being redirected to <a href="https://mimoymima.com/tag/feed/">https://mimoymima.com/tag/feed/</a></p>
+	</body>
+</html>

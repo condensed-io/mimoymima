@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>create shift &#8211; mimoYmima</title>
+	<atom:link href="/tag/create-shift/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 01 Jan 2015 20:11:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Create Shift</title>
+		<link>/create-shift/</link>
+				<comments>/create-shift/#respond</comments>
+				<pubDate>Thu, 16 Aug 2012 02:59:24 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[create shift]]></category>
+		<category><![CDATA[creativity]]></category>
+		<category><![CDATA[inspiration]]></category>
+		<category><![CDATA[perspective]]></category>
+
+		<guid isPermaLink="false">/?p=5723</guid>
+				<description><![CDATA[<p>We created this blog as an outlet for Elizabeth Watt to discuss art and the creative process: Blog Design</p>
+<p>The post <a rel="nofollow" href="/create-shift/">Create Shift</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We created this blog as an outlet for <a href="/elizabeth-watt/">Elizabeth Watt</a> to discuss art and the creative process:</p>
+<h2>Blog Design</h2>
+<p><img src="/wp-content/uploads/2014/11/create-shift_blog-design.jpg" alt="create-shift_blog-design" class="alignnone size-full wp-image-5724" srcset="/wp-content/uploads/2014/11/create-shift_blog-design.jpg 1246w, /wp-content/uploads/2014/11/create-shift_blog-design-112x300.jpg 112w" sizes="(max-width: 1246px) 100vw, 1246px" /></p>
+<p>The post <a rel="nofollow" href="/create-shift/">Create Shift</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/create-shift/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

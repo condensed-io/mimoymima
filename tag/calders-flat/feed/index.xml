@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Calder&#8217;s Flat &#8211; mimoYmima</title>
+	<atom:link href="/tag/calders-flat/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Wed, 05 Nov 2014 02:45:19 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Calder&#8217;s Flat</title>
+		<link>/calders-flat/</link>
+				<comments>/calders-flat/#respond</comments>
+				<pubDate>Mon, 20 Dec 2010 22:10:51 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[Calder's Flat]]></category>
+		<category><![CDATA[park slope]]></category>
+
+		<guid isPermaLink="false">/?p=5586</guid>
+				<description><![CDATA[<p>Calder&#8217;s Flat is a unique guesthouse nestled into a quaint block in Park Slope, Brooklyn. The owner, Jackie Dinan, wanted a branded look and custom website designed for the guesthouse to help distinguish her business. We created a classic look that matches her style, check it out:</p>
+<p>The post <a rel="nofollow" href="/calders-flat/">Calder&#8217;s Flat</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Calder&#8217;s Flat is a unique guesthouse nestled into a quaint block in Park Slope, Brooklyn.  The owner, Jackie Dinan, wanted a branded look and custom website designed for the guesthouse to help distinguish her business.  We created a classic look that matches her style, check it out:</p>
+<p><img src="/wp-content/uploads/2014/11/logo_calders-flat.jpg" alt="logo calders flat" class="alignnone size-full wp-image-5589" srcset="/wp-content/uploads/2014/11/logo_calders-flat.jpg 1302w, /wp-content/uploads/2014/11/logo_calders-flat-300x161.jpg 300w, /wp-content/uploads/2014/11/logo_calders-flat-1024x552.jpg 1024w" sizes="(max-width: 1302px) 100vw, 1302px" /></p>
+<p><img src="/wp-content/uploads/2014/11/calders-flat_web-screenshot.jpg" alt="Calders Flat website screenshot" class="alignnone size-full wp-image-5588" srcset="/wp-content/uploads/2014/11/calders-flat_web-screenshot.jpg 1200w, /wp-content/uploads/2014/11/calders-flat_web-screenshot-300x223.jpg 300w, /wp-content/uploads/2014/11/calders-flat_web-screenshot-1024x762.jpg 1024w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p>The post <a rel="nofollow" href="/calders-flat/">Calder&#8217;s Flat</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/calders-flat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

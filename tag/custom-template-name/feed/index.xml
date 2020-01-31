@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>custom template name &#8211; mimoYmima</title>
+	<atom:link href="/tag/custom-template-name/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sun, 25 Jan 2015 16:03:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>A better body-class function for WordPress</title>
+		<link>/better-body-class-function-wordpress/</link>
+				<comments>/better-body-class-function-wordpress/#comments</comments>
+				<pubDate>Tue, 01 Jan 2013 20:23:59 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[body class wordpress]]></category>
+		<category><![CDATA[custom template name]]></category>
+		<category><![CDATA[functions]]></category>
+		<category><![CDATA[parent page]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4778</guid>
+				<description><![CDATA[<p>We wrote this function because the native WordPress function for adding body classes creates way too many, most are never used, and it doesn't create some that you do need.</p>
+<p>The post <a rel="nofollow" href="/better-body-class-function-wordpress/">A better body-class function for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">UPDATE– Jan. 25, 2015: moving the parent page name checks into the conditional statement to avoid silent errors // UPDATE– Oct. 20, 2013: Thanks to Marty (see comments below), for convincing us to change out our method for body classes to filter the default WP body_class() function instead of creating our own.  It still gives you all the advantages of our original function plus the classes you get by default.</p>
+<h2>Here&#8217;s what it does</h2>
+<ul class="bullet-list">
+<li>First, check to see if you are on one of the following and create a class if so: home, 404, category, search, tag.</li>
+<li>We then make a class prefixed by page_ that has the name of the page or post in it.</li>
+<li>Then we check to see if the page has a parent, if so, we create a class prefixed by parent_ and put the parent name there.</li>
+<li>Finally we make a class with the prefix template_ and put the name of the template used there.</li>
+</ul>
+<h2>The PHP</h2>
+<p>Add this stuff to your functions.php file, or just <a href="http://html5.mimoymima.com/" class="popup">use our html5 shell</a> and it&#8217;s built in.</p>
+<p></p><pre class="crayon-plain-tag">// Add to the body_class function
+function condensed_body_class($classes) {
+    global $post;
+
+    // add a class for the name of the page - later might want to remove the auto generated pageid class which isn't very useful
+    if( is_page()) {
+        $pn = $post-&gt;post_name;
+        $classes[] = &quot;page_&quot;.$pn;
+    }
+
+    // add a class for the parent page name
+    if ( is_page() &amp;&amp; $post-&gt;post_parent ) {
+        $post_parent = get_post($post-&gt;post_parent);
+        $parentSlug = $post_parent-&gt;post_name;
+        $classes[] = &quot;parent_&quot;.$parentSlug;
+    }
+
+    // add class for the name of the custom template used (if any)
+    $temp = get_page_template();
+    if ( $temp != null ) {
+        $path = pathinfo($temp);
+        $tmp = $path['filename'] . &quot;.&quot; . $path['extension'];
+        $tn= str_replace(&quot;.php&quot;, &quot;&quot;, $tmp);
+        $classes[] = &quot;template_&quot;.$tn;
+    }
+
+    return $classes;
+
+}
+
+add_filter('body_class', 'condensed_body_class');</pre><p></p>
+<h2>The HTML</h2>
+<p></p><pre class="crayon-plain-tag">&amp;lt;body class=&quot;&amp;lt;?php body_class(); ?&amp;gt;&quot;&amp;gt;</pre><p></p>
+<h2>Your Help</h2>
+<p>Let us know if you see ways to make it better, probably more conditions could be added to the beginning to take into consideration more template types.</p>
+<p>The post <a rel="nofollow" href="/better-body-class-function-wordpress/">A better body-class function for WordPress</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/better-body-class-function-wordpress/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

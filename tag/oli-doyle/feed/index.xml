@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>oli doyle &#8211; mimoYmima</title>
+	<atom:link href="/tag/oli-doyle/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 11 May 2012 14:55:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>launch: Peace through Mindfulness</title>
+		<link>/launch-peace-through-mindfulness/</link>
+				<comments>/launch-peace-through-mindfulness/#comments</comments>
+				<pubDate>Fri, 11 May 2012 14:55:33 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[meditation]]></category>
+		<category><![CDATA[mindfulness]]></category>
+		<category><![CDATA[oli doyle]]></category>
+		<category><![CDATA[peace through mindfulness]]></category>
+		<category><![CDATA[website]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4477</guid>
+				<description><![CDATA[<p>This wise frog has a lot to teach you about mindfulness and meditation.</p>
+<p>The post <a rel="nofollow" href="/launch-peace-through-mindfulness/">launch: Peace through Mindfulness</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><a href="http://peacethroughmindfulness.com.au/" class="popup"><img src="http://www.mimoymima.com/wp-content/uploads/2012/05/illustration_peace-through-mindfulness.png" alt="Peace Through Mindfulness Illustration work" title="illustration_peace-through-mindfulness" class="aligncenter size-full wp-image-4501" /></a></p>
+<p class="intro">We traveled to Australia without leaving Brooklyn! We just launched the site for Oli Doyle, a Mindfulness all-star in Melbourne. His no-nonsense approach to meditation (which, he says right on the homepage, can be boring) inspired us to create a fun character, the meditating frog, featured in different illustrations around the site. The site keeps people posted about upcoming classes, Oli&#8217;s new book, blog and other media.</p>
+<p>This is the first collaboration with the talented Emily Conley and we&#8217;re looking forward to many more projects with her in the future!</p>
+<p>The post <a rel="nofollow" href="/launch-peace-through-mindfulness/">launch: Peace through Mindfulness</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-peace-through-mindfulness/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

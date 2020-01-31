@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hats &#8211; mimoYmima</title>
+	<atom:link href="/tag/hats/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 23:05:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Hats By Guy &#8211; New Photos</title>
+		<link>/hats-by-guy-new-photos/</link>
+				<comments>/hats-by-guy-new-photos/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 23:05:39 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[guy carsone]]></category>
+		<category><![CDATA[hats]]></category>
+		<category><![CDATA[online catalog]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2174</guid>
+				<description><![CDATA[<p>Just because we can't spell 'Couture' doesn't mean we don't have an eye for world class hat design...  We recently updated Guy Carsone's one page site which we designed earlier in the year.</p>
+<p>The post <a rel="nofollow" href="/hats-by-guy-new-photos/">Hats By Guy &#8211; New Photos</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We added this new hat line to <a href="http://www.hatsbyguy.com/" class="Popup">Guy&#8217;s site</a> today:</p>
+<p><a href="http://www.hatsbyguy.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/hats-by-guy_update.jpg" alt="HatsByGuy.com new photo set" width="485" height="395" class="aligncenter" /></a></p>
+<p>Besides designing <a href="http://www.hatsbyguy.com/" class="Popup">HatsByGuy.com</a> we also helped design the tags he sews into his hats.  He knew of a company who could turn an illustrator file into a tag and the quality was really amazing, makes us want to make our own tags <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>If I can get the info for the tag company I&#8217;ll post it here. </p>
+<p>The post <a rel="nofollow" href="/hats-by-guy-new-photos/">Hats By Guy &#8211; New Photos</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/hats-by-guy-new-photos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

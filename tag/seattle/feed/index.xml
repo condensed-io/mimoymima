@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Seattle &#8211; mimoYmima</title>
+	<atom:link href="/tag/seattle/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 26 Nov 2009 00:52:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>LAUNCH: Rick Scott Photography</title>
+		<link>/launch-rick-scott-photography/</link>
+				<comments>/launch-rick-scott-photography/#respond</comments>
+				<pubDate>Thu, 26 Nov 2009 00:52:56 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[Photographer]]></category>
+		<category><![CDATA[photography]]></category>
+		<category><![CDATA[Rick Scott]]></category>
+		<category><![CDATA[Seattle]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2382</guid>
+				<description><![CDATA[<p>We just launched Rick Scott's Photography Site and added some cool features we've never programmed into a flash photo site before.</p>
+<p>The post <a rel="nofollow" href="/launch-rick-scott-photography/">LAUNCH: Rick Scott Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>When you go to the <a href="http://photographybyrickscott.com/" class="Popup">Rick Scott&#8217;s Photography Site</a> and navigate into the <strong>Collections</strong> section, you&#8217;ll get a quick note that comes up and tells you how to navigate through the images and collections with your keyboard.</p>
+
+<a href="http://photographybyrickscott.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_rick_01.jpg" alt="img_rick_01" title="Rick Scott Photography Website Screenshot" width="525" height="289" class="aligncenter" /></a>
+
+<p>Doing the extra work to get this feature in the site we feel was well worth the effort, and something we&#8217;ll probably be doing on a lot of future flash sites.  The main perk is that the user can close the thumbnail navigation and give the entire browser window to the image <em>(which is what they are there to see)</em>.</p>
+
+<p>Personally I prefer to navigate photo sites using the keyboard because you don&#8217;t need to make sure your mouse stays hovered over an arrow or do the work to keep clicking from thumbnail to thumbnail&#8230; you just use the <strong>left and right arrow keys</strong> to advance through the photos and <strong>up and down</strong> to go between sets.  It allows you to concentrate more on the photos than the navigating.</p>
+
+<a href="http://photographybyrickscott.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_rick.jpg" alt="img_rick" title="a photo by Rick Scott" width="525" height="240" class="aligncenter" /></a> <p>The post <a rel="nofollow" href="/launch-rick-scott-photography/">LAUNCH: Rick Scott Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-rick-scott-photography/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

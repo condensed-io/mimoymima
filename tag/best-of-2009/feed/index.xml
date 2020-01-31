@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>best of 2009 &#8211; mimoYmima</title>
+	<atom:link href="/tag/best-of-2009/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 31 Dec 2009 19:13:22 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>10 Best Wedding Blogs</title>
+		<link>/ten-best-wedding-blogs/</link>
+				<comments>/ten-best-wedding-blogs/#respond</comments>
+				<pubDate>Thu, 31 Dec 2009 19:13:22 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[always a blogsmaid]]></category>
+		<category><![CDATA[best of 2009]]></category>
+		<category><![CDATA[blog design]]></category>
+		<category><![CDATA[brides magazine]]></category>
+		<category><![CDATA[praise]]></category>
+		<category><![CDATA[re-design]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2472</guid>
+				<description><![CDATA[<p>Congratulations to Xochitl and everyone at Always a Blogsmaid, we re-designed their blog last year and it's now featured in the January 2010 issue of Bride's magazine as one of the top 10 Wedding Blogs of 2009.</p>
+<p>The post <a rel="nofollow" href="/ten-best-wedding-blogs/">10 Best Wedding Blogs</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Congratulations to Xochitl and everyone at <a href="http://www.alwaysablogsmaid.com/">Always a Blogsmaid</a>, we re-designed their blog last year and it&#8217;s now featured in the January 2010 issue of Bride&#8217;s magazine as one of the top 10 Wedding Blogs of 2009.</p>
+<p><a href="http://www.brides.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/12/12.9_11-e1262286148962.jpg" alt="Brides Magazine cover January 2009" title="12.9_11" width="326" height="143" class="aligncenter size-full wp-image-2616" /></a></p>
+<p><a href="http://www.brides.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/12/12.9_12-e1262287481563.jpg" alt="Brides Magazine top 10 wedding blogs of 2009" title="12.9_12" width="376" height="547" class="aligncenter size-full wp-image-2617" /></a> </p>
+<p>The post <a rel="nofollow" href="/ten-best-wedding-blogs/">10 Best Wedding Blogs</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/ten-best-wedding-blogs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

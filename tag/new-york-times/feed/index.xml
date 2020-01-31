@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>New York Times &#8211; mimoYmima</title>
+	<atom:link href="/tag/new-york-times/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 30 Apr 2010 05:28:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Muddy Times</title>
+		<link>/muddy-times/</link>
+				<comments>/muddy-times/#respond</comments>
+				<pubDate>Fri, 30 Apr 2010 05:28:13 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[New York Times]]></category>
+		<category><![CDATA[press]]></category>
+		<category><![CDATA[tough mudder]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3128</guid>
+				<description><![CDATA[<p>Tough Mudder makes it into the news again, this time they were written up in the NYTimes.</p>
+<p>The post <a rel="nofollow" href="/muddy-times/">Muddy Times</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Tough Mudder makes it into the news again, this time they were <a href="http://www.nytimes.com/2010/04/29/sports/29mudder.html" class="Popup">written up in the NYTimes.</a></p>
+
+<a href="http://www.nytimes.com/2010/04/29/sports/29mudder.html"><img src="http://www.mimoymima.com/wp-content/uploads/2010/04/photo_mudder.jpg" alt="" title="photo_mudder" width="525" height="265" class="aligncenter size-full wp-image-3131" /></a>
+
+<p>The article gives some good information about Will &amp; Guy, the duo behind the project &mdash; No mention of the unsung heroes here at mimoYmima who created their visual identity and made their web presence possible, but that&#8217;s okay, we&#8217;re holding out for our own Times article.</p> <p>The post <a rel="nofollow" href="/muddy-times/">Muddy Times</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/muddy-times/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

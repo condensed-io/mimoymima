@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>daniel alter &#8211; mimoYmima</title>
+	<atom:link href="/tag/daniel-alter/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 01 Jan 2015 20:03:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>AlterBrook Renovations</title>
+		<link>/alterbrook-renovations/</link>
+				<comments>/alterbrook-renovations/#respond</comments>
+				<pubDate>Tue, 10 May 2011 04:01:02 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[clinton hill]]></category>
+		<category><![CDATA[daniel alter]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[real estate]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3802</guid>
+				<description><![CDATA[<p>AlterBrook was started by Daniel Alter, an architect living in Park Slope, Brooklyn.  He expanded his business to include renovation of hand picked townhouses and needed a way to publicize the properties and find buyers.</p>
+<p>The post <a rel="nofollow" href="/alterbrook-renovations/">AlterBrook Renovations</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">AlterBrook was started by Daniel Alter, an architect living in Park Slope, Brooklyn.  He expanded his business to include renovation of <a href="http://alterbrook.com/360-grand/" class="Popup">hand picked townhouses</a> and needed a way to publicize the properties and find buyers.</p>
+
+<a href="http://www.alterbrook.com/360-grand/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2011/05/photo_alter.jpg" alt="360 Grand Photo" class="aligncenter size-full wp-image-3803" /></a>
+
+<p>We created a site for <a href="http://alterbrook.com/360-grand/" class="Popup">his latest renovation</a> which will also be used as a template for future listings as he renovates other properties.</p>
+
+<p>Also check out the site we created for <a href="http://danielalter.com/" class="Popup">Daniel&#8217;s Architecture work</a>.</p><p>The post <a rel="nofollow" href="/alterbrook-renovations/">AlterBrook Renovations</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/alterbrook-renovations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Daniel Alter Architect</title>
+		<link>/daniel-alter-architect/</link>
+				<comments>/daniel-alter-architect/#respond</comments>
+				<pubDate>Wed, 13 Feb 2008 20:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[architect]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[daniel alter]]></category>
+		<category><![CDATA[park slope]]></category>
+
+		<guid isPermaLink="false">/?p=6069</guid>
+				<description><![CDATA[<p>We created the identity for Daniel Alter, an architect living and working in Park Slope, Brooklyn. Highlighting the arches and crossbar of the Letter A provides an architectural tip of the hat:</p>
+<p>The post <a rel="nofollow" href="/daniel-alter-architect/">Daniel Alter Architect</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We created the identity for Daniel Alter, an architect living and working in Park Slope, Brooklyn.  Highlighting the arches and crossbar of the Letter A provides an architectural tip of the hat:</p>
+<p><img src="/wp-content/uploads/2015/01/daniel-alter_biz_front_web.jpg" alt="daniel-alter_biz_front_web" class="alignnone size-full wp-image-6070" srcset="/wp-content/uploads/2015/01/daniel-alter_biz_front_web.jpg 2000w, /wp-content/uploads/2015/01/daniel-alter_biz_front_web-300x177.jpg 300w, /wp-content/uploads/2015/01/daniel-alter_biz_front_web-1024x604.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /></p>
+<p>The post <a rel="nofollow" href="/daniel-alter-architect/">Daniel Alter Architect</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/daniel-alter-architect/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

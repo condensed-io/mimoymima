@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tax calc &#8211; mimoYmima</title>
+	<atom:link href="/tag/tax-calc/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 30 Sep 2014 09:23:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Ford Tax Calc</title>
+		<link>/ford-tax-calc/</link>
+				<comments>/ford-tax-calc/#respond</comments>
+				<pubDate>Mon, 21 Mar 2005 09:07:56 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ford]]></category>
+		<category><![CDATA[tax calc]]></category>
+		<category><![CDATA[ui]]></category>
+
+		<guid isPermaLink="false">/?p=5373</guid>
+				<description><![CDATA[<p>This is kind of random, but a web developer friend of ours juas sked us to create a user interface for the app he is making for the Ford Motor Company. Ford will end up using this application to calculate taxes internally in their international offices. We&#8217;re delivering wireframes, comps, and front end HTML templates [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/ford-tax-calc/">Ford Tax Calc</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>This is kind of random, but a web developer friend of ours juas sked us to create a user interface for the app he is making for the Ford Motor Company.  Ford will end up using this application to calculate taxes internally in their international offices.  We&#8217;re delivering wireframes, comps, and front end HTML templates for the dev team to integrate.</p>
+<p><img src="/wp-content/uploads/2014/09/comp2.2.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5375" srcset="/wp-content/uploads/2014/09/comp2.2.jpg 746w, /wp-content/uploads/2014/09/comp2.2-300x209.jpg 300w" sizes="(max-width: 746px) 100vw, 746px" /></p>
+<p><img src="/wp-content/uploads/2014/09/comp2.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5377" srcset="/wp-content/uploads/2014/09/comp2.jpg 746w, /wp-content/uploads/2014/09/comp2-300x209.jpg 300w" sizes="(max-width: 746px) 100vw, 746px" /></p>
+<p><img src="/wp-content/uploads/2014/09/comp1.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5378" srcset="/wp-content/uploads/2014/09/comp1.jpg 749w, /wp-content/uploads/2014/09/comp1-300x191.jpg 300w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img src="/wp-content/uploads/2014/09/comp1.nav_.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5379" srcset="/wp-content/uploads/2014/09/comp1.nav_.jpg 749w, /wp-content/uploads/2014/09/comp1.nav_-300x191.jpg 300w" sizes="(max-width: 749px) 100vw, 749px" /></p>
+<p><img src="/wp-content/uploads/2014/09/comp2.2.detail.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5374" srcset="/wp-content/uploads/2014/09/comp2.2.detail.jpg 501w, /wp-content/uploads/2014/09/comp2.2.detail-300x297.jpg 300w" sizes="(max-width: 501px) 100vw, 501px" /></p>
+<p><img src="/wp-content/uploads/2014/09/comp2.detail.jpg" alt="Ford Tax Calc Comps" class="alignnone size-full wp-image-5376" srcset="/wp-content/uploads/2014/09/comp2.detail.jpg 501w, /wp-content/uploads/2014/09/comp2.detail-300x293.jpg 300w" sizes="(max-width: 501px) 100vw, 501px" /></p>
+<p>The post <a rel="nofollow" href="/ford-tax-calc/">Ford Tax Calc</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/ford-tax-calc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

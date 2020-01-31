@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Chaparral Pro &#8211; mimoYmima</title>
+	<atom:link href="/tag/chaparral-pro/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 02 Jan 2015 19:30:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Ann Wilkinson Photography</title>
+		<link>/ann-wilkinson-photography/</link>
+				<comments>/ann-wilkinson-photography/#respond</comments>
+				<pubDate>Fri, 12 Dec 2008 17:50:34 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ann wilkinson photography]]></category>
+		<category><![CDATA[Chaparral Pro]]></category>
+		<category><![CDATA[photography]]></category>
+		<category><![CDATA[type logo]]></category>
+		<category><![CDATA[typography]]></category>
+
+		<guid isPermaLink="false">/?p=6130</guid>
+				<description><![CDATA[<p>Type based identity For the typography, we chose Chaparral Pro, designed by Carol Twombly, a slab serif font that has some subtle wood-cut qualities that make it feel a little more down to earth and less trendy. It&#8217;s down to earth look is complimented with the bright and warm color scheme against the mid-toned grey [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/ann-wilkinson-photography/">Ann Wilkinson Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<h2>Type based identity</h2>
+<p>For the typography, we chose Chaparral Pro, designed by <a href="http://en.wikipedia.org/wiki/Carol_Twombly" title="type designer Carol Twombly - creator of Chaparral Pro">Carol Twombly</a>, a slab serif font that has some subtle wood-cut qualities that make it feel a little more down to earth and less trendy.  It&#8217;s down to earth look is complimented with the bright and warm color scheme against the mid-toned grey background.</p>
+<p><img src="/wp-content/uploads/2015/01/logo_ann-wilkinson.png" alt="Ann Wilkinson Photography Logo by mimoYmima" class="alignnone size-full"/></p>
+<p>The post <a rel="nofollow" href="/ann-wilkinson-photography/">Ann Wilkinson Photography</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/ann-wilkinson-photography/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

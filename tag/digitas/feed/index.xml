@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digitas &#8211; mimoYmima</title>
+	<atom:link href="/tag/digitas/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 22 Jan 2015 15:09:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Doug Bost</title>
+		<link>/doug-bost/</link>
+				<comments>/doug-bost/#respond</comments>
+				<pubDate>Tue, 22 May 2007 14:56:09 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[agency]]></category>
+		<category><![CDATA[copywriting]]></category>
+		<category><![CDATA[Digitas]]></category>
+		<category><![CDATA[indie films]]></category>
+		<category><![CDATA[screenwriter]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[writer]]></category>
+
+		<guid isPermaLink="false">/?p=6324</guid>
+				<description><![CDATA[<p>Doug Bost is an accomplished writer whos career spans creative copywriting for top Manhattan ad agencies to writing screenplays for independent films. We wanted to create a site for him that showed off all the different types of work he did and painted a complete picture of his talents: dougbost.com</p>
+<p>The post <a rel="nofollow" href="/doug-bost/">Doug Bost</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Doug Bost is an accomplished writer whos career spans creative copywriting for top Manhattan ad agencies to writing screenplays for independent films.  We wanted to create a site for him that showed off all the different types of work he did and painted a complete picture of his talents:</p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter"><img src="/wp-content/uploads/2015/01/screen_doug-bost-writer_offline.jpg" alt="screen_doug-bost-writer_offline" class="alignnone size-full wp-image-6325" srcset="/wp-content/uploads/2015/01/screen_doug-bost-writer_offline.jpg 879w, /wp-content/uploads/2015/01/screen_doug-bost-writer_offline-300x214.jpg 300w" sizes="(max-width: 879px) 100vw, 879px" /></a></p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter"><img src="/wp-content/uploads/2015/01/screen_doug-bost-writer_movies.jpg" alt="screen_doug-bost-writer_movies" class="alignnone size-full wp-image-6326" srcset="/wp-content/uploads/2015/01/screen_doug-bost-writer_movies.jpg 870w, /wp-content/uploads/2015/01/screen_doug-bost-writer_movies-300x213.jpg 300w" sizes="(max-width: 870px) 100vw, 870px" /></a></p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter">dougbost.com</a></p>
+<p>The post <a rel="nofollow" href="/doug-bost/">Doug Bost</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/doug-bost/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

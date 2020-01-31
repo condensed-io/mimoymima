@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>jQuery &#8211; mimoYmima</title>
+	<atom:link href="/tag/jquery/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 20 Apr 2012 14:18:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>adding a character entity into an object in jquery</title>
+		<link>/adding-a-character-entity-into-an-object-in-jquery/</link>
+				<comments>/adding-a-character-entity-into-an-object-in-jquery/#respond</comments>
+				<pubDate>Fri, 20 Apr 2012 14:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[character entities]]></category>
+		<category><![CDATA[inserting content]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[objects]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4360</guid>
+				<description><![CDATA[<p>Pretty simple stuff but since I'm still a little rusty on jquery I spent a lot of time trying to get the entity to show up using text: by escaping characters.  (spoiler:  don't use text: use html:</p>
+<p>The post <a rel="nofollow" href="/adding-a-character-entity-into-an-object-in-jquery/">adding a character entity into an object in jquery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Pretty simple stuff but since I&#8217;m still a little rusty on jquery I spent a lot of time trying to get the entity to show up using text: by escaping characters.  (spoiler:  don&#8217;t use text: use html:</p>
+<h2>Right Way</h2>
+<p></p><pre class="crayon-plain-tag">$('&lt;span&gt;&lt;/span&gt;',{
+  html: '&amp;amp;oplus;&amp;nbsp;',
+  class: 'plus-minus'
+}).prependTo('.event-table-show-hide .expand-list .click-to-expand');</pre><p></p>
+<h2>Wrong Way</h2>
+<p></p><pre class="crayon-plain-tag">$('&lt;span&gt;&lt;/span&gt;',{
+  text: '&amp;amp;oplus;&amp;nbsp;',
+  class: 'plus-minus'
+}).prependTo('.event-table-show-hide .expand-list .click-to-expand');</pre><p></p>
+<p>The post <a rel="nofollow" href="/adding-a-character-entity-into-an-object-in-jquery/">adding a character entity into an object in jquery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/adding-a-character-entity-into-an-object-in-jquery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Getting Started with jQuery</title>
+		<link>/getting-started-with-jquery/</link>
+				<comments>/getting-started-with-jquery/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:30:32 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[tutorial]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2168</guid>
+				<description><![CDATA[<p>Below is a quick tutorial to show you how to show and hide elements on your page.  If you have a good understanding of how to target elements in an HTML page using CSS, you'll be amazed at how easy jQuery is to use.</p>
+<p>The post <a rel="nofollow" href="/getting-started-with-jquery/">Getting Started with jQuery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Below is a quick tutorial to show you how to show and hide elements on your page.  If you have a good understanding of how to target elements in an HTML page using CSS, you&#8217;ll be amazed at how easy jQuery is to use.</p>
+
+<h2>Why jQuery is so awesome</h2>
+<a href="http://jquery.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_devo.jpg" alt="devo" title="img_devo" width="525" height="123" class="aligncenter" /></a>
+
+<p>When I first started learning javascript I found it very complicated to understand, I&#8217;m a web designer, not a hard core programmer, so why should I need to know how to program complicated code just to add the simplest bit of functionality to a web page, especially after just spending so long mastering HTML and CSS&#8230; will it ever end?</p>
+
+<p>jQuery is what I&#8217;ve always wanted javascript to be like, it simplifies javascript to the point where it makes sense to someone who knows HTML and CSS.  I&#8217;m not saying you shouldn&#8217;t know how to program, I use PHP a lot and find it very easy to get around in, javascript on the other hand was created to interface with browser events and without something like jQuery (or another library), it just plain SUCKS because unlike PHP which runs on a reliable server environment, javascript runs in the browser, and different browsers (ie I&#8217;m talking to you) interperet your javascript differently.</p>
+
+<p>To show you how it works, let&#8217;s put together a re-usable script that lets you hide and show items on the page.  To see this script in action, click the links on our <a href="/help/" class="Popup">help page</a> <em>(this link will popup in a new window)</em>.</p>
+
+<h2>Don&#8217;t forget to include the library</h2>
+
+<p>Nothing will work if you don&#8217;t first include jQuery.  The easiest and best way to do this is to link to it from Google&#8217;s servers.  Google gives you free access to some of the major javascript libraries, they handle all the cache control and since so many users link to the files, most people&#8217;s browsers already have the file in their cache, so it&#8217;s the method to use as far as load time as well.  Add this line to the head of your document:</p>
+
+<!--BEGIN: Include the jQuery Library-->
+<pre class="crayon-plain-tag">&amp;lt;script type=&quot;text/JavaScript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js&quot;&amp;gt;&amp;lt;/script&amp;gt;</pre>
+<!--END: Include the jQuery Library-->
+
+<p>You should probably also put your scripts <em>(the jQuery we write)</em> in an external javascript file that you link into the head of the document as well.  On our site we call it global.js and it&#8217;s inside a directory called &#8216;includes&#8217;, so our include line would look like this:</p>
+
+<!--BEGIN: link in the global.js file-->
+<pre class="crayon-plain-tag">&amp;lt;script type=&quot;text/JavaScript&quot; src=&quot;/includes/global.js&quot;&amp;gt;&amp;lt;/script&amp;gt;</pre>
+<!--END: link in the global.js file-->
+
+		
+<h2>Make it unobtrusive</h2>
+<p>One of the things you want to do when you write any script is be sure your page still works without javascript running.  Let&#8217;s start by writing the HTML you&#8217;d write if there was no jQuery on the page:</p>
+
+<!--BEGIN: The HTML-->
+<pre class="crayon-plain-tag">&amp;lt;h2 class=&quot;Toggle&quot;&amp;gt;Other jQuery resources for beginners&amp;lt;/h2&amp;gt;
+&amp;lt;ul class=&quot;Hide&quot;&amp;gt;
+
+&amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://docs.jquery.com/Main_Page&quot;&amp;gt;Official Documentation&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://visualjquery.com/&quot;&amp;gt;visual jQuery reference&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;</pre>
+
+<!--END: The HTML-->
+
+<p>That&#8217;s the basic code we&#8217;ll be using, if you view the source of the help page you&#8217;ll see another few classes in there which are specific to styling on this site, they&#8217;re not important for this example though (Remember, I&#8217;m assuming you know how to change the appearance of elements with CSS).  The classes you should pay attention to are the ones we&#8217;re going to be using with jQuery, which are <strong>&#8220;Toggle&#8221;</strong> <em>(which is on the headings)</em> and <strong>&#8220;Hide&#8221;</strong> <em>(which is on the ul&#8217;s)</em>.</p>
+
+<h2>Getting ready</h2>
+
+<p>Everything you do in jQuery is held inside a &#8216;document ready&#8217; function which looks like this:</p>
+
+<!--BEGIN: jQuery Document Ready Function-->
+<pre class="crayon-plain-tag">$(document).ready(function() {
+//your jQuery Code Goes Here
+});</pre>
+<!--END: jQuery Document Ready Function-->
+
+<p>It waits until the browser has loaded the <abbr title="Document Object Model">DOM</abbr>, meaning the browser is ready to manipulate the page.  You don&#8217;t need to really understand too much about the code above for now, just notice where your jQuery code will go.</p>
+
+<p>If you&#8217;re <em>really</em> a beginner at programming you might not recognize the comment above, in javascript you can make a comment (a note that&#8217;s not executed) with two slashes.  Everything <strong>after</strong> the two slashes on the same line is considered a comment </p>
+
+<pre class="crayon-plain-tag">//this is a comment in javascript</pre>
+
+<h2>What do we want to effect?</h2>
+<p>The <strong>$</strong> function is used to grab an element (or elements) on the page.  We already used it to grab the &#8216;document&#8217; and wait until it&#8217;s &#8216;ready&#8217;.  Once the document is ready if we then want to grab all the elements on the page that have the <strong>class</strong> of <strong>&#8216;Hide&#8217;</strong>, we&#8217;d do this:</p>
+
+<!--BEGIN: jQuery target an element-->
+
+<pre class="crayon-plain-tag">$(document).ready(function() {
+$('.Hide');
+});</pre>
+<!--END: jQuery target an element-->
+
+<h2>Do something</h2>
+<p>Now that we have all the elements with the class of &#8216;Hide&#8217; let&#8217;s hide them.  To call the hide function we just seperate the function from the items we targeted with a period like this:</p>
+
+<!--BEGIN: Hide Elements with jQuery-->
+<pre class="crayon-plain-tag">$(document).ready(function() {
+// hides stuff with the class of 'Hide' as soon as the DOM is ready
+$('.Hide').hide();
+});</pre>
+<!--END: Hide Elements with jQuery-->
+
+<p>If you reload your page all the elements with the class of &#8216;Hide&#8217; should be gone.</p>
+
+
+<h2>Make the headings look like links</h2>
+<p>To make the headings look clickable we&#8217;ll make them look like links by adding some CSS in our stylesheet.  We&#8217;ll make a class called <strong>MakeLink</strong>:</p>
+
+<!--BEGIN: CSS for MakeLink-->
+<pre class="crayon-plain-tag">.MakeLink { color: #06F !important; text-decoration: none; }
+.MakeLink:hover, .MakeLink:focus, .MakeLink:active { cursor: pointer; color: #C60; text-decoration: underline; }</pre>
+<!--END: CSS for MakeLink-->
+
+<p>With just made the heading look blue and when you roll over it, it changes color, gets underlined, and the arrow pointer turns into the little hand which happens when you roll over links</p>
+
+<p>We could just put <code>class="MakeLink"</code> in the HTML ourselves, but if we do this, when you disable javascript the headings will still look like links <em>(but won&#8217;t act like them anymore)</em>.  To fix this, we&#8217;re going to <strong>add the class of MakeLink to all elements that already have the class of Toggle</strong></p>
+
+<!--BEGIN: Add MakeLink class to elements that already have the class of Toggle-->
+<pre class="crayon-plain-tag">$(document).ready(function() {
+// hides stuff with the class of 'Hide' as soon as the DOM is ready
+$('.Hide').hide();
+
+// add the class to make the headings look like links
+$('.Toggle').addClass('MakeLink');
+
+});</pre>
+<!--END: Add MakeLink class to elements that already have the class of Toggle-->
+
+<h2>Finally, add the &#8216;Toggle&#8217; code</h2>
+
+<p>&#8216;Toggle&#8217; makes the hidden text re-appear and disappear again.</h2>
+<p>Again we <strong>get everything with the class of &#8216;Toggle&#8217;</strong> and <strong>when it&#8217;s clicked</strong> we run a function that takes the current class
+
+<!--END: jQuery Code for Document Ready Function-->			
+
+<!--BEGIN: our show/hide script-->
+</p><pre class="crayon-plain-tag">$(document).ready(function() {
+// hides stuff with the class of 'Hide' as soon as the DOM is ready
+$('.Hide').hide();
+
+// add the class to make the headings look like links
+$('.Toggle').addClass('MakeLink');
+
+// toggles the Hidden content upon clicking the link 
+$('.Toggle').click(function() {
+	$(this).next().slideToggle('normal');
+});
+});</pre><p>
+<!--END: show/hide script-->
+
+<p>The <strong>this</strong> keyword when inside a function looks at whatever we already grabbed <em>(in this case, everything with the class of Toggle)</em> and then we look to the next sibling with the <strong>next</strong> keyword and tell it to toggle.</p>
+<p>The reason for taking this extra step and not just telling it to Toggle things with the class of toggle is that if we do it this way it doesn&#8217;t toggle everything with the class of &#8216;Toggle&#8217; at once, just the one we&#8217;re clicking.</p>
+
+<h2>Did it work for you?</h2>
+
+<p>Feel free to <a href="/contact/">drop us a line</a> and let us know what wasn&#8217;t clear in this tutorial and we&#8217;ll try to help you out and improve the tutorial.</p>
+
+<h2 class="Toggle">Other jQuery resources for beginners</h2>
+<ul class="link-list Hide">
+<li><a class="Popup" href="http://docs.jquery.com/Main_Page">Official Documentation</a></li>
+<li><a class="Popup" href="http://visualjquery.com/">visual jQuery reference</a></li>
+
+</ul> <p>The post <a rel="nofollow" href="/getting-started-with-jquery/">Getting Started with jQuery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/getting-started-with-jquery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Speed up your site</title>
+		<link>/speed-up-your-site/</link>
+				<comments>/speed-up-your-site/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 19:58:01 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[bandwidth]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[speed]]></category>
+		<category><![CDATA[Yahoo]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2163</guid>
+				<description><![CDATA[<p>Learn about how to make your website faster.</p>
+<p>The post <a rel="nofollow" href="/speed-up-your-site/">Speed up your site</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<a href="http://developer.yahoo.com/performance/rules.html" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_speed.jpg" alt="image of speed" width="525" height="152" class="aligncenter" /></a>
+
+<dl class="DictList">
+	
+<dt><a class="lightview" href="http://developer.yahoo.com/performance/rules.html" title="How To Speed Up Your Site :: :: fullscreen: true">How to speed up your site</a></dt>
+<dd>The yahoo team&#8217;s advice on how to speed up your site.</dd>
+
+<dt><a class="lightview" href="http://developer.yahoo.com/yslow/" title="Yslow for Firebug :: :: fullscreen: true">Yslow for Firebug</a></dt>
+<dd>Once you understand the techniques in the article above, you can use this tool to point out the areas that need improvement on your site.  This tool requires you have <a class="lightview" href="http://getfirebug.com/" title="Web Dev Tool for Firefox :: :: fullscreen: true">FireBug</a> (which you should!)</dd>
+						
+<dt><a class="lightview" href="http://www.webdevelopment2.com/easily-increase-page-load-time-10-fold-jquery/" title="jQuery's Lazy Loader :: Loads images as they get close to the viewport :: fullscreen: true">jQuery&#8217;s Lazy Loader</a></dt>
+<dd>Only load the images that are in or near the viewport to make for a faster initial load.</dd>
+
+</dl>
+ <p>The post <a rel="nofollow" href="/speed-up-your-site/">Speed up your site</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/speed-up-your-site/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

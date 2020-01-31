@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>inserting content &#8211; mimoYmima</title>
+	<atom:link href="/tag/inserting-content/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 20 Apr 2012 14:18:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>adding a character entity into an object in jquery</title>
+		<link>/adding-a-character-entity-into-an-object-in-jquery/</link>
+				<comments>/adding-a-character-entity-into-an-object-in-jquery/#respond</comments>
+				<pubDate>Fri, 20 Apr 2012 14:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[character entities]]></category>
+		<category><![CDATA[inserting content]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[objects]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4360</guid>
+				<description><![CDATA[<p>Pretty simple stuff but since I'm still a little rusty on jquery I spent a lot of time trying to get the entity to show up using text: by escaping characters.  (spoiler:  don't use text: use html:</p>
+<p>The post <a rel="nofollow" href="/adding-a-character-entity-into-an-object-in-jquery/">adding a character entity into an object in jquery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Pretty simple stuff but since I&#8217;m still a little rusty on jquery I spent a lot of time trying to get the entity to show up using text: by escaping characters.  (spoiler:  don&#8217;t use text: use html:</p>
+<h2>Right Way</h2>
+<p></p><pre class="crayon-plain-tag">$('&lt;span&gt;&lt;/span&gt;',{
+  html: '&amp;amp;oplus;&amp;nbsp;',
+  class: 'plus-minus'
+}).prependTo('.event-table-show-hide .expand-list .click-to-expand');</pre><p></p>
+<h2>Wrong Way</h2>
+<p></p><pre class="crayon-plain-tag">$('&lt;span&gt;&lt;/span&gt;',{
+  text: '&amp;amp;oplus;&amp;nbsp;',
+  class: 'plus-minus'
+}).prependTo('.event-table-show-hide .expand-list .click-to-expand');</pre><p></p>
+<p>The post <a rel="nofollow" href="/adding-a-character-entity-into-an-object-in-jquery/">adding a character entity into an object in jquery</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/adding-a-character-entity-into-an-object-in-jquery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

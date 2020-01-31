@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>agency &#8211; mimoYmima</title>
+	<atom:link href="/tag/agency/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 22 Jan 2015 15:09:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Spring O&#8217;Brien</title>
+		<link>/spring-obrien/</link>
+				<comments>/spring-obrien/#respond</comments>
+				<pubDate>Fri, 30 Oct 2009 03:24:25 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[advertising]]></category>
+		<category><![CDATA[agency]]></category>
+		<category><![CDATA[Manhattan]]></category>
+		<category><![CDATA[public relations]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1880</guid>
+				<description><![CDATA[<p>We just finished re-designing this site for a Manhattan Ad Agency.  We tied together a lot of different coding technologies to make a site that has a content management system (WordPress) but still has the interactive feel of a flash site.</p>
+<p>The post <a rel="nofollow" href="/spring-obrien/">Spring O&#8217;Brien</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Spring O&#8217;Brien is a PR and media relations agency based in Manhattan.  We re-designed their outdated flash website to modernize the look and feel and enable them to manage the content by adding a CMS.</p>
+
+<p>The more we work with WordPress as a CMS the more we like it and the more things we figure out how to do with it.  One of the things we learned on this project was using WordPress with Ajax&#8230;  Without nerding out too much, Ajax is basically a coding technique that lets you bring new content into a web page without re-loading the page, which makes a HTML site feel more like a flash site.</p>
+
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2009/10/spring_screen_work.jpg" alt="spring_screen_work" title="spring_screen_work" width="525" height="240" class="aligncenter size-full wp-image-1888" /></p>
+
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2009/10/spring_screen_people.jpg" alt="Ajax &#038; WordPress - Spring O'Brien Our People Section" title="spring_screen_people" width="525" height="224" class="aligncenter size-full wp-image-1889" /></p>
+
+<h2>Don&#8217;t hide things that are important</h2>
+
+<p>Another feature of the site (if you can call this a feature) is a consistent navigation.  It&#8217;s always tempting to consolidate navigation in a dropdown, but rarely is it necessary or beneficial to the user.  Spring O&#8217;Brien&#8217;s old site had everything buried in one drop down, so the navigation wasn&#8217;t taking up any space, but as you went from page to page you had to keep expanding the menu, which got redundant.  The bigger problem though is that it made it hard to find the navigation at all since it was so nicely hidden in the design as one small word that said &#8216;menu&#8217;.</p> <p>The post <a rel="nofollow" href="/spring-obrien/">Spring O&#8217;Brien</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/spring-obrien/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Doug Bost</title>
+		<link>/doug-bost/</link>
+				<comments>/doug-bost/#respond</comments>
+				<pubDate>Tue, 22 May 2007 14:56:09 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[agency]]></category>
+		<category><![CDATA[copywriting]]></category>
+		<category><![CDATA[Digitas]]></category>
+		<category><![CDATA[indie films]]></category>
+		<category><![CDATA[screenwriter]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[writer]]></category>
+
+		<guid isPermaLink="false">/?p=6324</guid>
+				<description><![CDATA[<p>Doug Bost is an accomplished writer whos career spans creative copywriting for top Manhattan ad agencies to writing screenplays for independent films. We wanted to create a site for him that showed off all the different types of work he did and painted a complete picture of his talents: dougbost.com</p>
+<p>The post <a rel="nofollow" href="/doug-bost/">Doug Bost</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Doug Bost is an accomplished writer whos career spans creative copywriting for top Manhattan ad agencies to writing screenplays for independent films.  We wanted to create a site for him that showed off all the different types of work he did and painted a complete picture of his talents:</p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter"><img src="/wp-content/uploads/2015/01/screen_doug-bost-writer_offline.jpg" alt="screen_doug-bost-writer_offline" class="alignnone size-full wp-image-6325" srcset="/wp-content/uploads/2015/01/screen_doug-bost-writer_offline.jpg 879w, /wp-content/uploads/2015/01/screen_doug-bost-writer_offline-300x214.jpg 300w" sizes="(max-width: 879px) 100vw, 879px" /></a></p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter"><img src="/wp-content/uploads/2015/01/screen_doug-bost-writer_movies.jpg" alt="screen_doug-bost-writer_movies" class="alignnone size-full wp-image-6326" srcset="/wp-content/uploads/2015/01/screen_doug-bost-writer_movies.jpg 870w, /wp-content/uploads/2015/01/screen_doug-bost-writer_movies-300x213.jpg 300w" sizes="(max-width: 870px) 100vw, 870px" /></a></p>
+<p><a href="http://www.dougbost.com/" title="Doug Bost - copywriter and screenwriter">dougbost.com</a></p>
+<p>The post <a rel="nofollow" href="/doug-bost/">Doug Bost</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/doug-bost/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

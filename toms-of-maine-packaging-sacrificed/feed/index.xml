@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Toms of Maine Packaging &#8211; Sacrificed	</title>
+	<atom:link href="/toms-of-maine-packaging-sacrificed/feed/" rel="self" type="application/rss+xml" />
+	<link>/toms-of-maine-packaging-sacrificed/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 30 Oct 2018 17:33:10 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+</channel>
+</rss>

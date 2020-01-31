@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>pro bono &#8211; mimoYmima</title>
+	<atom:link href="/tag/pro-bono/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 26 Dec 2014 22:17:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Sam Todo</title>
+		<link>/sam-todo/</link>
+				<comments>/sam-todo/#respond</comments>
+				<pubDate>Fri, 13 Feb 2009 12:41:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[logo]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[pro bono]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1651</guid>
+				<description><![CDATA[<p>We just designed the logo for Sam Todo, an open source todo list.  We scoured the internet for a good php based todolist and this was far and away the best...  We liked it so much we made Sam this logo.</p>
+<p>The post <a rel="nofollow" href="/sam-todo/">Sam Todo</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just designed the logo for Sam Todo, it’s an open source (php based) todo list.  We scoured the internet for a good todolist to use for our clients (and ourselves) and this was far and away the best one out there, it&#8217;s easy to use and not bloated with useless features like most of them are&#8230;  We liked it so much we contributed to the project and made them a logo.</p>
+<p><a class="Popup" href="http://samjlevy.com/?p=131"><img src="http://www.mimoymima.com/wp-content/uploads/2009/02/samtodo_logo.png" alt="samtodo_logo" title="samtodo logo" width="525" height="525" class="aligncenter size-full wp-image-1657" /></a> </p>
+<p>The post <a rel="nofollow" href="/sam-todo/">Sam Todo</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/sam-todo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

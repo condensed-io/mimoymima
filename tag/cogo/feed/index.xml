@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CoGo &#8211; mimoYmima</title>
+	<atom:link href="/tag/cogo/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 04 May 2012 16:45:49 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>identity: CoGo Sourcing</title>
+		<link>/identity-cogo-sourcing/</link>
+				<comments>/identity-cogo-sourcing/#respond</comments>
+				<pubDate>Fri, 04 May 2012 16:45:49 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[CoGo]]></category>
+		<category><![CDATA[CoGo Sourcing]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[logo]]></category>
+		<category><![CDATA[startup]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4461</guid>
+				<description><![CDATA[<p>We're starting up the identity and website creation for an exciting new executive recruiting firm, check out the CoGo LoGo</p>
+<p>The post <a rel="nofollow" href="/identity-cogo-sourcing/">identity: CoGo Sourcing</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<h2>First Round of Cogo Logos</h2>
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/05/cogo-identity-1.png" alt="" title="cogo sourcing logo design by mimoYmima - page 1" class="alignnone size-full wp-image-4462" /></p>
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/05/cogo-identity-2.png" alt="" title="cogo sourcing logo design by mimoYmima - page 2" class="alignnone size-full wp-image-4462" /></p>
+<h2>UPDATE: Identity Options</h2>
+<p>Some color schemes and general layouts we came up with:</p>
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/05/cogo_identity_01.png" alt="CoGo identity work by mimoYmima.com - 01" class="aligncenter size-full wp-image-4536" /></p>
+<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/05/cogo_identity_02.png" alt="CoGo identity work by mimoYmima.com - 02" title="cogo_identity_02" class="aligncenter size-full wp-image-4535" /></p>
+<p class="intro">We&#8217;re starting up the identity and website for an exciting new executive recruiting firm, we&#8217;ll post more updates here soon, bookmark it!</p>
+<p>The post <a rel="nofollow" href="/identity-cogo-sourcing/">identity: CoGo Sourcing</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/identity-cogo-sourcing/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

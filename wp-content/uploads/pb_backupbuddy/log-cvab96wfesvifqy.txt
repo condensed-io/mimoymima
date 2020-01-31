@@ -1,0 +1,53 @@
+[Nov 24, 2014 15:01:33 0-error] [cnyqeyqsos] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 24, 2014 15:01:33 0-error] [cnyqeyqsos] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 24, 2014 15:01:33 0-error] [cnyqeyqsos] Failed function `backup_zip_files`. Backup terminated.
+[Nov 24, 2014 15:01:33 0-error] [cnyqeyqsos] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Nov 24, 2014 15:36:02 0-error] [p61ovftw9i] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 24, 2014 15:36:02 0-error] [p61ovftw9i] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 24, 2014 15:36:02 0-error] [p61ovftw9i] Failed function `backup_zip_files`. Backup terminated.
+[Nov 24, 2014 15:36:02 0-error] [p61ovftw9i] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jan 5, 2015 16:47:25 0-error] [0xanjdn62a] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 5, 2015 16:47:25 0-error] [0xanjdn62a] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 5, 2015 16:47:25 0-error] [0xanjdn62a] Failed function `backup_zip_files`. Backup terminated.
+[Jan 5, 2015 16:47:25 0-error] [0xanjdn62a] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jan 5, 2015 16:49:17 0-error] [6u8bjt0kz9] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jan 5, 2015 16:49:17 0-error] [6u8bjt0kz9] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jan 5, 2015 16:49:17 0-error] [6u8bjt0kz9] Failed function `backup_zip_files`. Backup terminated.
+[Jan 5, 2015 16:49:17 0-error] [6u8bjt0kz9] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Feb 3, 2015 16:33:28 0-error] [pwoz5wgfj8] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Feb 3, 2015 16:33:28 0-error] [pwoz5wgfj8] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Feb 3, 2015 16:33:28 0-error] [pwoz5wgfj8] Failed function `backup_zip_files`. Backup terminated.
+[Feb 3, 2015 16:33:28 0-error] [pwoz5wgfj8] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Mar 6, 2015 16:37:56 0-error] [9tqc6obqjx] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Mar 6, 2015 16:37:56 0-error] [9tqc6obqjx] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Mar 6, 2015 16:37:56 0-error] [9tqc6obqjx] Failed function `backup_zip_files`. Backup terminated.
+[Mar 6, 2015 16:37:56 0-error] [9tqc6obqjx] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 10, 2015 22:58:36 0-error] [zhye7oja1q] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 10, 2015 22:58:36 0-error] [zhye7oja1q] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 10, 2015 22:58:36 0-error] [wh2kmohdz3] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 10, 2015 22:58:36 0-error] [wh2kmohdz3] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 10, 2015 22:58:36 0-error] [zhye7oja1q] Failed function `backup_zip_files`. Backup terminated.
+[Jul 10, 2015 22:58:36 0-error] [wh2kmohdz3] Failed function `backup_zip_files`. Backup terminated.
+[Jul 10, 2015 22:58:36 0-error] [zhye7oja1q] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 10, 2015 22:58:36 0-error] [wh2kmohdz3] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 13, 2015 17:23:30 0-error] [9cyhyvswmq] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 13, 2015 17:23:30 0-error] [9cyhyvswmq] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 13, 2015 17:23:30 0-error] [9cyhyvswmq] Failed function `backup_zip_files`. Backup terminated.
+[Jul 13, 2015 17:23:30 0-error] [9cyhyvswmq] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 13, 2015 20:31:30 0-error] [sxcnzgr97r] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 13, 2015 20:31:30 0-error] [sxcnzgr97r] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 13, 2015 20:31:30 0-error] [sxcnzgr97r] Failed function `backup_zip_files`. Backup terminated.
+[Jul 13, 2015 20:31:30 0-error] [sxcnzgr97r] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 13, 2015 20:41:35 0-error] [oetmfwcw4p] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Jul 13, 2015 20:41:35 0-error] [oetmfwcw4p] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Jul 13, 2015 20:41:35 0-error] [oetmfwcw4p] Failed function `backup_zip_files`. Backup terminated.
+[Jul 13, 2015 20:41:35 0-error] [oetmfwcw4p] Sending email error notification with subject `BackupBuddy Error - http://mimoymima.com` to recipient(s): `brent@mimoymima.com`.
+[Jul 13, 2015 21:12:36 0-error] [ns52ks0c8x] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[Jul 13, 2015 21:12:36 0-error] [ns52ks0c8x] Failed function `backup_zip_files`. Backup terminated.
+[Jul 17, 2015 20:11:16 0-error] [rn72mtqvu1] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[Jul 17, 2015 20:11:16 0-error] [rn72mtqvu1] Failed function `backup_zip_files`. Backup terminated.
+[Jul 17, 2015 20:37:22 0-error] [] Error #9038: Loopback test error: `Operation timed out after 4001 milliseconds with 0 bytes received`. URL: `http://mimoymima.com/wp-admin/admin-ajax.php`. If you need to contact your web host, tell them that when PHP tries to connect back to the site at the URL `http://mimoymima.com/wp-admin/admin-ajax.php` via curl (or other fallback connection method built into WordPress) that it gets the error `Operation timed out after 4001 milliseconds with 0 bytes received`. This means that WordPress' built-in simulated cron system cannot function properly, breaking some WordPress features & subsequently some plugins. There may be a problem with the server configuration (eg local DNS problems, mod_security, etc) preventing connections from working properly.
+[Jul 17, 2015 20:52:29 0-error] [yt7h7847qp] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[Jul 17, 2015 20:52:29 0-error] [yt7h7847qp] Failed function `backup_zip_files`. Backup terminated.
+[Jul 17, 2015 21:47:17 0-error] [1dy1r1koj4] Error #4001: Unable to successfully generate ZIP archive. Backup FAILED. See logs above for more information.
+[Jul 17, 2015 21:47:17 0-error] [1dy1r1koj4] Failed function `backup_zip_files`. Backup terminated.

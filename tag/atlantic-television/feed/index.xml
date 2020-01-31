@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Atlantic Television &#8211; mimoYmima</title>
+	<atom:link href="/tag/atlantic-television/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 11 Nov 2014 06:24:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>ATV Creative</title>
+		<link>/atv-creative/</link>
+				<comments>/atv-creative/#respond</comments>
+				<pubDate>Thu, 24 Jun 2010 06:21:58 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Atlantic Television]]></category>
+		<category><![CDATA[atv creative]]></category>
+		<category><![CDATA[Manhattan]]></category>
+
+		<guid isPermaLink="false">/?p=5719</guid>
+				<description><![CDATA[<p>We&#8217;re working with the team at Atlantic Television again to make a new site called ATV Creative: Web Design &#038; Development</p>
+<p>The post <a rel="nofollow" href="/atv-creative/">ATV Creative</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We&#8217;re working with the team at Atlantic Television again to make a new site called ATV Creative:</p>
+<p><img src="/wp-content/uploads/2014/11/atv-creative_home_comp01.jpg" alt="atv-creative_home_comp01" class="alignnone size-full wp-image-5720" srcset="/wp-content/uploads/2014/11/atv-creative_home_comp01.jpg 915w, /wp-content/uploads/2014/11/atv-creative_home_comp01-245x300.jpg 245w, /wp-content/uploads/2014/11/atv-creative_home_comp01-839x1024.jpg 839w" sizes="(max-width: 915px) 100vw, 915px" /></p>
+<h2>Web Design &#038; Development</h2>
+<p>The post <a rel="nofollow" href="/atv-creative/">ATV Creative</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/atv-creative/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Atlantic Television</title>
+		<link>/atlantic-television/</link>
+				<comments>/atlantic-television/#respond</comments>
+				<pubDate>Wed, 11 Apr 2007 06:11:11 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Atlantic Television]]></category>
+		<category><![CDATA[Manhattan]]></category>
+		<category><![CDATA[video production]]></category>
+
+		<guid isPermaLink="false">/?p=5712</guid>
+				<description><![CDATA[<p>Website Design &#038; Development This job was a collaboration with a bloke from the UK named Ian. He came up with the identity and we turned it into a website. We were web dev partners with Atlantic for years, helping them evolve their site and later made another site for them called ATV creative.</p>
+<p>The post <a rel="nofollow" href="/atlantic-television/">Atlantic Television</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<h2>Website Design &#038; Development</h2>
+<p>This job was a collaboration with a bloke from the UK named Ian.  He came up with the identity and we turned it into a website.  We were web dev partners with Atlantic for years, helping them evolve their site and later made another site for them called <a href="/atv-creative/">ATV creative</a>.</p>
+<p><img src="/wp-content/uploads/2014/11/web-video_02.jpg" alt="web-video_02" class="alignnone size-full wp-image-5713" srcset="/wp-content/uploads/2014/11/web-video_02.jpg 882w, /wp-content/uploads/2014/11/web-video_02-189x300.jpg 189w, /wp-content/uploads/2014/11/web-video_02-645x1024.jpg 645w" sizes="(max-width: 882px) 100vw, 882px" /></p>
+<p>The post <a rel="nofollow" href="/atlantic-television/">Atlantic Television</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/atlantic-television/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

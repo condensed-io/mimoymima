@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Magpie &#8211; mimoYmima</title>
+	<atom:link href="/tag/magpie/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 24 Feb 2015 14:30:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Show Latest Blog Posts on any PHP page</title>
+		<link>/show-latest-blog-posts-on-any-php-page/</link>
+				<comments>/show-latest-blog-posts-on-any-php-page/#comments</comments>
+				<pubDate>Fri, 06 Nov 2009 20:37:44 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[Blog]]></category>
+		<category><![CDATA[Magpie]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[rss]]></category>
+		<category><![CDATA[XML]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2170</guid>
+				<description><![CDATA[<p>If you've ever used magpie to display your latest blog pages on a regular PHP page then you probably noticed at some point that your curly quotes don't show up properly, this is the code you can use to do it right.</p>
+<p>The post <a rel="nofollow" href="/show-latest-blog-posts-on-any-php-page/">Show Latest Blog Posts on any PHP page</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">You can use magpie to display your latest blog posts on any php page, so a site without a blog can still display posts from any blog that has an RSS feed. Magpie tutorials on the net usually don&#8217;t take into consideration quotes which we have here, so this should be all you need to get going.</p>
+
+<h2>Magpie &amp; RSS</h2>
+<p>If you&#8217;ve come to this page you probably already use magpie, if not, magpie is an RSS  parser that can be used to display your blog posts on any php page.  You can <a class="lightview" href="http://sourceforge.net/project/showfiles.php?group_id=55691" title="Download Magpie :: :: fullscreen: true">get Magpie here</a></p>
+
+<a href="http://magpierss.sourceforge.net/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_magpie.jpg" alt="image of a magpie, it's a black and white bird with a sharp beak" width="525" height="123" class="aligncenter" /></a>
+
+<h2>Complete Code</h2>
+
+<p>You don&#8217;t need to know what any of this stuff means really, just change <strong>path/that/points/to/magpie/rss_fetch.inc</strong> to be the actual path to that file on your server, set the <strong>$url</strong> variable to point to your RSS feed, and <strong>$num_items</strong> sets the number of posts you want to see.</p>
+
+<!--BEGIN: How to get quotes to work with magpie-->
+<pre class="crayon-plain-tag">&lt;dl&gt;
+&lt;?php 
+define('MAGPIE_INPUT_ENCODING', 'UTF-8');					
+define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');					
+require_once 'path/that/points/to/magpie/rss_fetch.inc';
+
+$url = 'http://feeds.mimoymima.com/mym-news?format=xml';
+$num_items = 5;							
+$rss = fetch_rss($url);
+$rss-&gt;items = array_slice($rss-&gt;items, 0, $num_items);
+
+
+foreach ($rss-&gt;items as $item ) {
+$title = $item[title];
+$link = $item[link];
+$description = $item[description];
+$pubdate = $item[pubdate];
+
+$title = htmlentities($title, ENT_QUOTES, 'UTF-8');
+$link = htmlentities($link, ENT_QUOTES, 'UTF-8');
+
+preg_match('/[0-9]+/', $pubdate, $pubDay);
+preg_match('/[A-Za-z]+s/', $pubdate, $pubMonth);
+preg_match('/[0-9]{4}/', $pubdate, $pubYear);
+
+$shortDate = &quot;$pubMonth[0]&quot; . &quot;$pubDay[0], &quot; . &quot;$pubYear[0]&quot;;
+
+echo &quot;&lt;dt&gt;&lt;a href=&quot;$link&quot; class=&quot;Popup&quot;&gt;$title&lt;/a&gt;&lt;/dt&gt;&quot;;
+echo &quot;&lt;dd class=&quot;PubDate&quot;&gt;$shortDate&lt;/dd&gt;&quot;;
+echo &quot;&lt;dd class=&quot;Description&quot;&gt;$description&lt;/dd&gt;&quot;;
+
+} ?&gt;
+
+&lt;/dl&gt;</pre>
+<!--END: How to get quotes to work with magpie-->
+
+<h2>The Curly Quote Fixes</h2>
+<p>If you already use magpie to display your blog posts and just need to fix your quotes, then you would just add these pieces from the code above to your code:</p>
+<pre class="crayon-plain-tag">define('MAGPIE_INPUT_ENCODING', 'UTF-8');					
+define('MAGPIE_OUTPUT_ENCODING', 'UTF-8');</pre>
+
+<p>and</p>
+
+<pre class="crayon-plain-tag">$title = htmlentities($title, ENT_QUOTES, 'UTF-8');
+$link = htmlentities($link, ENT_QUOTES, 'UTF-8');</pre>
+
+<p>If you run PHP5 on your server, it comes with it&#8217;s own simple to use parser called <a href="http://us3.php.net/simplexml" class="lightview" title="SimpleXML Manual :: :: fullscreen: true">SimpleXML</a> which you could use instead of magpie, we&#8217;ll show you how to do that in a future article, so <a href="http://feeds.feedburner.com/mym_lab">subscribe to our feed</a> if you want to be notified.</p> <p>The post <a rel="nofollow" href="/show-latest-blog-posts-on-any-php-page/">Show Latest Blog Posts on any PHP page</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/show-latest-blog-posts-on-any-php-page/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+	</channel>
+</rss>

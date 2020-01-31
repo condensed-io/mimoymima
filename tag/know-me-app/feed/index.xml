@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>know me app &#8211; mimoYmima</title>
+	<atom:link href="/tag/know-me-app/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 08 Feb 2016 15:43:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Know Me App Logo &#8211; Sacrificed</title>
+		<link>/know-me-app-logo/</link>
+				<comments>/know-me-app-logo/#respond</comments>
+				<pubDate>Mon, 08 Feb 2016 15:16:15 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[design sacrifice]]></category>
+		<category><![CDATA[know me app]]></category>
+		<category><![CDATA[re-design]]></category>
+
+		<guid isPermaLink="false">/?p=6939</guid>
+				<description><![CDATA[<p>As if we don&#8217;t have better things to do, we&#8217;re now re-designing logos in our free time. This work isn&#8217;t by any way commissioned or requested by the company, we just find logos we think need work and fix them. It&#8217;s our sacrifice to the design gods. The Know Me app is a good example [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/know-me-app-logo/">Know Me App Logo &#8211; Sacrificed</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>As if we don&#8217;t have better things to do, we&#8217;re now re-designing logos in our free time.  This work isn&#8217;t by any way commissioned or requested by the company, we just find logos we think need work and fix them.  It&#8217;s our sacrifice to the design gods.</p>
+<p><img style="max-width: 500px" src="/wp-content/uploads/2016/02/know-me-re-design.png" alt="know-me-re-design" class="alignnone size-full wp-image-6940" srcset="/wp-content/uploads/2016/02/know-me-re-design.png 820w, /wp-content/uploads/2016/02/know-me-re-design-145x300.png 145w, /wp-content/uploads/2016/02/know-me-re-design-768x1594.png 768w, /wp-content/uploads/2016/02/know-me-re-design-493x1024.png 493w" sizes="(max-width: 820px) 100vw, 820px" /></p>
+<p>The Know Me app is a good example of a forgettable icon, it uses a typical stock smiley as their defining characteristic.  We chose to keep the color, get rid of a lot of the noise &#8211; opting for flat design &#8211; got rid of the drop shadow and other design elements which clutter the icon.</p>
+<p>The smile itself is more stylized and has just enough personality to be more distinguishable.</p>
+<p>Hope you like it!</p>
+<p>The post <a rel="nofollow" href="/know-me-app-logo/">Know Me App Logo &#8211; Sacrificed</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/know-me-app-logo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

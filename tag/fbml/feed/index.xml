@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fbml &#8211; mimoYmima</title>
+	<atom:link href="/tag/fbml/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Wed, 13 Oct 2010 15:05:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Facebook Page for ToughMudder</title>
+		<link>/tough-mudder-facebook/</link>
+				<comments>/tough-mudder-facebook/#respond</comments>
+				<pubDate>Wed, 13 Oct 2010 15:05:10 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[facebook]]></category>
+		<category><![CDATA[fbml]]></category>
+		<category><![CDATA[toughmudder]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3440</guid>
+				<description><![CDATA[<p>We just created a facebook welcome tab for ToughMudder.  They just sold out their second event in Northern California, next one will be in Jersey (called TriState on their site).</p>
+<p>The post <a rel="nofollow" href="/tough-mudder-facebook/">Facebook Page for ToughMudder</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just created a facebook welcome tab for ToughMudder.  They just sold out their second event in Northern California, next one will be in Jersey (called TriState on their site).</p>
+
+<a href="http://www.facebook.com/pages/Tough-Mudder-Event-Series/121520047789" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/10/mudder-fb-screen.jpg" alt="ToughMudder Facebook Page by mimoYmima" title="mudder-fb-screen" class="aligncenter size-full wp-image-3441" /></a>
+
+<p>The post <a rel="nofollow" href="/tough-mudder-facebook/">Facebook Page for ToughMudder</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/tough-mudder-facebook/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

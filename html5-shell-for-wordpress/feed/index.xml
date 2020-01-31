@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: HTML5 Shell for WordPress	</title>
+	<atom:link href="/html5-shell-for-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/html5-shell-for-wordpress/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 11 Aug 2012 15:05:05 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: mimoYmima				</title>
+				<link>/html5-shell-for-wordpress/#comment-85</link>
+		<dc:creator><![CDATA[mimoYmima]]></dc:creator>
+		<pubDate>Sat, 11 Aug 2012 15:05:05 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3520#comment-85</guid>
+					<description><![CDATA[hey that&#039;s only there when you&#039;re logged in as an admin to show you which template is being used while in development.  If you want to get rid of it, it&#039;s the first thing in the functions.php file, just comment out the function or delete it.  ]]></description>
+		<content:encoded><![CDATA[<p>hey that&#039;s only there when you&#039;re logged in as an admin to show you which template is being used while in development.  If you want to get rid of it, it&#039;s the first thing in the functions.php file, just comment out the function or delete it.  </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Gareth Boughtwood				</title>
+				<link>/html5-shell-for-wordpress/#comment-84</link>
+		<dc:creator><![CDATA[Gareth Boughtwood]]></dc:creator>
+		<pubDate>Mon, 02 Jul 2012 14:57:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3520#comment-84</guid>
+					<description><![CDATA[Hi I am trying to use you&#039;re HTML5 Wordpress shell and I am having trouble getting rid of the url at the top of the page. It seems like its being added dynamically but I cant find from where?? It shows just under the body tag in firebug but i can&#039;t find the reference to it in the code?? ]]></description>
+		<content:encoded><![CDATA[<p>Hi I am trying to use you&#039;re HTML5 WordPress shell and I am having trouble getting rid of the url at the top of the page. It seems like its being added dynamically but I cant find from where?? It shows just under the body tag in firebug but i can&#039;t find the reference to it in the code?? </p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

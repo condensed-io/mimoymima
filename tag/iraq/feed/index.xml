@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>iraq &#8211; mimoYmima</title>
+	<atom:link href="/tag/iraq/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 30 Sep 2010 18:00:32 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Video Update: The Recruiter</title>
+		<link>/video-update-the-recruiter/</link>
+				<comments>/video-update-the-recruiter/#respond</comments>
+				<pubDate>Thu, 30 Sep 2010 18:00:32 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[iraq]]></category>
+		<category><![CDATA[the recruiter]]></category>
+		<category><![CDATA[video]]></category>
+		<category><![CDATA[war]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3421</guid>
+				<description><![CDATA[<p>We've just added a new page to The Recruiter site featuring a video showing what it was like for one of the main recruits (Matt) to come back home after being in Iraq for 15 months.</p>
+<p>The post <a rel="nofollow" href="/video-update-the-recruiter/">Video Update: The Recruiter</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;ve just added a <a href="http://www.propellerfilms.com/recruiter/coming-home/" class="Popup">new page</a> to The Recruiter site featuring a video showing what it was like for one of the main recruits (Matt) to come back home after being in Iraq for 15 months.</p>
+<p><a href="http://www.propellerfilms.com/recruiter/coming-home/"><img src="http://www.mimoymima.com/wp-content/uploads/2010/09/recruiter_photo.jpg" alt="Matt in Iraq - The Recruiter" title="recruiter_photo"  class="aligncenter size-full wp-image-3422" /></a></p>
+<p>The post <a rel="nofollow" href="/video-update-the-recruiter/">Video Update: The Recruiter</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/video-update-the-recruiter/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

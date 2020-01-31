@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>education &#8211; mimoYmima</title>
+	<atom:link href="/tag/education/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 02 Jan 2015 22:39:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Berit Anderson Tutoring</title>
+		<link>/berit-anderson-tutoring/</link>
+				<comments>/berit-anderson-tutoring/#respond</comments>
+				<pubDate>Sun, 19 Aug 2007 22:26:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[animation]]></category>
+		<category><![CDATA[Berit Anderson Tutoring]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[education]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[illustration]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[tutoring services]]></category>
+
+		<guid isPermaLink="false">/?p=6164</guid>
+				<description><![CDATA[<p>Berit has quickly become one of our favorite clients. She put a lot of faith in us and asked us to create something original &#38; artistic (a dream come true). Her business is tutoring for high school students (think SAT, LSAT&#8230;) The tagline she came up with: &#8216;fireflies are crepuscular&#8217;, is an example of a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/berit-anderson-tutoring/">Berit Anderson Tutoring</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Berit has quickly become one of our favorite clients. She put a lot of faith in us and asked us to create something original &amp; artistic <em>(a dream come true)</em>.  Her business is tutoring for high school students (think SAT, LSAT&#8230;)  The tagline she came up with: <em>&#8216;fireflies are crepuscular&#8217;</em>, is an example of a device she uses to help kids remember complicated vocab words.  It was also the inspiration for her visual identity:</p>
+<p><a href="http://theparkslopetutor.com/" title="SAT Tutor Park Slope Brooklyn"><img src="/wp-content/uploads/2015/01/berit-anderson-tutoring_identity.png" alt="berit-anderson-tutoring_identity" class="alignnone size-full" /></a></p>
+<p>The post <a rel="nofollow" href="/berit-anderson-tutoring/">Berit Anderson Tutoring</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/berit-anderson-tutoring/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

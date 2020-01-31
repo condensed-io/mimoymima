@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>skin care &#8211; mimoYmima</title>
+	<atom:link href="/tag/skin-care/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sun, 20 Dec 2015 22:24:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Nina&#8217;s Bowl of Sugar</title>
+		<link>/ninas-bowl-of-sugar/</link>
+				<comments>/ninas-bowl-of-sugar/#respond</comments>
+				<pubDate>Sun, 20 Dec 2015 22:14:54 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[branding]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[packaging]]></category>
+		<category><![CDATA[skin care]]></category>
+
+		<guid isPermaLink="false">/?p=6847</guid>
+				<description><![CDATA[<p>We created the branding and packaging design for this artisanal skin care company.</p>
+<p>The post <a rel="nofollow" href="/ninas-bowl-of-sugar/">Nina&#8217;s Bowl of Sugar</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2015/12/ninas-bowl-of-sugar_packaging.jpg" alt="ninas-bowl-of-sugar_packaging" class="alignnone size-full wp-image-6849" srcset="/wp-content/uploads/2015/12/ninas-bowl-of-sugar_packaging.jpg 2000w, /wp-content/uploads/2015/12/ninas-bowl-of-sugar_packaging-300x119.jpg 300w, /wp-content/uploads/2015/12/ninas-bowl-of-sugar_packaging-768x303.jpg 768w, /wp-content/uploads/2015/12/ninas-bowl-of-sugar_packaging-1024x404.jpg 1024w" sizes="(max-width: 2000px) 100vw, 2000px" /> </p>
+<p>We created the branding and packaging design for this artisanal skin care company.</p>
+<p>The post <a rel="nofollow" href="/ninas-bowl-of-sugar/">Nina&#8217;s Bowl of Sugar</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/ninas-bowl-of-sugar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

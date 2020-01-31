@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>7th ave &#8211; mimoYmima</title>
+	<atom:link href="/tag/7th-ave/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 03 Aug 2015 18:55:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Lion In The Sun</title>
+		<link>/lion-in-the-sun/</link>
+				<comments>/lion-in-the-sun/#respond</comments>
+				<pubDate>Sat, 03 Nov 2007 16:58:42 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[7th ave]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[made in brooklyn]]></category>
+		<category><![CDATA[park slope]]></category>
+
+		<guid isPermaLink="false">/?p=6661</guid>
+				<description><![CDATA[<p>We launched the website for Lion In The Sun. We wanted to create something with artistic style that shows off the store and their products. This is our second website for a 7th Ave shop in Park Slope, Brooklyn -our first being the Community Bookstore, hopefully we can continue to make our local websites better! [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/lion-in-the-sun/">Lion In The Sun</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We launched the website for Lion In The Sun.  We wanted to create something with artistic style that shows off the store and their products.  This is our second website for a 7th Ave shop in Park Slope, Brooklyn -our first being the <a href="/community-bookstore/">Community Bookstore</a>, hopefully we can continue to make our local websites better!</p>
+<p><a href="http://lioninthesunps.com/"><img src="/wp-content/uploads/2007/11/lion-in-the-sun_screen01.jpg" alt="lion-in-the-sun_screen01" class="alignnone size-full wp-image-6667" srcset="/wp-content/uploads/2007/11/lion-in-the-sun_screen01.jpg 2536w, /wp-content/uploads/2007/11/lion-in-the-sun_screen01-300x161.jpg 300w, /wp-content/uploads/2007/11/lion-in-the-sun_screen01-1024x549.jpg 1024w" sizes="(max-width: 2536px) 100vw, 2536px" /></a></p>
+<p><a href="http://lioninthesunps.com/"><img src="/wp-content/uploads/2007/11/lion-in-the-sun_screen02.jpg" alt="lion-in-the-sun_screen02" class="alignnone size-full wp-image-6666" srcset="/wp-content/uploads/2007/11/lion-in-the-sun_screen02.jpg 1964w, /wp-content/uploads/2007/11/lion-in-the-sun_screen02-300x184.jpg 300w, /wp-content/uploads/2007/11/lion-in-the-sun_screen02-1024x627.jpg 1024w" sizes="(max-width: 1964px) 100vw, 1964px" /></a></p>
+<p><a href="http://lioninthesunps.com/">lioninthesunps.com</a></p>
+<p>The post <a rel="nofollow" href="/lion-in-the-sun/">Lion In The Sun</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/lion-in-the-sun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

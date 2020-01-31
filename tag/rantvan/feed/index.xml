@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>RantVan &#8211; mimoYmima</title>
+	<atom:link href="/tag/rantvan/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 26 Nov 2018 03:22:16 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Launch: RantVan</title>
+		<link>/launch-rantvan/</link>
+				<comments>/launch-rantvan/#respond</comments>
+				<pubDate>Fri, 08 Oct 2010 02:23:39 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[RantVan]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[video]]></category>
+		<category><![CDATA[viral]]></category>
+		<category><![CDATA[YouTube]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3427</guid>
+				<description><![CDATA[<p>Everyone has something that they want to go off about. RantVan is a video studio (in a van) that travels around New York, letting people rant about a menu of topics or whatever it is that they need to get off their chest.</p>
+<p>The post <a rel="nofollow" href="/launch-rantvan/">Launch: RantVan</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Everyone has something that they want to go off about.  We just finished making the site for <a href="http://rantvan.com/" class="Popup">RantVan</a>, a video studio in a van that travels around New York using boat services from this <a href="https://lauderdaleboatrentals.net/">website</a>, letting people rant about a menu of topics or whatever it is that they need to get off their chest.</p>
+
+<a href="http://rantvan.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/10/photo_rantvan.png" alt="" title="photo_rantvan" class="aligncenter size-full wp-image-3430" /></a>
+
+<p>If you have something that you want to get out, the Rant Van announces their location via their Twitter feed <em>(located at the top of every page on their site)</em>, so track them down and GO OFF!</p><p>The post <a rel="nofollow" href="/launch-rantvan/">Launch: RantVan</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-rantvan/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

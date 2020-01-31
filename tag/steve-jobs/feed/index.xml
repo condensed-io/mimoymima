@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>steve jobs &#8211; mimoYmima</title>
+	<atom:link href="/tag/steve-jobs/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 10 Jan 2019 00:59:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>No need to understand how everything works</title>
+		<link>/steve-jobs-how-computers-work/</link>
+				<comments>/steve-jobs-how-computers-work/#comments</comments>
+				<pubDate>Fri, 25 Mar 2011 04:04:06 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[computers]]></category>
+		<category><![CDATA[interview]]></category>
+		<category><![CDATA[steve jobs]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3709</guid>
+				<description><![CDATA[<p>Go fetch a number, add it to this number, put the result there, perceive if it's greater than this other number"—but execute that at a rate of, let's say, 1,000,000 per second. At 1,000,000 per second, the results appear to be magic.</p>
+<p>The post <a rel="nofollow" href="/steve-jobs-how-computers-work/">No need to understand how everything works</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">JOBS: Computers are actually pretty simple. We&#8217;re sitting here on a bench in this cafe [for this part of the Interview]. Let&#8217;s assume that you understood only the most rudimentary of directions and you asked how to find the rest room. I would have to describe it to you in very specific and precise instructions. I might say, &#8220;Scoot sideways two meters off the bench. Stand erect. Lift left foot. Bend left knee until it is horizontal. Extend left foot and shift weight 300 centimeters forward &#8230;&#8221; and on and on. If you could interpret all those instructions 100 times faster than any other person in this cafe, you would appear to be a magician: You could run over and grab a milk shake and bring it back and set it on the table and snap your fingers, and I&#8217;d think you made the milk shake appear, because it was so fast relative to my perception. That&#8217;s exactly what a computer does. It takes these very, very simple-minded instructions—&#8221;Go fetch a number, add it to this number, put the result there, perceive if it&#8217;s greater than this other number&#8221;—but executes them at a rate of, let&#8217;s say, 1,000,000 per second. At 1,000,000 per second, the results appear to be magic.
+That&#8217;s a simple explanation, and the point is that people really don&#8217;t have to understand how computers work. Most people have no concept of how an automatic transmission works, yet they know how to drive a car. You don&#8217;t have to study physics to understand the laws of motion to drive a car, you may know the <a href="http://unitedautoparts.info/windshield-replacement-quote">Windshield Replacement</a> Cost but that doesn&#8217;t mean you have to know how to do the replacement, you can just play a company to get the service done. You don&#8217;t have to understand any of this stuff to use Macintosh—but you asked [laughs].</p>
+
+If you love Steve as much as we do you really need to read this interview from 1984 with Playboy magazine:
+
+<a href="http://www.scribd.com/doc/43945579/Playboy-Interview-With-Steve-Jobs" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2011/03/jobs-playboy-interview.jpg" alt="" title="jobs-playboy-interview" class="aligncenter size-full wp-image-3712" /></a><p>The post <a rel="nofollow" href="/steve-jobs-how-computers-work/">No need to understand how everything works</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/steve-jobs-how-computers-work/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>movie website &#8211; mimoYmima</title>
+	<atom:link href="/tag/movie-website/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 24 Aug 2010 15:03:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Launch: The Way</title>
+		<link>/launch-the-way/</link>
+				<comments>/launch-the-way/#respond</comments>
+				<pubDate>Tue, 24 Aug 2010 15:03:55 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[art film]]></category>
+		<category><![CDATA[Camino do Santiago Compostela]]></category>
+		<category><![CDATA[Emelio Estevez]]></category>
+		<category><![CDATA[flash]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[movie website]]></category>
+		<category><![CDATA[The Way]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3324</guid>
+				<description><![CDATA[<p>We're just getting back from our annual trip to Spain, coincidentally while there we launched a site for a film set on the Camino de Santiago a Compostela - 'The Way' directed by Emelio Estevez.</p>
+<p>The post <a rel="nofollow" href="/launch-the-way/">Launch: The Way</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;re just getting back from our annual trip to Spain, while we were there we coincidentally launched a site for a film set on the <em>Camino de Santiago a Compostela</em> &#8211; &#8216;The Way&#8217; directed by Emelio Estevez.</p>
+
+<a href="http://theway-themovie.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/08/the-way_photo.jpg" alt="Screenshot for The Way - a film by Emelio Estevez" title="the-way_photo" width="525" height="274" class="aligncenter size-full wp-image-3328" /></a>
+
+<p>&#8216;The Way&#8217; was directed by Emelio Estevez, and stars his father, Martin Sheen.  In the movie Emelio&#8217;s character is somehow killed on the <em>Camino de Santiago a Compostela</em>, a religious pilgrimage through Spain.  We haven&#8217;t seen the film yet, so we&#8217;re not sure how he dies, no spoilers here&#8230; but from the trailer we&#8217;ve gathered that his father takes his son&#8217;s ashes and goes on the camino himself.</p>
+
+<p>Thanks to Ben at <a href="http://www.mixedmediaworkshop.com/" class="Popup">Mixed Media Workshop</a> for getting this great job for us and collaborating on the work.  Together we achieved some cool results with this site, and we&#8217;re very proud of the way it came out, also can&#8217;t wait to see the film, we&#8217;re big fans of Emelio!!</p><p>The post <a rel="nofollow" href="/launch-the-way/">Launch: The Way</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-the-way/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

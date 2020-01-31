@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wedding &#8211; mimoYmima</title>
+	<atom:link href="/tag/wedding/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 17 Nov 2014 22:05:05 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Always a Bridesmaid</title>
+		<link>/always-a-bridesmaid/</link>
+				<comments>/always-a-bridesmaid/#respond</comments>
+				<pubDate>Tue, 03 Nov 2009 20:48:03 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[new york]]></category>
+		<category><![CDATA[planning]]></category>
+		<category><![CDATA[re-design]]></category>
+		<category><![CDATA[wedding]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1972</guid>
+				<description><![CDATA[<p>We're re-designing the website for Always a Bridesmaid, it's the second project we're working on for this Manhattan wedding planner A-Team.</p>
+<p>The post <a rel="nofollow" href="/always-a-bridesmaid/">Always a Bridesmaid</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We love working with this New York (and NJ!) based group of wedding planners! </p>
+<p>We just launched <a href="http://www.alwaysabridesmaid.us/">Always A Bridesmaid</a>.  Xochitl and the team over at AAB have been getting a lot of compliments on the new design, here&#8217;s an excerpt from an email she sent us:</p>
+<blockquote><p>I just wanted to thank you! I am getting SOOO much amazing feedback on the new website.  My friends, who are always very critical, are just raving and some of the TOP industry consultants have sent me messages on twitter about how great it looks.</p></blockquote>
+<p><img src="/wp-content/uploads/2009/11/always-a-bridesmaid_01.jpg" alt="always-a-bridesmaid_01" class="alignnone size-full wp-image-5830" srcset="/wp-content/uploads/2009/11/always-a-bridesmaid_01.jpg 1078w, /wp-content/uploads/2009/11/always-a-bridesmaid_01-275x300.jpg 275w, /wp-content/uploads/2009/11/always-a-bridesmaid_01-941x1024.jpg 941w" sizes="(max-width: 1078px) 100vw, 1078px" /></p>
+<p><img src="/wp-content/uploads/2009/11/always-a-bridesmaid_02.jpg" alt="always-a-bridesmaid_02" class="alignnone size-full wp-image-5829" srcset="/wp-content/uploads/2009/11/always-a-bridesmaid_02.jpg 1078w, /wp-content/uploads/2009/11/always-a-bridesmaid_02-285x300.jpg 285w, /wp-content/uploads/2009/11/always-a-bridesmaid_02-976x1024.jpg 976w" sizes="(max-width: 1078px) 100vw, 1078px" /></p>
+<p>The post <a rel="nofollow" href="/always-a-bridesmaid/">Always a Bridesmaid</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/always-a-bridesmaid/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

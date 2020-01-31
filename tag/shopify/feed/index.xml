@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>shopify &#8211; mimoYmima</title>
+	<atom:link href="/tag/shopify/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 16 Jan 2015 23:35:04 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Queen Ann Ravioli</title>
+		<link>/queen-ann-ravioli/</link>
+				<comments>/queen-ann-ravioli/#respond</comments>
+				<pubDate>Tue, 16 Sep 2014 23:16:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[Queen Ann Ravioli]]></category>
+		<category><![CDATA[shopify]]></category>
+		<category><![CDATA[store]]></category>
+
+		<guid isPermaLink="false">/?p=6302</guid>
+				<description><![CDATA[<p>We made a web store for this homemade ravioli shop in Brooklyn. We tried to showcase their history front and center since they&#8217;ve been around for so long and have such a great reputation in the community. queenannravioli.com</p>
+<p>The post <a rel="nofollow" href="/queen-ann-ravioli/">Queen Ann Ravioli</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We made a web store for this homemade ravioli shop in Brooklyn.  We tried to showcase their history front and center since they&#8217;ve been around for so long and have such a great reputation in the community.</p>
+<p><a href="http://www.queenannravioli.com/" title="Handmade Ravioli Brooklyn, NY"><img src="/wp-content/uploads/2015/01/queen-ann-ravioli_home.jpg" alt="queen-ann-ravioli_home" class="alignnone size-full add-border" /></a></p>
+<p><a href="http://www.queenannravioli.com/" title="Handmade Ravioli Brooklyn, NY"><img src="/wp-content/uploads/2015/01/queen-ann-ravioli_about.jpg" alt="queen-ann-ravioli_about" class="alignnone size-full add-border" /></a></p>
+<p><a href="http://www.queenannravioli.com/" title="Handmade Ravioli Brooklyn, NY">queenannravioli.com</a></p>
+<p>The post <a rel="nofollow" href="/queen-ann-ravioli/">Queen Ann Ravioli</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/queen-ann-ravioli/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Launch: Kallio</title>
+		<link>/launch-kallio/</link>
+				<comments>/launch-kallio/#respond</comments>
+				<pubDate>Wed, 12 Jun 2013 17:42:41 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[kallio]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[shopify]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4826</guid>
+				<description><![CDATA[<p>Online shop for a creative kids clothing brand with a sustainable focus.</p>
+<p>The post <a rel="nofollow" href="/launch-kallio/">Launch: Kallio</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2013/06/kallio-news.jpg" alt="Kallio Online Shop" class="aligncenter size-full wp-image-4827" /></p>
+<p class="intro">We love the sustainable concept behind Kallio: they take reclaimed men&#8217;s shirts and transform them into stylish kids clothing. We just launched their new online shop &#8211; visit <a href="http://kallionyc.com/" class="popup">kallionyc.com</a></p>
+<p>The post <a rel="nofollow" href="/launch-kallio/">Launch: Kallio</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-kallio/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

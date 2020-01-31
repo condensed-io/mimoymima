@@ -1,0 +1,22 @@
+<!--shouldn't this svg just be a circle, why all this masking stuff in the mask file??? -->
+
+<svg version="1.1"
+	 viewBox="0 0 319.3 319.3"
+	 xmlns="http://www.w3.org/2000/svg"
+>
+<defs>
+	<mask id="team_mask" maskUnits="objectBoundingBox">
+		<circle style="fill:#FFFFFF;" cx="160.8" cy="158.6" r="157.5"/>
+	</mask>
+</defs>
+
+<g id="Layer_5">
+</g>
+<g id="Layer_3">
+	<circle style="fill:#FFFFFF;" cx="160.8" cy="158.6" r="157.5"/>
+</g>
+<g id="interactive">
+</g>
+<g id="_x31_2_col">
+</g>
+</svg>

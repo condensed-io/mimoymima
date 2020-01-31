@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Show Latest Blog Posts on any PHP page	</title>
+	<atom:link href="/show-latest-blog-posts-on-any-php-page/feed/" rel="self" type="application/rss+xml" />
+	<link>/show-latest-blog-posts-on-any-php-page/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 24 Feb 2015 14:30:03 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: Brent				</title>
+				<link>/show-latest-blog-posts-on-any-php-page/#comment-5</link>
+		<dc:creator><![CDATA[Brent]]></dc:creator>
+		<pubDate>Thu, 24 May 2012 16:25:39 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2170#comment-5</guid>
+					<description><![CDATA[update... We don&#039;t use MagPie anymore, we&#039;ve been using simpleXML which is part of PHP5, learn more here: &lt;a href=&quot;http://www.phpro.org/tutorials/Introduction-To-SimpleXML-With-PHP.html&quot; rel=&quot;nofollow&quot;&gt;http://www.phpro.org/tutorials/Introduction-To-Si...&lt;/a&gt; ]]></description>
+		<content:encoded><![CDATA[<p>update&#8230; We don&#039;t use MagPie anymore, we&#039;ve been using simpleXML which is part of PHP5, learn more here: <a href="http://www.phpro.org/tutorials/Introduction-To-SimpleXML-With-PHP.html" rel="nofollow"></a><a href="http://www.phpro.org/tutorials/Introduction-To-Si" rel="nofollow ugc">http://www.phpro.org/tutorials/Introduction-To-Si</a>&#8230; </p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

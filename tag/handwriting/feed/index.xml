@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>handwriting &#8211; mimoYmima</title>
+	<atom:link href="/tag/handwriting/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 02 Jan 2015 21:59:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Atelerie</title>
+		<link>/atelerie/</link>
+				<comments>/atelerie/#respond</comments>
+				<pubDate>Thu, 08 May 2008 20:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[atelerie]]></category>
+		<category><![CDATA[Bermuda]]></category>
+		<category><![CDATA[boutique]]></category>
+		<category><![CDATA[fashion]]></category>
+		<category><![CDATA[handwriting]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[jewelry]]></category>
+		<category><![CDATA[logo]]></category>
+
+		<guid isPermaLink="false">/?p=6153</guid>
+				<description><![CDATA[<p>Atelerie is a fashion &#38; jewelry boutique in Bermuda. We based the logo for Atelerie off of her original handwriting. atelerie.com Atelerie on Facebook</p>
+<p>The post <a rel="nofollow" href="/atelerie/">Atelerie</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Atelerie is a fashion &amp; jewelry boutique in Bermuda. We based the logo for Atelerie off of her original handwriting.</p>
+<p><a href="http://atelerie.com/" title="fashion and jewelry boutique - Bermuda"><img src="/wp-content/uploads/2015/01/logo_atelerie.png" alt="logo_atelerie" class="alignnone size-full" /></a></p>
+<ul class="link-list">
+<li><a href="http://atelerie.com/" title="fashion and jewelry boutique - Bermuda">atelerie.com</a></li>
+<li><a href="https://www.facebook.com/AtelerieBoutique">Atelerie on Facebook</a></li>
+</ul>
+<p>The post <a rel="nofollow" href="/atelerie/">Atelerie</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/atelerie/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

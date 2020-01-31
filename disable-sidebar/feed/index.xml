@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The smart way to disable your sidebar	</title>
+	<atom:link href="/disable-sidebar/feed/" rel="self" type="application/rss+xml" />
+	<link>/disable-sidebar/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 05 Oct 2017 17:26:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: Elkanah Nyauma Ondieki				</title>
+				<link>/disable-sidebar/#comment-217</link>
+		<dc:creator><![CDATA[Elkanah Nyauma Ondieki]]></dc:creator>
+		<pubDate>Thu, 05 Oct 2017 17:26:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-217</guid>
+					<description><![CDATA[Sorry David for not responding to your question. I do not know whether you still need an answer or not but the answer is this. If you have the theme in your computer, login to your cpanel, click on file manager and locate the folder public_html (which has all the files you need for the website. If you are using Wordpress as your web design platform, click on wp-content, go to themes and you will see the theme that you need to uninstall. Delete it and install it afresh and your website will be back to normal only that you will need to make some few edits....thanks. Let me know anything else regarding Wordpress, I will be happy to help.]]></description>
+		<content:encoded><![CDATA[<p>Sorry David for not responding to your question. I do not know whether you still need an answer or not but the answer is this. If you have the theme in your computer, login to your cpanel, click on file manager and locate the folder public_html (which has all the files you need for the website. If you are using WordPress as your web design platform, click on wp-content, go to themes and you will see the theme that you need to uninstall. Delete it and install it afresh and your website will be back to normal only that you will need to make some few edits&#8230;.thanks. Let me know anything else regarding WordPress, I will be happy to help.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: David Pardo				</title>
+				<link>/disable-sidebar/#comment-213</link>
+		<dc:creator><![CDATA[David Pardo]]></dc:creator>
+		<pubDate>Sat, 03 Jun 2017 17:17:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-213</guid>
+					<description><![CDATA[how do i reinstall it??!  where do i get it from?]]></description>
+		<content:encoded><![CDATA[<p>how do i reinstall it??!  where do i get it from?</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: David Pardo				</title>
+				<link>/disable-sidebar/#comment-212</link>
+		<dc:creator><![CDATA[David Pardo]]></dc:creator>
+		<pubDate>Sat, 03 Jun 2017 17:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-212</guid>
+					<description><![CDATA[Parse error: syntax error, unexpected &#039;&#060;&#039;, expecting end of file in /home1/davidpc7/public_html/wp-content/themes/twentysixteen/functions.php on line 424]]></description>
+		<content:encoded><![CDATA[<p>Parse error: syntax error, unexpected &#8216;&lt;&#039;, expecting end of file in /home1/davidpc7/public_html/wp-content/themes/twentysixteen/functions.php on line 424</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: David				</title>
+				<link>/disable-sidebar/#comment-211</link>
+		<dc:creator><![CDATA[David]]></dc:creator>
+		<pubDate>Sat, 03 Jun 2017 16:57:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-211</guid>
+					<description><![CDATA[i messed something up...real bad.  i posted the code to the function.php page but it gave me an error in line 424 (something like that).  i removed the code and refreshed and now the page wont load.
+
+please help!]]></description>
+		<content:encoded><![CDATA[<p>i messed something up&#8230;real bad.  i posted the code to the function.php page but it gave me an error in line 424 (something like that).  i removed the code and refreshed and now the page wont load.</p>
+<p>please help!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Elkanah Nyauma Ondieki				</title>
+				<link>/disable-sidebar/#comment-207</link>
+		<dc:creator><![CDATA[Elkanah Nyauma Ondieki]]></dc:creator>
+		<pubDate>Fri, 07 Apr 2017 10:13:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-207</guid>
+					<description><![CDATA[Log in to your cpanel, click on file manager and go to public.html folder. Click on wp-content (if you are using WordPress to design the site) and locate themes. Delete the theme and reinstall it again, your website will be back to normal again.]]></description>
+		<content:encoded><![CDATA[<p>Log in to your cpanel, click on file manager and go to public.html folder. Click on wp-content (if you are using WordPress to design the site) and locate themes. Delete the theme and reinstall it again, your website will be back to normal again.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Rishitha				</title>
+				<link>/disable-sidebar/#comment-202</link>
+		<dc:creator><![CDATA[Rishitha]]></dc:creator>
+		<pubDate>Tue, 18 Oct 2016 14:41:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-202</guid>
+					<description><![CDATA[Hi,
+
+I want to remove sidebar from all pages. I went through the above code and I am not very clear about where to paste the above code in order to disable the sidebar. My single.php looks like this. Could you please help me with this? Also I had experiences of the whole site stopping working as soon as I modify something in functions.php file. Can anyone please share what precautions we need to take before deploying changes to our functions.php page.
+
+
+
+		
+		
+			
+			
+				
+			
+	    
+	
+
+
+]]></description>
+		<content:encoded><![CDATA[<p>Hi,</p>
+<p>I want to remove sidebar from all pages. I went through the above code and I am not very clear about where to paste the above code in order to disable the sidebar. My single.php looks like this. Could you please help me with this? Also I had experiences of the whole site stopping working as soon as I modify something in functions.php file. Can anyone please share what precautions we need to take before deploying changes to our functions.php page.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Musharib Yousafzai				</title>
+				<link>/disable-sidebar/#comment-201</link>
+		<dc:creator><![CDATA[Musharib Yousafzai]]></dc:creator>
+		<pubDate>Sat, 08 Oct 2016 23:59:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-201</guid>
+					<description><![CDATA[this is so bad when i paste the code in my functions.php file my entire site work stoped, as well as my wordpress admin page not showing please guide men what should i do for recover my site???]]></description>
+		<content:encoded><![CDATA[<p>this is so bad when i paste the code in my functions.php file my entire site work stoped, as well as my wordpress admin page not showing please guide men what should i do for recover my site???</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: MysticalSilence				</title>
+				<link>/disable-sidebar/#comment-199</link>
+		<dc:creator><![CDATA[MysticalSilence]]></dc:creator>
+		<pubDate>Sun, 20 Mar 2016 20:18:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-199</guid>
+					<description><![CDATA[Go to your cPanel on host and navigate to functions.php of your theme. Then open the file in an editor and delete all changes. It worked for me.]]></description>
+		<content:encoded><![CDATA[<p>Go to your cPanel on host and navigate to functions.php of your theme. Then open the file in an editor and delete all changes. It worked for me.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: dreweastmead				</title>
+				<link>/disable-sidebar/#comment-198</link>
+		<dc:creator><![CDATA[dreweastmead]]></dc:creator>
+		<pubDate>Fri, 11 Mar 2016 17:05:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-198</guid>
+					<description><![CDATA[I did the first step, added 5 lines of code to &#039;functions.php&#039; and my entire wordpress site and admin side went blank. now i have no way of even logging into my admin site to undo what i just did. awesome. thanks a lot!]]></description>
+		<content:encoded><![CDATA[<p>I did the first step, added 5 lines of code to &#8216;functions.php&#8217; and my entire wordpress site and admin side went blank. now i have no way of even logging into my admin site to undo what i just did. awesome. thanks a lot!</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Brent Lagerman				</title>
+				<link>/disable-sidebar/#comment-187</link>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+		<pubDate>Mon, 17 Aug 2015 19:07:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2936#comment-187</guid>
+					<description><![CDATA[ah ok gotcha.  I edited the post a bit to make it more beginner friendly, can you try following the instructions again?  You will need to edit the PHP files using your text editor or WordPress&#039; editor]]></description>
+		<content:encoded><![CDATA[<p>ah ok gotcha.  I edited the post a bit to make it more beginner friendly, can you try following the instructions again?  You will need to edit the PHP files using your text editor or WordPress&#8217; editor</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

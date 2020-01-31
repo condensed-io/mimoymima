@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>California &#8211; mimoYmima</title>
+	<atom:link href="/tag/california/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 30 Sep 2014 08:34:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Collaborate Creations</title>
+		<link>/collaborate-creations/</link>
+				<comments>/collaborate-creations/#comments</comments>
+				<pubDate>Mon, 23 Nov 2009 04:23:54 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[California]]></category>
+		<category><![CDATA[collaborate creations]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[logo]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2343</guid>
+				<description><![CDATA[<p>We're in the middle of designing a logo for this West coast group who has a very interesting niche.</p>
+<p>The post <a rel="nofollow" href="/collaborate-creations/">Collaborate Creations</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;re in the middle of designing a logo for this West coast group who has a very interesting niche, they are personal coaches and they also do creative consulting for west coast film industry creatives.  So they deal predominately with actors, screenwriters, and the other hollywood types.</p>
+
+<img src="http://www.mimoymima.com/wp-content/uploads/2009/11/Screen-shot-2009-12-01-at-1.52.41-PM.png" alt="Collaborate Creations Logo V4" title="Collaborate Creations Logo designed by mimoYmima.com" class="aligncenter" /> <p>The post <a rel="nofollow" href="/collaborate-creations/">Collaborate Creations</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/collaborate-creations/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+							</item>
+	</channel>
+</rss>

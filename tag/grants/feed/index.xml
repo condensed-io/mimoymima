@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>grants &#8211; mimoYmima</title>
+	<atom:link href="/tag/grants/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 03 Jan 2015 21:27:24 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>BrainGig</title>
+		<link>/braingig/</link>
+				<comments>/braingig/#comments</comments>
+				<pubDate>Sun, 06 Mar 2011 09:12:34 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[braingig]]></category>
+		<category><![CDATA[foundation]]></category>
+		<category><![CDATA[front-end coding]]></category>
+		<category><![CDATA[grant search engine]]></category>
+		<category><![CDATA[grants]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[search engine design]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3669</guid>
+				<description><![CDATA[<p>We just finished designing and creating the front-end HTML templates for BrainGig.com &#8211; a search engine that connects grant seekers with grant funders: Homepage Design Other Design Concepts</p>
+<p>The post <a rel="nofollow" href="/braingig/">BrainGig</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just finished designing and creating the front-end HTML templates for BrainGig.com &#8211; a search engine that connects grant seekers with grant funders:</p>
+
+<h2>Homepage Design</h2>
+
+<img src="/wp-content/uploads/2011/03/braingig_homepage.jpg" alt="braingig_homepage" class="alignnone size-full wp-image-6250" srcset="/wp-content/uploads/2011/03/braingig_homepage.jpg 990w, /wp-content/uploads/2011/03/braingig_homepage-170x300.jpg 170w, /wp-content/uploads/2011/03/braingig_homepage-579x1024.jpg 579w" sizes="(max-width: 990px) 100vw, 990px" />
+
+<h2>Other Design Concepts</h2>
+
+<img src="/wp-content/uploads/2011/03/one_revised.png" alt="one_revised" class="alignnone size-full" />
+
+<img src="/wp-content/uploads/2011/03/two_revised.png" alt="two_revised" class="alignnone size-full" /><p>The post <a rel="nofollow" href="/braingig/">BrainGig</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/braingig/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>photo contest &#8211; mimoYmima</title>
+	<atom:link href="/tag/photo-contest/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 28 Sep 2010 12:16:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>RE-Launch &#8211; ETC Sweepstakes</title>
+		<link>/re-launch-etc-sweepstakes/</link>
+				<comments>/re-launch-etc-sweepstakes/#respond</comments>
+				<pubDate>Tue, 28 Sep 2010 12:16:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[etc]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[photo contest]]></category>
+		<category><![CDATA[re-launch]]></category>
+		<category><![CDATA[sweepstakes]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3406</guid>
+				<description><![CDATA[<p>We&#8217;ve made some improvements to the European Travel Commission&#8217;s photo contest and it&#8217;s been re-launched. This means you have another chance to win a trip to Europe.</p>
+<p>The post <a rel="nofollow" href="/re-launch-etc-sweepstakes/">RE-Launch &#8211; ETC Sweepstakes</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;ve made some improvements to the European Travel Commission&#8217;s photo contest and it&#8217;s been re-launched.  This means you have another chance to win a trip to Europe.</p>
+
+<a href="http://www.visiteurope.com/youandeurope"><img src="http://www.mimoymima.com/wp-content/uploads/2010/09/etc_img.jpg" alt="europe photo" title="etc_img"  class="aligncenter size-full wp-image-3408" /></a><p>The post <a rel="nofollow" href="/re-launch-etc-sweepstakes/">RE-Launch &#8211; ETC Sweepstakes</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/re-launch-etc-sweepstakes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>You and Europe Photo Contest</title>
+		<link>/you-and-europe-photo-contest/</link>
+				<comments>/you-and-europe-photo-contest/#comments</comments>
+				<pubDate>Tue, 25 May 2010 04:19:40 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[etc]]></category>
+		<category><![CDATA[photo contest]]></category>
+		<category><![CDATA[Spring O'Brien]]></category>
+		<category><![CDATA[sweepstakes]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3193</guid>
+				<description><![CDATA[<p>We recently finished the programming on our first online sweepstakes.  It's a photo contest and anyone can enter (anyone but us unfortunately) ... just upload a photo of you in Europe and you could win a four day trip to Budapest and a Leica camera.</p>
+<p>The post <a rel="nofollow" href="/you-and-europe-photo-contest/">You and Europe Photo Contest</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We recently finished the programming on our first online sweepstakes.  It&#8217;s a photo contest and anyone can enter (anyone but us unfortunately) &#8230; just upload a photo of you in Europe and you could win a four day trip to Budapest and a Leica camera.</p>
+
+<a href="http://www.visiteurope.com/youandeurope" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2010/05/etc_photo1.jpg" alt="" title="etc_photo" width="525" height="181" class="aligncenter size-full wp-image-3195" /></a>
+
+<p>To enter, go to the <a href="http://www.visiteurope.com/youandeurope">visit Europe website</a>, scroll down a bit and then click the link that says <strong>&#8216;Enter the You And Europe Photo Contest&#8217;</strong>.<br />  Good Luck!</p>
+
+
+ <p>The post <a rel="nofollow" href="/you-and-europe-photo-contest/">You and Europe Photo Contest</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/you-and-europe-photo-contest/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

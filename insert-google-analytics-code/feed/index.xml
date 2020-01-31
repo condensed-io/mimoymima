@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Insert Google Analytics code	</title>
+	<atom:link href="/insert-google-analytics-code/feed/" rel="self" type="application/rss+xml" />
+	<link>/insert-google-analytics-code/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 01 Dec 2015 15:08:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: Brent Lagerman				</title>
+				<link>/insert-google-analytics-code/#comment-194</link>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+		<pubDate>Tue, 01 Dec 2015 15:08:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2232#comment-194</guid>
+					<description><![CDATA[Thanks Igor!  Going to give it a try.]]></description>
+		<content:encoded><![CDATA[<p>Thanks Igor!  Going to give it a try.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Igor C. A. de Lima				</title>
+				<link>/insert-google-analytics-code/#comment-191</link>
+		<dc:creator><![CDATA[Igor C. A. de Lima]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2015 16:32:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2232#comment-191</guid>
+					<description><![CDATA[I&#039;m pretty sure you&#039;ve solved this issue by now. As you may have noticed, the problem with the code above was the fact that the second part (tracking initialisation) of your code was being run before the gs.js had been downloaded. In case of anyone coming across this page with the same problem, here&#039;s how it may be solved with vanilla JS:
+
+function loadScript( url, callback ) {
+  var script = document.createElement( &quot;script&quot; )
+  script.type = &quot;text/javascript&quot;;
+  if(script.readyState) {  //IE
+    script.onreadystatechange = function() {
+      if ( script.readyState === &quot;loaded&quot; &#124;&#124; script.readyState === &quot;complete&quot; ) {
+        script.onreadystatechange = null;
+        callback();
+      }
+    };
+  } else {  //Others
+    script.onload = function() {
+      callback();
+    };
+  }
+  script.src = url;
+  document.body.appendChild( script );
+}
+
+var gaJsHost = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssl.&quot;/ : &quot;http://www.&quot;);/
+var analyticsUrl = gaJsHost + &quot;google-analytics.com/ga.js&quot;;
+loadScript(analyticsUrl, function() {
+  try {
+    var pageTracker = _gat._getTracker(&quot;XX-XXXXXXXX-X&quot;);
+    pageTracker._trackPageview();
+  } catch (err) {}
+});]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;m pretty sure you&#8217;ve solved this issue by now. As you may have noticed, the problem with the code above was the fact that the second part (tracking initialisation) of your code was being run before the gs.js had been downloaded. In case of anyone coming across this page with the same problem, here&#8217;s how it may be solved with vanilla JS:</p>
+<p>function loadScript( url, callback ) {<br />
+  var script = document.createElement( &#8220;script&#8221; )<br />
+  script.type = &#8220;text/javascript&#8221;;<br />
+  if(script.readyState) {  //IE<br />
+    script.onreadystatechange = function() {<br />
+      if ( script.readyState === &#8220;loaded&#8221; || script.readyState === &#8220;complete&#8221; ) {<br />
+        script.onreadystatechange = null;<br />
+        callback();<br />
+      }<br />
+    };<br />
+  } else {  //Others<br />
+    script.onload = function() {<br />
+      callback();<br />
+    };<br />
+  }<br />
+  script.src = url;<br />
+  document.body.appendChild( script );<br />
+}</p>
+<p>var gaJsHost = ((&#8220;https:&#8221; == document.location.protocol) ? &#8220;https://ssl.&/#8221; : &#8220;http://www.&/#8221;);<br />
+var analyticsUrl = gaJsHost + &#8220;google-analytics.com/ga.js&#8221;;<br />
+loadScript(analyticsUrl, function() {<br />
+  try {<br />
+    var pageTracker = _gat._getTracker(&#8220;XX-XXXXXXXX-X&#8221;);<br />
+    pageTracker._trackPageview();<br />
+  } catch (err) {}<br />
+});</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ypi &#8211; mimoYmima</title>
+	<atom:link href="/tag/ypi/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 03 Aug 2015 16:26:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>launch: YPI</title>
+		<link>/launch-ypi/</link>
+				<comments>/launch-ypi/#respond</comments>
+				<pubDate>Tue, 05 Feb 2013 17:09:56 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[web design]]></category>
+		<category><![CDATA[wordpress]]></category>
+		<category><![CDATA[ypi]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4803</guid>
+				<description><![CDATA[<p>A boutique introductions firm that takes a fresh approach to matchmaking.</p>
+<p>The post <a rel="nofollow" href="/launch-ypi/">launch: YPI</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2013/01/screen-ypi-1.jpg" alt="YPI website by mimoYmima" class="aligncenter size-full wp-image-4806" /></p>
+<p class="intro">A boutique introductions firm that takes a fresh approach to matchmaking. Their approach is not based on algorithms &#8211; they take the time to actually get to know each client. They&#8217;re staffed with people, not robots.</p>
+<p>The post <a rel="nofollow" href="/launch-ypi/">launch: YPI</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/launch-ypi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

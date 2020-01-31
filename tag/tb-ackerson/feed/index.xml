@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tb ackerson &#8211; mimoYmima</title>
+	<atom:link href="/tag/tb-ackerson/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 01 Jan 2015 20:10:07 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>TB Ackerson Wine Merchants</title>
+		<link>/tb-ackerson-wine-merchants/</link>
+				<comments>/tb-ackerson-wine-merchants/#respond</comments>
+				<pubDate>Sun, 18 May 2014 20:19:30 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ad]]></category>
+		<category><![CDATA[celebrate brooklyn]]></category>
+		<category><![CDATA[print]]></category>
+		<category><![CDATA[tb ackerson]]></category>
+		<category><![CDATA[wine]]></category>
+
+		<guid isPermaLink="false">/?p=5937</guid>
+				<description><![CDATA[<p>Here&#8217;s a quick advertisement we threw together for TB Ackerson, a local Brooklyn wine shop that needed a last minute print piece for Celebrate Brooklyn:</p>
+<p>The post <a rel="nofollow" href="/tb-ackerson-wine-merchants/">TB Ackerson Wine Merchants</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Here&#8217;s a quick advertisement we threw together for TB Ackerson, a local Brooklyn wine shop that needed a last minute print piece for Celebrate Brooklyn:</p>
+<p><img src="/wp-content/uploads/2014/12/tb-ackerson-ad-for-celebrate-brooklyn.jpg" alt="tb-ackerson-ad-for-celebrate-brooklyn" class="alignnone size-full wp-image-5938" srcset="/wp-content/uploads/2014/12/tb-ackerson-ad-for-celebrate-brooklyn.jpg 1600w, /wp-content/uploads/2014/12/tb-ackerson-ad-for-celebrate-brooklyn-300x182.jpg 300w, /wp-content/uploads/2014/12/tb-ackerson-ad-for-celebrate-brooklyn-1024x620.jpg 1024w" sizes="(max-width: 1600px) 100vw, 1600px" /></p>
+<p>The post <a rel="nofollow" href="/tb-ackerson-wine-merchants/">TB Ackerson Wine Merchants</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/tb-ackerson-wine-merchants/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

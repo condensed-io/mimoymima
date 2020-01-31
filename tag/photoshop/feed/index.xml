@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Photoshop &#8211; mimoYmima</title>
+	<atom:link href="/tag/photoshop/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 20:49:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Photoshop links</title>
+		<link>/photoshop-links/</link>
+				<comments>/photoshop-links/#comments</comments>
+				<pubDate>Fri, 06 Nov 2009 20:49:10 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[Photoshop]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2145</guid>
+				<description><![CDATA[<p>Photoshop is a part of every web designers arsenal, even if you decide to do most of your design work in Illustrator or Flash, you'd still use photoshop to cut up images and save them for the web.  Also there are a lot of effects you can add to vector art work, not to mention good old fashioned image retouching...</p>
+<p>The post <a rel="nofollow" href="/photoshop-links/">Photoshop links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Photoshop is a part of every web designers arsenal, even if you decide to do most of your design work in Illustrator or Flash, you&#8217;d still use photoshop to cut up images and save them for the web.  Also there are a lot of effects you can add to vector art work, not to mention good old fashioned image retouching&#8230;</p>
+
+<dl class="DictList">
+
+<dt><a class="lightview" href="http://psdtuts.com/" title="Photoshop Tutorials :: :: fullscreen: true">PSDTuts: Spoonfed Photoshop</a></dt>
+<dd>Great tutorials showing you how to create some of the latest effects you see on sites.</dd>
+
+<dt><a class="lightview" href="http://www.telegraphics.com.au/sw/" title="Favicons Plugin for Photoshop :: :: fullscreen: true">Plugin to make favicons</a></dt>
+<dd>Favicons are the tiny icons next to the url on your browser</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/photoshop-links/">Photoshop links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/photoshop-links/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+	</channel>
+</rss>

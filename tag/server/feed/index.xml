@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>server &#8211; mimoYmima</title>
+	<atom:link href="/tag/server/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 15 Jan 2010 18:28:27 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Server &#038; Domain Name Transfer Guide</title>
+		<link>/server-domain-name-transfer-guide/</link>
+				<comments>/server-domain-name-transfer-guide/#respond</comments>
+				<pubDate>Fri, 15 Jan 2010 18:28:27 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[server]]></category>
+		<category><![CDATA[server transfer]]></category>
+		<category><![CDATA[sys admin]]></category>
+		<category><![CDATA[transfer domain]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2694</guid>
+				<description><![CDATA[<p>mx records, nameservers, imap mailboxes... Is your head spinning?  Server transfers are THE most frustrating thing a web designer deals with.  I say this because when things go wrong with a transfer, it gets ugly, either your client's email goes down or their website does, or both... so there's a lot riding on YOU doing everything right...</p>
+<p>The post <a rel="nofollow" href="/server-domain-name-transfer-guide/">Server &#038; Domain Name Transfer Guide</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">mx records, nameservers, imap mailboxes&#8230; Is your head spinning?  Server transfers are THE most frustrating thing a web designer deals with.  I say this because when things go wrong with a transfer, it gets ugly, either your client&#8217;s email goes down or their website does, or both&#8230; so there&#8217;s a lot riding on YOU doing everything right&#8230;</p>
+
+<div class="Photo"><img src="http://www.mimoymima.com/wp-content/uploads/2010/01/mikey.jpg" alt="" title="mikey" width="525" height="192" class="aligncenter size-full wp-image-2705" /></div>
+
+<h2>Disclaimer</h2>
+
+<p>I&#8217;d like to preface this article by saying that we&#8217;re just web designers who have dealt with a ton of shared servers, we&#8217;re not professional system admins&#8230;  This page sums up our findings mainly so we can re-visit it and remember how we did it ourselves.  Hopefully it&#8217;ll be useful to others, I&#8217;ve never found a page that sums it up in a way that is easy to understand so I&#8217;ll try to make this useful to newbies and veterans alike.</p>
+
+<p>If you haven&#8217;t already made a decision about who you want to use for a web host, check out the two that we recommend, they&#8217;ve been the best for us.</p>
+
+<h2>Do these things in this order</h2>
+
+<ol>
+
+<li>FTP all site files from the old server to your desktop</li>
+
+<li>FTP site files onto the new server <em>You should be able to use the new server&#8217;s temporary domain (or access domain) to see the site.</em></li>
+
+<li>If there is IMAP email saved on the old server, download the main folders to your desktop (they will be in a &#8216;mail&#8217; directory and will be named the same names as the email accounts.</li>
+
+<li>On the new server setup the email accounts that exist on the old server, <strong>use the exact same names and passwords</strong>.</li>
+
+<li>Once you have setup the mail accounts if you ftp into the new server you should see a /mail/ folder and in it the new folders with the names of your accounts.  FTP the mail from your desktop onto the new server.</li>
+
+<li>Edit the index file on your old server and add an HTML comment at the bottom of the page that says the name of the server company.</li>
+
+<li>Go into your new server and edit that index and also add a comment with the name of the server company in it.</li>
+
+<li>Change the nameservers in the domain name admin area to point to the new server.</li>
+
+<li>Wait while DNS propagates <em>(this can take up to 2 days I&#8217;ve heard but In my experience it&#8217;s taken from 1-10 hours)</em>.  You can go to the website through the normal www. url and view the source of the page and scroll to the bottom to see the comment that will tell you what server is serving the page.</li>
+
+<li>Once you&#8217;re seeing the comment showing you the new server name you can celebrate and have a drink.</li>
+
+<li>Now you want to initiate the transfer of the domain.  You&#8217;ll need to get what&#8217;s called an auth code (AKA authorization code, transfer code, or EPP code).  You can usually request this inside the admin area for the domainname, but with some ghetto server companies you have to actually call them and get it over the phone.</li>
+
+<li>Call or email your new server company and have them give you instructions for starting the transfer.  Usually it&#8217;s just replying to an email from them with the auth code</li>
+
+<li>When it&#8217;s ready to go through, the new registrar will email the admin email on file for the domain name (make sure this is you, or you&#8217;ve told the person to look out for this email)  They will normally need to give the auth code again to the new registrar, so make sure they have it.</li>
+
+<li>Wait&#8230; A server transfer can take up to two weeks</li>
+
+<li>Celebrate again.</li>
+
+</ol> <p>The post <a rel="nofollow" href="/server-domain-name-transfer-guide/">Server &#038; Domain Name Transfer Guide</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/server-domain-name-transfer-guide/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>.htaccess links</title>
+		<link>/htaccess-links/</link>
+				<comments>/htaccess-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 17:21:58 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[htaccess]]></category>
+		<category><![CDATA[server]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2115</guid>
+				<description><![CDATA[<p>The .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled... etc.</p>
+<p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">the .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled&#8230; etc&#8230;</p>
+
+<a href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_htaccess.jpg" alt="Margo on the prowl" width="525" height="115" class="aligncenter" /></a>
+
+<dl class="DictList">
+
+<dt><a class="lightview" title="Beginners Guide to .htaccess :: :: fullscreen: true" href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/">.htaccess for beginners</a></dt>
+<dd>Your .htaccess file is what you use to make configurations to a shared server on a per-directory basis.  This means that you can .  When you get server space you are typically sharing it with a lot of others, so for security and logistic reasons, the server company can&#8217;t let you change the configuration of the entire server.  The .htaccess file is what you use to make custom error pages, redirect people, restrict access to certain pages &hellip;</dd>
+
+<dt><a class="lightview" title="Password Protection with .htaccess :: :: fullscreen: true" href="http://tools.dynamicdrive.com/password/">Password Protect</a></dt>
+<dd>The best page on the net to show you how to password protect your pages using .htaccess</dd>
+				
+</dl> <p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/htaccess-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fout &#8211; mimoYmima</title>
+	<atom:link href="/tag/fout/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 23 Feb 2015 23:12:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>SUPER SIMPLE FULL PAGE PRELOADER</title>
+		<link>/super-simple-preloader/</link>
+				<comments>/super-simple-preloader/#comments</comments>
+				<pubDate>Fri, 14 Sep 2012 22:42:50 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[@font-face]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[fout]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[pre-load]]></category>
+		<category><![CDATA[preloader]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4701</guid>
+				<description><![CDATA[<p>Here's a super simple preloader that you can add onto any type of project</p>
+<p>The post <a rel="nofollow" href="/super-simple-preloader/">SUPER SIMPLE FULL PAGE PRELOADER</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Here&#8217;s a super simple pre-loader that you can add onto any type of project</p>
+<p>We put it on CodePen to make it easy to see it working:</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="fisgL" data-default-tab="result" data-user="mimoYmima" class='codepen'>See the Pen <a href='http://codepen.io/mimoYmima/pen/fisgL/'>SUPER SIMPLE FULL PAGE PRELOADER</a> by Brent Lagerman (<a href='http://codepen.io/mimoYmima'>@mimoYmima</a>) on <a href='http://codepen.io/'>CodePen</a>.</p>
+<p><script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+<p><a href="http://codepen.io/mimoYmima/pen/fisgL">http://codepen.io/mimoYmima/pen/fisgL</a></p>
+<p>The post <a rel="nofollow" href="/super-simple-preloader/">SUPER SIMPLE FULL PAGE PRELOADER</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/super-simple-preloader/feed/</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+							</item>
+	</channel>
+</rss>

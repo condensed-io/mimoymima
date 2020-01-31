@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: SASS mixin for responsive SVGs	</title>
+	<atom:link href="/sass-mixin-responsive-svgs/feed/" rel="self" type="application/rss+xml" />
+	<link>/sass-mixin-responsive-svgs/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 19 Mar 2015 22:53:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: roblevintennis				</title>
+				<link>/sass-mixin-responsive-svgs/#comment-180</link>
+		<dc:creator><![CDATA[roblevintennis]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2015 22:53:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=5478#comment-180</guid>
+					<description><![CDATA[Interesting and similar to my http://unicorn-ui.com/blog/responsive-svg-mixin.html – my only concern here is that you&#039;re going to have duplication for svg { ... } even though you only need it once. I also feel that just setting the width to 100 percent and then scaling on the padding-bottom is most fluid choice.
+
+
+Thanks for sharing your code mimoymima]]></description>
+		<content:encoded><![CDATA[<p>Interesting and similar to my <a href="http://unicorn-ui.com/blog/responsive-svg-mixin.html" rel="nofollow ugc">http://unicorn-ui.com/blog/responsive-svg-mixin.html</a> – my only concern here is that you&#8217;re going to have duplication for svg { &#8230; } even though you only need it once. I also feel that just setting the width to 100 percent and then scaling on the padding-bottom is most fluid choice.</p>
+<p>Thanks for sharing your code mimoymima</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

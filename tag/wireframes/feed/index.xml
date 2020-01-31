@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wireframes &#8211; mimoYmima</title>
+	<atom:link href="/tag/wireframes/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 26 Dec 2014 22:14:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Postscript Brooklyn</title>
+		<link>/postscript-brooklyn/</link>
+				<comments>/postscript-brooklyn/#respond</comments>
+				<pubDate>Mon, 02 Nov 2009 06:50:53 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[store]]></category>
+		<category><![CDATA[wireframes]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1939</guid>
+				<description><![CDATA[<p>Lion In the Sun, Brooklyn's greatest paperie, is having us make them an online store for their Wedding Invitation business called PS Brooklyn.  We've just finished making the wireframes (a wireframe is like a blueprint for a website)</p>
+<p>The post <a rel="nofollow" href="/postscript-brooklyn/">Postscript Brooklyn</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[We just launched the custom web <a href="http://psbrooklyn.com/" title="Brooklyn custom designed wedding invitations">store for PSBrooklyn</a>, a Brooklyn inspired wedding invitation business. The site has only been live for a week and already it’s getting great press, including being featured on Daily Candy.
+
+<h2>Website Design Comps</h2>
+
+<img src="/wp-content/uploads/2009/11/1.jpg" alt="1" class="alignnone size-full wp-image-5990" srcset="/wp-content/uploads/2009/11/1.jpg 1042w, /wp-content/uploads/2009/11/1-262x300.jpg 262w, /wp-content/uploads/2009/11/1-895x1024.jpg 895w" sizes="(max-width: 1042px) 100vw, 1042px" />
+
+<img src="/wp-content/uploads/2009/11/2.jpg" alt="2" class="alignnone size-full wp-image-5989" srcset="/wp-content/uploads/2009/11/2.jpg 998w, /wp-content/uploads/2009/11/2-190x300.jpg 190w, /wp-content/uploads/2009/11/2-648x1024.jpg 648w" sizes="(max-width: 998px) 100vw, 998px" />
+
+<img src="/wp-content/uploads/2009/11/3.jpg" alt="3" class="alignnone size-full wp-image-5988" srcset="/wp-content/uploads/2009/11/3.jpg 1066w, /wp-content/uploads/2009/11/3-165x300.jpg 165w, /wp-content/uploads/2009/11/3-564x1024.jpg 564w" sizes="(max-width: 1066px) 100vw, 1066px" />
+
+<img src="/wp-content/uploads/2009/11/4.jpg" alt="4" class="alignnone size-full wp-image-5987" srcset="/wp-content/uploads/2009/11/4.jpg 1030w, /wp-content/uploads/2009/11/4-198x300.jpg 198w, /wp-content/uploads/2009/11/4-674x1024.jpg 674w" sizes="(max-width: 1030px) 100vw, 1030px" />
+
+<img src="/wp-content/uploads/2009/11/5.jpg" alt="5" class="alignnone size-full wp-image-5986" srcset="/wp-content/uploads/2009/11/5.jpg 1049w, /wp-content/uploads/2009/11/5-138x300.jpg 138w, /wp-content/uploads/2009/11/5-471x1024.jpg 471w" sizes="(max-width: 1049px) 100vw, 1049px" />
+
+<h2>Blog Design Comp</h2>
+
+<img src="/wp-content/uploads/2009/11/psbrooklyn-blog_v1.jpg" alt="psbrooklyn-blog_v1" class="alignnone size-full wp-image-5977" srcset="/wp-content/uploads/2009/11/psbrooklyn-blog_v1.jpg 1146w, /wp-content/uploads/2009/11/psbrooklyn-blog_v1-229x300.jpg 229w, /wp-content/uploads/2009/11/psbrooklyn-blog_v1-782x1024.jpg 782w" sizes="(max-width: 1146px) 100vw, 1146px" /><p>The post <a rel="nofollow" href="/postscript-brooklyn/">Postscript Brooklyn</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/postscript-brooklyn/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

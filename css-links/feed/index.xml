@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: CSS links	</title>
+	<atom:link href="/css-links/feed/" rel="self" type="application/rss+xml" />
+	<link>/css-links/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 28 May 2010 10:54:19 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: mimoymima				</title>
+				<link>/css-links/#comment-3</link>
+		<dc:creator><![CDATA[mimoymima]]></dc:creator>
+		<pubDate>Fri, 28 May 2010 10:54:19 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2122#comment-3</guid>
+					<description><![CDATA[my 2 cents: Novice CSS designers don&#039;t think about semantics which is why they are novices :D .. and a WYSIWYG editor doesn&#039;t need to generate bad code but for some reason most of them do.  The editor in WordPress generates paragraphs like crazy so we have to hack it to turn that off, and in general it gives the client too many options for styling their text.  We normally tell our clients not to mess with fonts or colors because they are controlled within the CSS, it&#039;d be good to just remove that functionality from the WYSIWYG editor... ]]></description>
+		<content:encoded><![CDATA[<p>my 2 cents: Novice CSS designers don&#039;t think about semantics which is why they are novices 😀 .. and a WYSIWYG editor doesn&#039;t need to generate bad code but for some reason most of them do.  The editor in WordPress generates paragraphs like crazy so we have to hack it to turn that off, and in general it gives the client too many options for styling their text.  We normally tell our clients not to mess with fonts or colors because they are controlled within the CSS, it&#039;d be good to just remove that functionality from the WYSIWYG editor&#8230; </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Stevie Bigda				</title>
+				<link>/css-links/#comment-2</link>
+		<dc:creator><![CDATA[Stevie Bigda]]></dc:creator>
+		<pubDate>Fri, 28 May 2010 10:33:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2122#comment-2</guid>
+					<description><![CDATA[Even novice CSS designers formulate a mental model assigning semantics to web page divisions across sections of a web site. CSS design doesn&#039;t lend itself well to WYSIWYG editing, because it separates style from content, and because of the way inheritance and the cascade work. ]]></description>
+		<content:encoded><![CDATA[<p>Even novice CSS designers formulate a mental model assigning semantics to web page divisions across sections of a web site. CSS design doesn&#039;t lend itself well to WYSIWYG editing, because it separates style from content, and because of the way inheritance and the cascade work. </p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

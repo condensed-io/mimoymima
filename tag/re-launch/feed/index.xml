@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>re-launch &#8211; mimoYmima</title>
+	<atom:link href="/tag/re-launch/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 28 Sep 2010 12:16:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>RE-Launch &#8211; ETC Sweepstakes</title>
+		<link>/re-launch-etc-sweepstakes/</link>
+				<comments>/re-launch-etc-sweepstakes/#respond</comments>
+				<pubDate>Tue, 28 Sep 2010 12:16:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[etc]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[photo contest]]></category>
+		<category><![CDATA[re-launch]]></category>
+		<category><![CDATA[sweepstakes]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3406</guid>
+				<description><![CDATA[<p>We&#8217;ve made some improvements to the European Travel Commission&#8217;s photo contest and it&#8217;s been re-launched. This means you have another chance to win a trip to Europe.</p>
+<p>The post <a rel="nofollow" href="/re-launch-etc-sweepstakes/">RE-Launch &#8211; ETC Sweepstakes</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We&#8217;ve made some improvements to the European Travel Commission&#8217;s photo contest and it&#8217;s been re-launched.  This means you have another chance to win a trip to Europe.</p>
+
+<a href="http://www.visiteurope.com/youandeurope"><img src="http://www.mimoymima.com/wp-content/uploads/2010/09/etc_img.jpg" alt="europe photo" title="etc_img"  class="aligncenter size-full wp-image-3408" /></a><p>The post <a rel="nofollow" href="/re-launch-etc-sweepstakes/">RE-Launch &#8211; ETC Sweepstakes</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/re-launch-etc-sweepstakes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

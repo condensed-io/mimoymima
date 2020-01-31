@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MySQL &#8211; mimoYmima</title>
+	<atom:link href="/tag/mysql/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 21:37:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>MySQL links</title>
+		<link>/mysql-links/</link>
+				<comments>/mysql-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 21:37:37 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[MySQL]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2159</guid>
+				<description><![CDATA[<p>For a beginning web designer MySQL can seem a bit daunting, but a little learning goes a long way, when you get into making sites with Wordpress or another CMS for instance, it pays to know how to get into phpMyAdmin (or sequelpro) and run sql queries on your database incase you need to search and replace text (just one example)</p>
+<p>The post <a rel="nofollow" href="/mysql-links/">MySQL links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">For a beginning web designer MySQL can seem a bit daunting, but a little learning goes a long way, when you get into making sites with WordPress or another CMS for instance, it pays to know how to get into phpMyAdmin (or sequelpro) and run sql queries on your database incase you need to search and replace text (just one example)</p>
+
+<dl class="DictList">
+
+<dt><a class="lightview" href="http://www.tizag.com/mysqlTutorial/mysqljoins.php" title="Beginner MySQL tutorials :: :: fullscreen: true">Tizag MySQL Tutorials</a></dt>
+<dd>Great tutorial for beginners to learn MySQL.</dd>
+
+<dt><a class="lightview" href="http://www.sequelpro.com/" title="mac application to connect to your databases :: :: fullscreen: true">Cocoa mySQL</a></dt>
+<dd>Open Source Database manager you can use to connect and easily edit your database tables from local computer (mac only).</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/mysql-links/">MySQL links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/mysql-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

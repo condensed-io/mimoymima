@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>instructions &#8211; mimoYmima</title>
+	<atom:link href="/tag/instructions/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 24 Nov 2014 20:01:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Typepad to WordPress Migration</title>
+		<link>/typepad-to-wordpress-migration/</link>
+				<comments>/typepad-to-wordpress-migration/#comments</comments>
+				<pubDate>Tue, 23 Feb 2010 18:08:56 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[instructions]]></category>
+		<category><![CDATA[migration]]></category>
+		<category><![CDATA[typepad]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2863</guid>
+				<description><![CDATA[<p>This is a collection of instructions we have found on different websites and hopefully will make your migration a little easier than ours was. </p>
+<p>The post <a rel="nofollow" href="/typepad-to-wordpress-migration/">Typepad to WordPress Migration</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">This is a collection of instructions we have found on different websites and hopefully will make your migration a little easier than ours was. </p>
+
+<ol>
+
+<li>Easier migration is to MovableType</li>
+
+<li>Export TypePad content<br />
+Manage &gt; Import/Export
+</li>
+
+<li>Do regular expressions directly on TypePad export file or SQL file instead of after export to cut down on errors. Or, use the Search Regex Plugin for WordPress.
+</li>
+
+<li>Disable domain mapping in Typepad if the new site keeps the same URL<br />
+Control Panel &gt; Site Access &gt; Domain Mapping
+</li>
+
+<li>Most Typepad images are stored by date:
+&#8216;http://www.DomainName.com/photos/[a-Z]+?/[0-9]{4}/[0-9]{1,2}/[0-9]{1,2}/&#8217; &gt; &#8216;/wp-content/uploads/imports/&#8217;</li>
+
+<li>Some images are stored like this:
+&#8216;http://www.DomainName.com/.a/&#8217; &gt; &#8216;/wp-content/uploads/imports/&#8217;</li>
+
+<li>Typepad links correctly to images without extensions; WordPress does not<br />
+&#8216;800wi&#8217; &gt; &#8216;800wi.jpg&#8217; or &#8216;800wi.png&#8217;, need to check image manually<br />
+&#8216;500pi&#8217; &gt; &#8216;500pi.jpg&#8217;<br />
+&#8216;320pi&#8217; &gt; &#8216;320pi.jpg&#8217;
+</li>
+
+<li>Some images may need manual fixes because their linked name is not the same as their filename<br />
+&#8216;sunny_image_2&#8217; &gt; 6a00&#8230;..jpg
+</li>
+
+<li>For replacements where the pattern to match is just a string, use phpMyAdmin<br />
+&#8220;UPDATE table SET field = REPLACE(field, &#8216;pattern&#8217;, &#8216;replacement&#8217;)&#8221; 
+</li>
+
+<li>For replacements where the match is a regular expression or the replacement uses subpatterns, use a script:
+
+<pre class="crayon-plain-tag">&amp;lt;?
+	$link = mysql_connect($address, $name, $pass) or die(mysql_error());
+	mysql_select_db($db, $link) or die(mysql_error());
+	
+	$result = mysql_query(&quot;SELECT * FROM wp_posts WHERE post_content RLIKE '$search'&quot;) or die(mysql_error());  
+	
+	while($row = mysql_fetch_array($result)) {
+		$raw = $row['post_content'];
+		$id = $row['ID'];
+		$matched = addslashes(ereg_replace($pattern, $replacement, $raw));
+		$query = &quot;UPDATE wp_posts SET post_content = '$matched' WHERE ID = '$id'&quot;;
+		mysql_query($query) or die(mysql_error());
+	}
+?&amp;gt;</pre>
+
+</li>
+
+</ol> <p>The post <a rel="nofollow" href="/typepad-to-wordpress-migration/">Typepad to WordPress Migration</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/typepad-to-wordpress-migration/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+							</item>
+		<item>
+		<title>WordPress.com to Self-hosted Migration</title>
+		<link>/wordpress-com-to-self-hosted-migration/</link>
+				<comments>/wordpress-com-to-self-hosted-migration/#respond</comments>
+				<pubDate>Tue, 23 Feb 2010 17:52:13 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[instructions]]></category>
+		<category><![CDATA[migration]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2858</guid>
+				<description><![CDATA[<p>There are a lot of instructions on line regarding blog migration from Wordpress.com to your own self-hosted wordpress site.  These instructions are based on our experience trying to follow those instructions and have a few important steps that we figured out on our own.</p>
+<p>The post <a rel="nofollow" href="/wordpress-com-to-self-hosted-migration/">WordPress.com to Self-hosted Migration</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">There are a lot of instructions on line regarding blog migration from WordPress.com to your own self-hosted wordpress site.  These instructions are based on our experience trying to follow those instructions and have a few important steps that we figured out on our own.</p>
+
+<ol>
+
+<li>Login to www.wordpress.com</li>
+
+<li>Go to Tools &gt; Export</li>
+
+<li>Login into new site</li>
+
+<li>Go to Tools &gt; Import &gt; WordPress</li>
+
+<ul class="bullet-list">
+<li>select Download and import file attachments</li>
+<li>continue to export and import the files until the &#8220;All Done&#8221; prompt appears at the bottom of the page</li>
+</ul>
+
+<li>Delete any dummy posts you have created</li>
+</ol>
+
+<h2>Domain Management</h2>
+<p>If you&#8217;re hosting your domain name with wordpress follow the <a href="http://en.support.wordpress.com/domain-mapping/domain-management/">instructions to change your nameserver information</a>.</p>
+ <p>The post <a rel="nofollow" href="/wordpress-com-to-self-hosted-migration/">WordPress.com to Self-hosted Migration</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/wordpress-com-to-self-hosted-migration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bagel &#8211; mimoYmima</title>
+	<atom:link href="/tag/bagel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 27 Dec 2014 13:45:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Beygl</title>
+		<link>/beygl/</link>
+				<comments>/beygl/#respond</comments>
+				<pubDate>Thu, 15 Nov 2012 20:55:47 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[bagel]]></category>
+		<category><![CDATA[beygl]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[design]]></category>
+		<category><![CDATA[launch]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[restaurant]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4757</guid>
+				<description><![CDATA[<p>This new Park Slope eatery has amazing bagels, or as they like to call them, beygls.  They are true to the old school methods, creating them in small batches with the best ingredients.</p>
+<p>The post <a rel="nofollow" href="/beygl/">Beygl</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">This new Park Slope eatery has *amazing* bagels, or as they like to spell them: beygls.  The funny spelling comes from the word&#8217;s yiddish origin.  These guys really know and love the process of making these things, so we spent some time illustrating a cool process page that shows how it&#8217;s done. We also like how they source wholesome local ingredients from other New York and Brooklyn vendors. You can check out their delicious menu on the website, or if you&#8217;re in the Slope stop by and pick up a beygl.</p>
+<h2>Illustration and Design</h2>
+<p><a href="http://beyglparkslope.com/" class="popup"><img src="/wp-content/uploads/2012/11/web-design_beygl-park-slope_process.jpg" alt="web-design_beygl-park-slope_process" class="alignnone size-full wp-image-5696" srcset="/wp-content/uploads/2012/11/web-design_beygl-park-slope_process.jpg 1281w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_process-180x300.jpg 180w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_process-616x1024.jpg 616w" sizes="(max-width: 1281px) 100vw, 1281px" /></a></p>
+<p><a href="http://beyglparkslope.com/" class="popup"><img src="/wp-content/uploads/2012/11/web-design_beygl-park-slope_home.jpg" alt="web-design_beygl-park-slope_home" class="alignnone size-full wp-image-5697" srcset="/wp-content/uploads/2012/11/web-design_beygl-park-slope_home.jpg 1281w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_home-300x266.jpg 300w, /wp-content/uploads/2012/11/web-design_beygl-park-slope_home-1024x908.jpg 1024w" sizes="(max-width: 1281px) 100vw, 1281px" /></a></p>
+<p><a href="http://beyglparkslope.com/">* visit the site</a></p>
+<p>The post <a rel="nofollow" href="/beygl/">Beygl</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/beygl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

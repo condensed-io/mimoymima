@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Germany &#8211; mimoYmima</title>
+	<atom:link href="/tag/germany/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 26 Dec 2014 21:54:21 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>launch : magee.de</title>
+		<link>/magee-transatlantic-integration/</link>
+				<comments>/magee-transatlantic-integration/#respond</comments>
+				<pubDate>Sat, 17 Oct 2009 18:49:47 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[Germany]]></category>
+		<category><![CDATA[John Magee]]></category>
+		<category><![CDATA[multilingual website]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=1797</guid>
+				<description><![CDATA[<p>John Magee specializes in getting Germans and Americans to put their differences aside and work together.  He's a consultant for many multinational corporations and has even written a fictional book on the subject.</p>
+<p>The post <a rel="nofollow" href="/magee-transatlantic-integration/">launch : magee.de</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>This site for Magee marks the second multi-lingual website we&#8217;ve made <em>(the first, <a href="/atlantic-television/" title="multi-language wordpress">AtlanticTV</a> was translated into four languages!)</em>.  We also created a custom slideshow section where users can make see cultural differences between the two countries, as well as a multilingual blog.</p>
+
+<h2>Web Design Comps</h2>
+
+<img src="/wp-content/uploads/2009/10/comp_v3.jpg" alt="comp_v3" class="alignnone size-full wp-image-5966" srcset="/wp-content/uploads/2009/10/comp_v3.jpg 1214w, /wp-content/uploads/2009/10/comp_v3-279x300.jpg 279w, /wp-content/uploads/2009/10/comp_v3-952x1024.jpg 952w" sizes="(max-width: 1214px) 100vw, 1214px" />
+
+<img src="/wp-content/uploads/2009/10/blog_comp.jpg" alt="blog_comp" class="alignnone size-full wp-image-5968" srcset="/wp-content/uploads/2009/10/blog_comp.jpg 1197w, /wp-content/uploads/2009/10/blog_comp-216x300.jpg 216w, /wp-content/uploads/2009/10/blog_comp-737x1024.jpg 737w" sizes="(max-width: 1197px) 100vw, 1197px" />
+
+<img src="/wp-content/uploads/2009/10/book-home_comp.jpg" alt="book-home_comp" class="alignnone size-full wp-image-5967" srcset="/wp-content/uploads/2009/10/book-home_comp.jpg 1245w, /wp-content/uploads/2009/10/book-home_comp-300x294.jpg 300w, /wp-content/uploads/2009/10/book-home_comp-1024x1004.jpg 1024w" sizes="(max-width: 1245px) 100vw, 1245px" />
+
+<p>John Magee specializes in getting Germans and Americans to put their differences aside and work together.  He&#8217;s a consultant for many multinational corporations on the subject and has even written a fictional book on the subject, here&#8217;s a short teaser from his site describing the book:</p>
+
+<blockquote><p>A German multinational takes over an American competitor. Post-merger integration fails miserably. Operating separately, consolidating their financials at the holding level, business is stable. Then comes the worldwide economic downturn, threatening the very survival of the company. How to respond? Breakup or a last attempt at joining forces. For the two CEOs, an American in Philadelphia, a German in Düsseldorf, it‘s clear. Integrate!</p></blockquote><p>The post <a rel="nofollow" href="/magee-transatlantic-integration/">launch : magee.de</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/magee-transatlantic-integration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

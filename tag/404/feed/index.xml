@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>404 &#8211; mimoYmima</title>
+	<atom:link href="/tag/404/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 02 Apr 2010 16:36:13 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>WordPress sub-pages disappeared</title>
+		<link>/wordpress-sub-pages-disappeared/</link>
+				<comments>/wordpress-sub-pages-disappeared/#comments</comments>
+				<pubDate>Fri, 02 Apr 2010 16:36:13 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[404]]></category>
+		<category><![CDATA[bugs]]></category>
+		<category><![CDATA[migration]]></category>
+		<category><![CDATA[permalinks]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3019</guid>
+				<description><![CDATA[<p>We just got a call from one of our clients who couldn't get to any of the sub-pages on her site, but her home page was still up.  Luckily we have run into this in the past, it's something that happens whenever we migrate a WordPress site so we knew how to fix it.</p>
+<p>The post <a rel="nofollow" href="/wordpress-sub-pages-disappeared/">WordPress sub-pages disappeared</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">We just got a call from one of our clients who couldn&#8217;t get to any of the sub-pages on her site, but her home page was still up.  Luckily we have run into this in the past, it&#8217;s something that happens whenever we migrate a WordPress site so we knew how to fix it.</p>
+ 
+<h2>Don&#8217;t Panic</h2>
+
+<p>If your wordpress site shows the home page but none of the other pages are showing up and giving you 404 errors simply go into <strong>Settings &gt; Permalinks</strong>, scroll down the page <em>(no need to change anything)</em> and click the <strong>Save Changes</strong> button.</p>
+
+<p>That&#8217;s it, your pages are magically back&hellip; No idea why this happened out of the blue to a site that we weren&#8217;t migrating to another server, but luckily the same fix worked&hellip;</p> <p>The post <a rel="nofollow" href="/wordpress-sub-pages-disappeared/">WordPress sub-pages disappeared</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/wordpress-sub-pages-disappeared/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
+	</channel>
+</rss>

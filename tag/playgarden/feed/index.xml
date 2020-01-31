@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>playgarden &#8211; mimoYmima</title>
+	<atom:link href="/tag/playgarden/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 24 Mar 2014 17:24:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>In Progress &#8211; Playgarden NYC</title>
+		<link>/in-progress-playgarden-nyc/</link>
+				<comments>/in-progress-playgarden-nyc/#respond</comments>
+				<pubDate>Mon, 24 Mar 2014 17:24:46 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[playgarden]]></category>
+		<category><![CDATA[redesign]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=5214</guid>
+				<description><![CDATA[<p>We are super excited to be working on a redesign for Playgarden, a play space and school in Tribeca that makes us wish we were kids again. Besides making a brand-new front end, we'll be setting up a powerful registration system that meets every item on their (very long) wish list.</p>
+<p>The post <a rel="nofollow" href="/in-progress-playgarden-nyc/">In Progress &#8211; Playgarden NYC</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We are super excited to be working on a redesign for <a href="http://www.playgardennyc.com/press/" title="Playgarden NYC" target="_blank">Playgarden</a>, a play space and school in Tribeca that makes us wish we were kids again.</p>
+<p>Homepage preview coming soon!</p>
+<p><a href="http://playgardennyc.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2014/03/mimo-news_playgarden_01.jpg" alt="Playgarden" class="aligncenter size-full wp-image-5219" /></a></p>
+<p>The post <a rel="nofollow" href="/in-progress-playgarden-nyc/">In Progress &#8211; Playgarden NYC</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/in-progress-playgarden-nyc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

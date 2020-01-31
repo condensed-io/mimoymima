@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>apache &#8211; mimoYmima</title>
+	<atom:link href="/tag/apache/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 28 Feb 2015 21:54:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Apache, PHP &#038; vhosts</title>
+		<link>/apache-php-vhosts/</link>
+				<comments>/apache-php-vhosts/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 16:44:57 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[configuration]]></category>
+		<category><![CDATA[php]]></category>
+		<category><![CDATA[vhosts]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2119</guid>
+				<description><![CDATA[<p>Apache configuration is one of the stumbling blocks that keeps a lot of web designers from using programming languages like PHP.  This page is geared toward web designers with little to no previous knowledge of how to use terminal or configure Apache.</p>
+<p>The post <a rel="nofollow" href="/apache-php-vhosts/">Apache, PHP &#038; vhosts</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">Apache configuration is one of the stumbling blocks that keeps a lot of web designers from using programming languages like PHP.  This page is geared toward web designers with little to no previous knowledge of how to use terminal or configure Apache.</p>
+
+<!--BEGIN: Introduction-->
+<h2>Introduction to Apache on your mac</h2>
+
+<a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_vhosts1.jpg" alt="wildflowers" width="526" height="152" class="aligncenter" /></a>
+
+<p>When making websites and testing them locally you won&#8217;t be able to use server side programming languages like PHP.  You also can&#8217;t use absolute paths to files or images which is a major drag.  If you have a mac with OS X though you have the <a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server" class="lightview" title="About the Apache Web Server :: :: fullscreen: true">Apache</a> web server already installed on your computer.  You just need to turn it on and do some configuration and you can develop your sites locally instead of uploading your files to a remote server every time you want to see a change.</p>
+
+<!--END: Introduction-->
+						
+<!--BEGIN: Topics-->			
+<div class="Topics" id="topics">
+			
+	<h3>One Time Setup Steps</h3>
+	<ol>
+		<li><a href="#disclaimer">Read the disclaimer</a></li>
+		<li><a href="#sites">Your Sites/ Directory</a></li>
+		<li><a href="#apache">Starting Up Apache</a></li>
+
+		<li><a href="#terminal">Opening Terminal</a></li>
+		<li><a href="#httpd">Editing httpd.conf</a></li>
+		<li><a href="#vhosts">Making Your my-vhosts.conf File</a></li>
+		<li><a href="#hosts">Editing Your hosts File</a></li>
+		<li><a href="#restart">Restarting Apache</a></li>
+	</ol>
+
+	<h3>Steps to take each time you add a new site</h3>
+	<ol>
+		<li><a href="#addsite">Add a new site to your Sites/ directory</a></li>
+		<li><a href="#addvhosts">Adding a new site to your my-vhosts.conf File</a></li>
+		<li><a href="#addterminal">Open Terminal</a></li>
+		<li><a href="#addhosts">Adding a new site to your hosts File</a></li>
+
+		<li><a href="#addrestart">Restarting Apache</a></li>
+	</ol>
+</div>
+<!--END: Topics-->
+
+<!-- ~ ~ ~ ~ --><div class="PageBreak"><div></div></div><!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+
+	<h2>One Time Setup Steps</h2>
+
+<!--BEGIN: Disclaimer-->
+	<h3 id="disclaimer">1. Read The Disclaimer</h3>
+	<p>This tutorial walks you through making changes to your system&#8217;s default installation of Apache, it&#8217;s been tested on a few computers running OSX 10.3, 10.4, &amp; 10.5 and everything has worked great.  This does not however mean we guarantee it&#8217;ll work for you.</p>
+
+	<p>Use this tutorial at your own risk: We&#8217;re not in any way responsible for any errors in this text, or any damage that may result from misunderstanding the tutorial.</p>
+	<p>If you aren&#8217;t very interested in learning about how to configure Apache and you&#8217;d rather it just worked, you may want to check out <a href="http://www.mamp.info/" class="lightview" title="About MAMP :: :: fullscreen: true">MAMP</a> and <a href="http://www.apple.com/downloads/macosx/development_tools/virtualhostx.html">VirtualHostX</a>.</p>
+
+	<p>Still with us?  If so, get a cold drink and get comfortable because the <em>one time setup steps</em> can take a bit of time if you&#8217;re new to this stuff.</p>
+<!--END: Disclaimer-->
+		
+<!--BEGIN: Your Sites Directory-->
+<h3 id="sites">2. Welcome To Your Sites/ Directory</h3>
+
+<ul class="bullet-list">
+<li id="user">Go into your user&#8217;s folder in your hard drive, we&#8217;ll be using your user name later, so try to remember it.<img src="/wp-content/uploads/2009/05/071016_screen_1.png"  width="484" height="104" alt="Your Users Directory" class="aligncenter" /></li>
+
+<li>Inside your user directory is your Sites/ directory <em>(NOTE: the name of this directory on spanish language computers is &#8216;Web&#8217; in the finder, but on the system the name is still &#8216;Sites&#8217;, so for the rest of the tutorial when you see &#8216;Sites&#8217; that&#8217;s good for spanish language systems as well and it&#8217;s case sensitive {use an uppercase S})</em><img src="/wp-content/uploads/2009/05/071016_screen_2.png" width="484" height="104" alt="Your Sites Directory" class="aligncenter" /></li>
+
+<li>Any websites you make that you want to preview locally using PHP should go into this directory.  For now we&#8217;re going to add a directory called <strong>test</strong>.  Each directory in here will be it&#8217;s own site, so inside this &#8216;test&#8217; directory you should have an index.php file with some HTML in it so we can test to make sure everything works.  <em>Note: You can just rename any .html file you have to .php and put it in there</em>.  Right now you will not be able to see this file because we haven&#8217;t setup anything yet, but after we&#8217;re done you&#8217;ll be able to get to it by putting <strong>http://test/</strong> into your browser.  You can try it if you want now but it shouldn&#8217;t work</li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+<!--END: Your Sites Directory-->				
+		
+<!--BEGIN: Starting Apache-->
+
+<h3 id="apache">3. Starting Apache</h3>
+
+<h4>Set Your System Preferences</h4>
+
+<ul class="bullet-list">
+<li>Starting Apache on OS X is very easy, first go to your <strong>System Preferences</strong> and click on the <strong>Sharing</strong> icon.<img src="/wp-content/uploads/2009/05/071016_screen_3.png" width="484" height="103" alt="System Preferences Screenshot Showing Sharing Icon" class="aligncenter" /></li>
+
+<li>then <strong>check Personal Web Sharing</strong><img src="/wp-content/uploads/2009/05/071016_screen_4.png" width="484" height="290" alt="Sharing Preferences Screenshot Showing Personal Web Sharing checkbox being checked" class="aligncenter" /></li>
+
+</ul>
+
+<h4>Test To Make Sure Apache Is Running</h4>
+
+<ul class="bullet-list">
+
+<li>To test it out, type this into your browser 127.0.0.1 (this is a short way of saying your local computer)</li>
+
+<li>You should get a message that says: <q>If you can see this, it means that the installation of the Apache web server software on this system was successful&hellip;</q></li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--END: Starting Apache-->
+		
+<!--BEGIN: Open Terminal-->
+<h3 id="terminal">4. Open Your Terminal</h3>
+
+<ul class="bullet-list">
+<li>Now that you have Apache running we need to tell it where your websites are.  The first thing you&#8217;ll do is open your <strong>Applications Folder</strong> and go into the <strong>Utilities Folder</strong><img src="/wp-content/uploads/2009/05/071016_screen_5.png" width="484" height="91" alt="Screenshot of your applications directory showing the Terminal Icon" class="aligncenter" /></li>
+
+<li>Inside Utilities you&#8217;ll find a program called <strong>Terminal</strong>.  You may want to <em title="To add a shortcut just drag the icon for Terminal into the Dock">add a shortcut</em> to it in your dock.</li>
+
+<li><strong>Open Terminal</strong> you should get a prompt that shows your user name. <em>(we&#8217;ve replaced it with *yourusername*)</em>
+
+<pre class="crayon-plain-tag">/Users/*yourusername*
+*yourusername*:~ *yourusername*$</pre>
+
+</li>
+
+<li><img src="http://www.mimoymima.com/wp-content/uploads/2009/05/071016_screen_6.png" class="InlineImg" width="94" height="24" alt="maximize window icon" /> Hit the <em>round dot with the +</em> in the upper left corner of the window to <strong>maximize the window</strong>. Soon we will be opening a text editor from terminal and it doesn&#8217;t let us resize the terminal correctly after it&#8217;s open.</li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+<!--END: Open Terminal-->
+		
+<!--BEGIN: Editing httpd.conf-->
+
+<h3 id="httpd">5. Opening and Editing httpd.conf</h3>
+
+<p>Because Leopard upgraded to Apache 2 and PHP 5, your httpd.conf file is in a different location depending on your version of OS X.</p>
+		
+<h4>Opening the file</h4>
+<ul class="bullet-list">
+
+<li>If you&#8217;re using OS X 10.5 <em>(Leopard)</em>, <strong>copy and paste</strong> this command into your Terminal and <strong>hit enter</strong> to launch the pico editor which comes with your system.  If you own TextMate or BBEdit, you can use the words &#8216;mate&#8217; or &#8216;bbedit&#8217; instead of &#8216;pico&#8217; in the following examples and you won&#8217;t need to use these clunky editors.
+
+<pre class="crayon-plain-tag">sudo pico /etc/apache2/httpd.conf</pre>
+
+</li>				
+
+<li>If you&#8217;re using OS X 10.3 <em>(Panther)</em> or 10.4 <em>(Tiger)</em>, <strong>copy and paste</strong> this command into your Terminal and <strong>hit enter</strong> <em>(replace the word &#8216;pico&#8217; with &#8216;mate&#8217; if you own TextMate or &#8216;bbedit&#8217; if you own BBEdit)</em>
+
+<pre class="crayon-plain-tag">sudo pico /etc/httpd/httpd.conf</pre>
+
+<span>We&#8217;re using the <a href="http://en.wikipedia.org/wiki/Unix#Overview" class="lightview" title="About UNIX :: :: fullscreen: true">UNIX</a> command <strong>sudo</strong>, which means <em>&#8216;super user do&#8217;</em>. Since this is a protected file on your computer that you don&#8217;t want just anyone editing, sudo lets you edit it, provided you <strong>type in your system password</strong> and <strong>hit enter</strong>.</span>
+
+</li>
+</ul>
+		
+<h4>Enabling PHP</h4>
+
+<ul class="bullet-list">
+<li>This brings up the Pico text editor in your window. We are going to use the shortcuts listed at the bottom of the screen to do most of our work for us.<img src="/wp-content/uploads/2009/05/071016_screen_7.png"  width="484" height="117" alt="Screenshot of shortcuts you can use with your keyboard in PICO" class="aligncenter" /></li>
+
+<li>Notice how they list commands with <em>a carrot character</em> and <em>a letter</em> at the bottom of the terminal window.  This means you need to hold the <abbr title="Control Key">CTRL</abbr> key and press the letter for the command you want.</li>
+
+<li>The first thing we&#8217;re going to do is find the area for loading the PHP module.  To do this we will use the <span class="Reverse">^W</span> <strong>Where Is</strong> command.  Go ahead and press <strong>CTRL + W</strong>.  It will bring up a search line at the bottom where you can type in text. Let&#8217;s search for the words <strong>LoadModule php</strong> and <strong>press enter</strong></li>
+
+<li id="uncomment">This area is where you turn on and off the different modules that are loaded by Apache. To turn on PHP (and Perl if you want to) we need to un-comment the lines with those modules.  Anything after a &#8216;#&#8217; (til the end of a line) is commented out, so un-comment is done by simply removing the &#8216;#&#8217; at the beginning of the line.  By default, PHP and Perl are commented out, which looks like this:
+
+<pre class="crayon-plain-tag">#LoadModule perl_module       libexec/httpd/libperl.so
+#LoadModule php4_module       libexec/httpd/libphp4.so
+LoadModule hfs_apple_module   libexec/httpd/mod_hfs_apple.so
+LoadModule bonjour_module     libexec/httpd/mod_bonjour.so</pre>
+
+</li>
+
+<li>Once you un-comment them, it should look like this:
+
+<pre class="crayon-plain-tag">LoadModule perl_module        libexec/httpd/libperl.so
+LoadModule php4_module        libexec/httpd/libphp4.so
+LoadModule hfs_apple_module   libexec/httpd/mod_hfs_apple.so
+LoadModule bonjour_module     libexec/httpd/mod_bonjour.so</pre>
+
+</li>
+
+<li>If you&#8217;re using Leopard you won&#8217;t see the Perl line, just php and it&#8217;ll be PHP5 as we mentioned earlier.  I&#8217;m not sure if this means that perl is on by default or what, I don&#8217;t use perl much so if you know please <a href="/contact/">email me</a>.</li>
+
+<li>If you&#8217;re using Panther or Tiger, you&#8217;ll also need to uncomment the addModule lines for PHP and Perl as well, if you go down a bit more in the file you&#8217;ll see them, after uncommenting them they&#8217;ll look like this:
+
+<pre class="crayon-plain-tag">AddModule mod_php4.c
+AddModule mod_perl.c</pre>
+
+</li>
+</ul>
+		
+<h4>Including my-vhosts.conf</h4>
+<p>Next, we&#8217;ll <em>include</em> a file that defines our virtual hosts (our websites).</p>
+
+<ul class="bullet-list">
+
+<li>If you&#8217;re using OS X 10.5 <em>(Leopard)</em> use the <span class="Reverse">^W</span> <strong>where is</strong> command to search for &#8216;Virtual Hosts&#8217;</li>
+
+<li>You&#8217;ll should see this section:
+
+<pre class="crayon-plain-tag">#Virtual Hosts
+#Include /private/etc/apache2/extra/httpd-vhosts.conf</pre>
+
+</li>
+
+<li>We&#8217;re going to <strong><a href="#uncomment">un-comment</a> the Include line</strong> and <strong>change the path</strong> to look like this: <em>(change your username)</em>
+
+<pre class="crayon-plain-tag">#Virtual Hosts
+Include /Users/*yourusername*/Sites/my-vhosts.conf</pre>
+
+</li>
+
+<li>If you&#8217;re using OS X 10.3 <em>(Panther)</em> or 10.4 <em>(Tiger)</em>, go to the end of the document by using the <span class="Reverse">^V</span> <strong>Next Page</strong> command until you reach the end, then comment out the Include line they have down there and paste in your own, to look like this:
+
+<pre class="crayon-plain-tag">#Include /private/etc/httpd/users/*.conf
+Include /Users/*yourusername*/Sites/my-vhosts.conf</pre>
+
+<em>we&#8217;re pointing to a file in your Sites/ directory instead of where they suggest because it&#8217;ll be easier for us to edit it with a regular text editor in the future and it just makes sense to have the file there because this is where the rest of your websites will live. Also don&#8217;t forget to change *yourusername* to your actual user name.</em>
+
+</li>
+</ul>
+		
+<h4>Save the file</h4>
+<ul class="bullet-list">
+
+<li id="save">Now we&#8217;ll <strong>save the file</strong>, which you can do with the <span class="Reverse">^X</span> <strong>Exit</strong> command.  There&#8217;s probably another way to save, but this is how I&#8217;ve been doing it and it works fine; go ahead and hit <strong>CTRL + X</strong> this will ask you if you want to save, press the <strong>Y</strong> key, now it will ask you what to name the file, the current name of the file is already in there, so press <strong>enter</strong> to overwrite it.</li>
+
+<li>If you made a mistake and you don&#8217;t want to save the file, you can of course hit <strong>N</strong> instead and get back to where you stated at the command prompt.</li>
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--END: Editing httpd.conf-->
+
+<!--BEGIN: Making your my-vhosts.conf file-->
+<h3 id="vhosts">6. Making your my-vhosts.conf file</h3>
+
+<ul class="bullet-list">
+
+<li>This file we can make with any text editor, so move over to one you&#8217;re more comfortable with and start a <strong>new document</strong> and paste in the following code:
+
+<pre class="crayon-plain-tag">####### Override some of the default httpd.conf settings #######
+
+## listens to 80 which is your local computer ##
+NameVirtualHost *:80
+
+## Changes default permissions for directories that Apache has access to ##
+&amp;lt;Directory /&amp;gt;
+Options ExecCGI FollowSymLinks
+AllowOverride all
+Allow from all
+&amp;lt;/Directory&amp;gt;
+
+####### virtual hosts #######
+
+NameVirtualHost test:80
+&amp;lt;VirtualHost test:80&amp;gt;
+ DocumentRoot /Users/*yourusername*/Sites/test
+ ServerName test
+ RewriteEngine on
+&amp;lt;/VirtualHost&amp;gt;</pre>
+
+</li>
+
+<li>The part labeled ####### virtual hosts ####### is where you will add the sites you make.  So far there is one vhost called &#8216;test&#8217;. You will need to change the part that says *yourusername* to be the exact name of <a href="#user">your user directory</a>.</li>
+
+<li><strong>Save</strong> this file in your Sites/ directory.</li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--END: Making your .conf file-->
+		
+<!--BEGIN: Editing your hosts file-->
+<h3 id="hosts">7. Editing our Hosts file</h3>
+<ul class="bullet-list">
+<li>Now back to <a href="#terminal">terminal</a> again, we need to also edit our Hosts file, just <strong>copy and paste</strong> this command into your terminal and <strong>put in your password</strong>
+
+<pre class="crayon-plain-tag">sudo pico /etc/hosts</pre>
+
+</li>
+
+<li>When you open the file it&#8217;ll look like this:
+
+<pre class="crayon-plain-tag">##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost</pre>
+
+</li>
+
+<li>We&#8217;re going to add this line after everything:
+
+<pre class="crayon-plain-tag">127.0.0.1       test</pre>
+
+</li>
+
+<li>when done, it&#8217;ll look like this:
+<pre class="crayon-plain-tag">##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+127.0.0.1       test</pre>
+</li>
+
+<li>Save the file, if you forgot how to do it re-read how to <a href="#save">save a file in PICO</a></li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+<!--END: Editing your hosts file-->
+
+<!--BEGIN: Restarting Apache-->
+<h3 id="restart">8. Restarting Apache</h3>
+
+<ul class="bullet-list">
+<li><strong>copy and paste</strong> this command into Terminal and hit <strong>enter</strong>
+
+<pre class="crayon-plain-tag">sudo apachectl graceful</pre>
+
+</li>
+
+<!--li>Then <strong>copy and paste</strong> this command into Terminal and hit <strong>enter</strong>
+<pre class="crayon-plain-tag">sudo kill -hup `cat /var/run/lookupd.pid`</pre>
+</li-->
+
+</ul>
+<!--END: Restarting Apache-->
+		
+<h4>Does it work?</h4>
+
+<p>You should now be able to see your website by going to <strong>http://test/</strong> in any web browser on the computer you setup.  You can even simply type <em>test</em> into the browser and get the page.</p>
+
+<p>If you are still having problems <a href="/contact/">let us know</a> and maybe we can help</p>
+
+<p>If it did work but there&#8217;s something that you thought could be clearer, <a href="/contact/">let us know</a> how we can improve the tutorial.</p>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!-- ~ ~ ~ ~ --><div class="PageBreak"><div></div></div><!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+		
+<h2>Steps to take each time you add a new site</h2>
+						
+<!--BEGIN: Add the new site-->
+<h3 id="addsite">1. Add A New Site (directory) to your Sites/ folder</h3>
+
+<ul class="bullet-list">
+<li>Every time you start a new website you will want to put it inside your <a href="#sites">Sites/</a> directory.  The name of the site should be something short so you can easily make the changes below.  For instance, something like <strong>Woody Allen Website</strong> is BAD, instead just call it <strong>woody</strong> and to remember the capitalization.  I find it easiest to just never capitalize directory names.  For the purposes of this tutorial we&#8217;re calling our site <strong>newsite</strong></li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--END: Add the new site-->
+		
+<!--BEGIN: Editing your my-vhosts.conf file-->
+<h3 id="addvhosts">2. Adding a new site to your my-vhosts.conf file</h3>
+
+<ul class="bullet-list">
+<li>Open the <a href="#vhosts">my-vhosts.conf</a> file, located in your Sites/ folder, in any text editor.  Assuming you created the file earlier in this tutorial, it should look like this:</li>
+
+<li>You should see our test site&#8217;s code which looks like this:
+
+<pre class="crayon-plain-tag">NameVirtualHost test:80
+&amp;lt;VirtualHost test:80&amp;gt;
+ DocumentRoot /Users/*yourusername*/Sites/test
+ ServerName test
+ RewriteEngine on
+&amp;lt;/VirtualHost&amp;gt;</pre>
+
+</li>
+
+<li>You could just change all references to the word <strong>test</strong> to <strong>newsite</strong>.  But we&#8217;ll assume you wanted to keep the <strong>test</strong> site working and have <strong>newsite</strong> working as well. We&#8217;re going to add a new entry above test and change all references of the word <strong>test</strong> to <strong>newsite</strong>.  When done it&#8217;ll look like this:
+
+<pre class="crayon-plain-tag">NameVirtualHost newsite:80
+&amp;lt;VirtualHost newsite:80&amp;gt;
+ DocumentRoot /Users/*yourusername*/Sites/newsite
+ ServerName newsite
+ RewriteEngine on
+&amp;lt;/VirtualHost&amp;gt;
+
+NameVirtualHost test:80
+&amp;lt;VirtualHost test:80&amp;gt;
+ DocumentRoot /Users/*yourusername*/Sites/test
+ ServerName test
+ RewriteEngine on
+&amp;lt;/VirtualHost&amp;gt;</pre>
+
+</li>
+
+<li>You will need to change the part that says *youruser* to be the exact name of <a href="#user">your user directory</a>.</li>
+
+<li>Save and close the file</li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--END: Editing your my-vhosts.conf file-->
+
+						
+<!--BEGIN: Open Terminal-->
+<h3 id="addterminal">3. Open Your Terminal</h3>
+
+<ul class="bullet-list">
+
+<li>Now that your site directory (called &#8216;newsite&#8217;) is in your Sites/ directory, <strong>open terminal</strong>.  You should get a prompt that shows the name of your computer.  If you don&#8217;t remember how to do this, re-read the instructions for <a href="#terminal">opening terminal</a>.</li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+<!--END: Open Terminal-->
+		
+<!--BEGIN: Editing your hosts file-->
+<h3 id="addhosts">4. Adding a new site to your Hosts file</h3>
+
+<ul class="bullet-list">
+
+<li>Now we&#8217;ll edit our Hosts file, just <strong>copy and paste</strong> this command into your terminal and <strong>put in your password</strong>
+
+<pre class="crayon-plain-tag">sudo pico /etc/hosts</pre>
+
+</li>
+
+<li>When you open the file it&#8217;ll look like this:
+
+<pre class="crayon-plain-tag">##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+127.0.0.1       test</pre>
+</li>
+
+<li>We&#8217;re going to add the name of the new directory <strong>newsite</strong> after the one we already have <strong>test</strong> separating the two with a space.  When done it should look like this:
+
+<pre class="crayon-plain-tag">##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+127.0.0.1       test newsite</pre>
+</li>
+
+<li>You can add as many sites as you want this way, just separate them by a space and keep them on the same line</li>
+
+<li>Save the file, if you forgot how to do it re-read how to <a href="#save">save a file in PICO</a></li>
+
+</ul>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+<!--END: Editing your hosts file-->
+
+<!--BEGIN: Restarting Apache-->
+<h3 id="addrestart">5. Restarting Apache</h3>
+<p>Follow the instructions above for <a href="#restart">Restarting Apache</a></p>
+<!--END: Restarting Apache-->
+		
+<h4>Does it work?</h4>
+<p>You should now be able to see your website by going to <strong>http://newsite/</strong> in any web browser on the computer you setup.  You can even simply type <em>newsite</em> into the browser and get the page.</p>
+
+<p>If you are still having problems <a href="/contact/">let us know</a> and maybe we can help</p>
+<p>If it did work but there&#8217;s something that you thought could be clearer, <a href="/contact/">let us know</a> how we can improve the tutorial.</p>
+
+<div class="LinkUp"><a href="#topics">Back To Topics</a></div>
+
+<!--BEGIN: Credits-->
+<h2>Credits</h2>
+<p>Thanks to <strong>Justin Blecher</strong> for getting us started with vhosts and <strong>Jessica Chen</strong> for letting us use her computer as a guinea pig.</p>
+<!--END: Credits-->
+
+<!--BEGIN: RSS-->
+
+<p class="SideBar">To keep up with our web development articles subscribe to the mym-dev RSS feed</p>
+
+<h3><a href="http://www.mimoymima.com/feeds/">mYm Feeds <img src="/wp-content/uploads/2009/05/icon_rss_lg.png" width="28" height="28" title="Subscribe to the mym-dev RSS Feed" alt="RSS" /></a></h3>
+
+<!--END: RSS--> <p>The post <a rel="nofollow" href="/apache-php-vhosts/">Apache, PHP &#038; vhosts</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/apache-php-vhosts/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>.htaccess links</title>
+		<link>/htaccess-links/</link>
+				<comments>/htaccess-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 17:21:58 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[htaccess]]></category>
+		<category><![CDATA[server]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2115</guid>
+				<description><![CDATA[<p>The .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled... etc.</p>
+<p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">the .htaccess file on your website lets you control some of the behavior of the server you are on.  You can do things like password protect pages, re-write and re-direct urls, tell the server what version of php to use, change how file types are handled&#8230; etc&#8230;</p>
+
+<a href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_htaccess.jpg" alt="Margo on the prowl" width="525" height="115" class="aligncenter" /></a>
+
+<dl class="DictList">
+
+<dt><a class="lightview" title="Beginners Guide to .htaccess :: :: fullscreen: true" href="http://www.pixeline.be/blog/2006/beginners-guide-to-htaccess-file/">.htaccess for beginners</a></dt>
+<dd>Your .htaccess file is what you use to make configurations to a shared server on a per-directory basis.  This means that you can .  When you get server space you are typically sharing it with a lot of others, so for security and logistic reasons, the server company can&#8217;t let you change the configuration of the entire server.  The .htaccess file is what you use to make custom error pages, redirect people, restrict access to certain pages &hellip;</dd>
+
+<dt><a class="lightview" title="Password Protection with .htaccess :: :: fullscreen: true" href="http://tools.dynamicdrive.com/password/">Password Protect</a></dt>
+<dd>The best page on the net to show you how to password protect your pages using .htaccess</dd>
+				
+</dl> <p>The post <a rel="nofollow" href="/htaccess-links/">.htaccess links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/htaccess-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

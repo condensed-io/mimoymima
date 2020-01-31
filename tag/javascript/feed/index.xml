@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Javascript &#8211; mimoYmima</title>
+	<atom:link href="/tag/javascript/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 06 Nov 2009 20:12:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Javascript links</title>
+		<link>/javascript-links/</link>
+				<comments>/javascript-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:12:46 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[Javascript]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2130</guid>
+				<description><![CDATA[<p>JavaScript is an object-oriented scripting language. It is primarily used in the form of client-side JavaScript.</p>
+<p>The post <a rel="nofollow" href="/javascript-links/">Javascript links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<a href="http://api.jquery.com/browser/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_js.jpg" alt="img_js" title="img_js" width="525" height="160" class="aligncenter size-full wp-image-2514" /></a>
+
+<dl class="DictList">
+
+<dt><a href="/resources/081129_jquery-intro.php">Don&#8217;t torture yourself, learn jQuery</a></dt>
+<dd>The books below by Jeremy Keith are great, he teaches a straightforward way to use javascript unobtrusively, and the lessons are good ones, but you can save yourself even MORE time (and frustration) by just learning to use jQuery instead.</dd>
+
+<dt><a class="lightview" href="http://domscripting.com/" title="A great way to get into javascripting :: :: fullscreen: true">DOM Scripting</a> by Jeremy Keith</dt>
+<dd>I&#8217;ve had great success learning through the O&#8217;Reilly books, but after smashing my head against the O&#8217;Reilly Javascript book and getting absolutely nowhere, this book was a breath o&#8217; fresh air.  Jeremy Keith will get you started with Javascript quickly and put you on the right track.</dd>
+
+<dt><a class="lightview" href="http://craigsworks.com/projects/qtip/" title="The jQuery tooltip plugin :: :: fullscreen: true">Introducing qTip</a></dt>
+<dd>qTip is a tooltip plugin for the jQuery framework.</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/javascript-links/">Javascript links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/javascript-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

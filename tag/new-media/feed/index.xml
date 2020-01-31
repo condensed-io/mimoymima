@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>new media &#8211; mimoYmima</title>
+	<atom:link href="/tag/new-media/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sat, 03 Jan 2015 17:17:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>BrightRED Pixels</title>
+		<link>/bright-red-pixels/</link>
+				<comments>/bright-red-pixels/#respond</comments>
+				<pubDate>Fri, 02 Mar 2007 16:45:21 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Bright Red Pictures]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[Manhattan]]></category>
+		<category><![CDATA[new media]]></category>
+		<category><![CDATA[new york]]></category>
+		<category><![CDATA[wallstrip]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">/?p=6200</guid>
+				<description><![CDATA[<p>We designed the v.1 website for our friends at BrightRED Pixels, a new media company in Manhattan. We tried to keep it simple with just two points of focus: content and company identity, so of course the design was very bright and very red, check it out: brightredpixels.com</p>
+<p>The post <a rel="nofollow" href="/bright-red-pixels/">BrightRED Pixels</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We designed the v.1 website for our friends at BrightRED Pixels, a new media company in Manhattan.  We tried to keep it simple with just two points of focus: content and company identity, so of course the design was very bright and very red, check it out:</p>
+<p><img src="/wp-content/uploads/2007/03/brightred_v01_wallstrip.png" alt="brightred_v01_wallstrip" class="alignnone size-full wp-image-6204" srcset="/wp-content/uploads/2007/03/brightred_v01_wallstrip.png 1015w, /wp-content/uploads/2007/03/brightred_v01_wallstrip-300x278.png 300w" sizes="(max-width: 1015px) 100vw, 1015px" /></p>
+<p><img src="/wp-content/uploads/2007/03/brightred_v01_press.png" alt="brightred_v01_press" class="alignnone size-full wp-image-6203" srcset="/wp-content/uploads/2007/03/brightred_v01_press.png 1017w, /wp-content/uploads/2007/03/brightred_v01_press-300x192.png 300w" sizes="(max-width: 1017px) 100vw, 1017px" /></p>
+<p><a href="http://brightredpixels.com/" title="new media production company, Manhattan, New York">brightredpixels.com</a></p>
+<p>The post <a rel="nofollow" href="/bright-red-pixels/">BrightRED Pixels</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/bright-red-pixels/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

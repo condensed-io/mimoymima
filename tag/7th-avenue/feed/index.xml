@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>7th Avenue &#8211; mimoYmima</title>
+	<atom:link href="/tag/7th-avenue/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 27 Nov 2009 15:38:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>2009 Snowflake Festival</title>
+		<link>/2009-snowflake-festival/</link>
+				<comments>/2009-snowflake-festival/#respond</comments>
+				<pubDate>Fri, 27 Nov 2009 15:38:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[2009]]></category>
+		<category><![CDATA[7th Avenue]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[buy in brooklyn]]></category>
+		<category><![CDATA[christmas]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[snowflake festival]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2404</guid>
+				<description><![CDATA[<p>We just made the website for Park Slope, Brooklyn's 3rd Annual Snowflake Festival.</p>
+<p>The post <a rel="nofollow" href="/2009-snowflake-festival/">2009 Snowflake Festival</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We just made the website for Park Slope, Brooklyn&#8217;s 3rd Annual Snowflake Festival.</p>
+
+<h3>In their words:</h3>
+
+<blockquote>
+<p>Local merchants once again throw open their doors to stay open late and create a holiday atmosphere, enabling you, the people of Park Slope, to do your holiday shopping . . . here! Each participating business will 1). Stay open until 10pm, and 2). Offer some special promotion &#8211; Could be a sale, could be a giveaway, raffle, carolers, snow machine (it&#8217;s been done!), mulled wine, special hors d&#8217;oeuvres, etc.</p>
+</blockquote>
+
+<a href="http://www.buyinbrooklyn.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_2009-snowflake.jpg" alt="img_2009-snowflake" title="img_2009-snowflake" width="525" height="525" class="aligncenter size-full wp-image-2406" /></a>
+
+<p>Visit the <a href="http://www.buyinbrooklyn.com/">Buy In Brooklyn site</a> for more info and a list of participants.</p>
+
+<p>Also check out <a href='http://www.mimoymima.com/wp-content/uploads/2009/11/SC09-Poster.pdf'>the poster</a> designed by <a href="http://www.sarahsills.com/" class="Popup">Sarah Sills</a>.</p> <p>The post <a rel="nofollow" href="/2009-snowflake-festival/">2009 Snowflake Festival</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/2009-snowflake-festival/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

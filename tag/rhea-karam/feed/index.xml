@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rhea karam &#8211; mimoYmima</title>
+	<atom:link href="/tag/rhea-karam/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Mon, 16 Nov 2009 20:20:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Rhea Karam&#8217;s Book &#8211; Breathing Walls</title>
+		<link>/rhea-karams-book-breathing-walls/</link>
+				<comments>/rhea-karams-book-breathing-walls/#respond</comments>
+				<pubDate>Mon, 16 Nov 2009 20:20:23 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[beirut]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[breathing walls]]></category>
+		<category><![CDATA[photography]]></category>
+		<category><![CDATA[rhea karam]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2219</guid>
+				<description><![CDATA[<p>Photographer Rhea Karam recently published a book of her photos from Beirut.  We're helping her promote the book on her site and setup a simple way for people to buy it using PayPal.</p>
+<p>The post <a rel="nofollow" href="/rhea-karams-book-breathing-walls/">Rhea Karam&#8217;s Book &#8211; Breathing Walls</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Photographer Rhea Karam recently published a book of her photos from Beirut.  We&#8217;re helping her promote the book on her site (which we re-designed last year).</p>
+<p><a href="http://www.rheakaram.com/"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/breathing_walls_book_jacket.jpg" alt="breathing_walls_book_jacket" title="breathing_walls_book_jacket" width="500" height="213" class="aligncenter" /></a></p>
+<p>BREATHING WALLS is a hard cover fine art photography book composed of 168 pages documenting the story of Lebanon through the walls of it&#8217;s streets.</p>
+<p>The post <a rel="nofollow" href="/rhea-karams-book-breathing-walls/">Rhea Karam&#8217;s Book &#8211; Breathing Walls</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/rhea-karams-book-breathing-walls/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

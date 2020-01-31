@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: The mother of all WordPress body tags	</title>
+	<atom:link href="/wordpress-body-tag/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress-body-tag/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 24 Feb 2015 14:25:55 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: mimoYmima				</title>
+				<link>/wordpress-body-tag/#comment-32</link>
+		<dc:creator><![CDATA[mimoYmima]]></dc:creator>
+		<pubDate>Fri, 10 Aug 2012 13:38:12 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-32</guid>
+					<description><![CDATA[yeah we used it for a while and it has some problems which is why we wrote this... I think the main problem was that it didn&#039;t give you a class for the parent of the page you&#039;re on, but there might have been other reasons.  ]]></description>
+		<content:encoded><![CDATA[<p>yeah we used it for a while and it has some problems which is why we wrote this&#8230; I think the main problem was that it didn&#039;t give you a class for the parent of the page you&#039;re on, but there might have been other reasons.  </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Jake Spurlock				</title>
+				<link>/wordpress-body-tag/#comment-31</link>
+		<dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+		<pubDate>Tue, 24 Jul 2012 23:11:42 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-31</guid>
+					<description><![CDATA[You know about &#060;a hef=&#034;http://codex.wordpress.org/Function_Reference/body_class&#034;&#062;body_class&lt;/a&gt; right? ]]></description>
+		<content:encoded><![CDATA[<p>You know about &lt;a hef=&quot;<a href="http://codex.wordpress.org/Function_Reference/body_class&quot;&gt;body_class" rel="nofollow ugc">http://codex.wordpress.org/Function_Reference/body_class&quot;&gt;body_class</a> right? </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: mimoYmima				</title>
+				<link>/wordpress-body-tag/#comment-30</link>
+		<dc:creator><![CDATA[mimoYmima]]></dc:creator>
+		<pubDate>Mon, 02 Jul 2012 13:19:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-30</guid>
+					<description><![CDATA[yes it will still work, you just need to use some sort of custom permalink structure, not necessarily this exact one  ]]></description>
+		<content:encoded><![CDATA[<p>yes it will still work, you just need to use some sort of custom permalink structure, not necessarily this exact one  </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Carolyn B				</title>
+				<link>/wordpress-body-tag/#comment-29</link>
+		<dc:creator><![CDATA[Carolyn B]]></dc:creator>
+		<pubDate>Fri, 15 Jun 2012 23:09:52 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-29</guid>
+					<description><![CDATA[I always delete....&#034;  /%year%/%monthnum%/%category%  &#034; ....  and leave the &#034;  /%postname%/   &#034;...so  the page name displays better in the url. Will this code still work if I do that? ]]></description>
+		<content:encoded><![CDATA[<p>I always delete&#8230;.&quot;  /%year%/%monthnum%/%category%  &quot; &#8230;.  and leave the &quot;  /%postname%/   &quot;&#8230;so  the page name displays better in the url. Will this code still work if I do that? </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Free Premium Wordpress Theme &#124; Blog - Atozanswers				</title>
+				<link>/wordpress-body-tag/#comment-28</link>
+		<dc:creator><![CDATA[Free Premium Wordpress Theme &#124; Blog - Atozanswers]]></dc:creator>
+		<pubDate>Fri, 25 May 2012 09:40:23 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-28</guid>
+					<description><![CDATA[[...] this framework, you get custom templates (including 404 and 503 error pages), the mother of all WordPress body tags, support for WordPress’ new menu system, Modernizr (i.e. HTML5 feature detection) and an HTML5 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] this framework, you get custom templates (including 404 and 503 error pages), the mother of all WordPress body tags, support for WordPress’ new menu system, Modernizr (i.e. HTML5 feature detection) and an HTML5 [&#8230;]</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: blog.topwebdevelop.com &#187; Blog Archive &#187; 10 HTML5-Ready Blank, Bare-Bones and Naked Themes for WordPress				</title>
+				<link>/wordpress-body-tag/#comment-27</link>
+		<dc:creator><![CDATA[blog.topwebdevelop.com &#187; Blog Archive &#187; 10 HTML5-Ready Blank, Bare-Bones and Naked Themes for WordPress]]></dc:creator>
+		<pubDate>Fri, 04 May 2012 07:17:37 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-27</guid>
+					<description><![CDATA[[...] Custom template examples and 404 &#038; 503 error pages • It Includes the The mother of all WordPress BODY tags • Support for WordPress’ new new menu system • Modernizr (HTML5 feature detection) and HTML5 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] Custom template examples and 404 &amp; 503 error pages • It Includes the The mother of all WordPress BODY tags • Support for WordPress’ new new menu system • Modernizr (HTML5 feature detection) and HTML5 [&#8230;]</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: mimoymima				</title>
+				<link>/wordpress-body-tag/#comment-26</link>
+		<dc:creator><![CDATA[mimoymima]]></dc:creator>
+		<pubDate>Sat, 26 Nov 2011 00:02:25 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-26</guid>
+					<description><![CDATA[Yeah basically that&#039;s it, you could just view the source of your page and see the class and ID that gets put on the body, you can target either of them in your css. ]]></description>
+		<content:encoded><![CDATA[<p>Yeah basically that&#039;s it, you could just view the source of your page and see the class and ID that gets put on the body, you can target either of them in your css. </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: john				</title>
+				<link>/wordpress-body-tag/#comment-25</link>
+		<dc:creator><![CDATA[john]]></dc:creator>
+		<pubDate>Tue, 22 Nov 2011 14:04:18 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-25</guid>
+					<description><![CDATA[great trick. was about to conjure something like this myself, and came across your wonderfully thoughtful solution while doing some research. thanks for sharing! ]]></description>
+		<content:encoded><![CDATA[<p>great trick. was about to conjure something like this myself, and came across your wonderfully thoughtful solution while doing some research. thanks for sharing! </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Jay				</title>
+				<link>/wordpress-body-tag/#comment-24</link>
+		<dc:creator><![CDATA[Jay]]></dc:creator>
+		<pubDate>Wed, 09 Nov 2011 02:15:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-24</guid>
+					<description><![CDATA[I&#039;m super excited about the possibilities this code offers!  I&#039;m just not quite sure how I&#039;d incorporate the styles in my CSS.  Let&#039;s say I had site with a &#034;Courses&#034; page and a subsequent sub-page of: &#034;Desktop Training&#034;.  Would the styles in my style.css look like this:
+ 
+
+ 
+#courses { blahblah: blah; }
+ 
+
+ 
+#desktop-training { moreblah: blabla; }
+ 
+
+ 
+Or have some other format?
+ 
+
+ 
+Sorry if this is obvious, I really have no idea how PHP works.
+ 
+
+ 
+Thanks so much for sharing! ]]></description>
+		<content:encoded><![CDATA[<p>I&#039;m super excited about the possibilities this code offers!  I&#039;m just not quite sure how I&#039;d incorporate the styles in my CSS.  Let&#039;s say I had site with a &quot;Courses&quot; page and a subsequent sub-page of: &quot;Desktop Training&quot;.  Would the styles in my style.css look like this:</p>
+<p>#courses { blahblah: blah; }</p>
+<p>#desktop-training { moreblah: blabla; }</p>
+<p>Or have some other format?</p>
+<p>Sorry if this is obvious, I really have no idea how PHP works.</p>
+<p>Thanks so much for sharing! </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Free WordPress Themes: 2011 Edition &#124; Designer Malaysia				</title>
+				<link>/wordpress-body-tag/#comment-23</link>
+		<dc:creator><![CDATA[Free WordPress Themes: 2011 Edition &#124; Designer Malaysia]]></dc:creator>
+		<pubDate>Sun, 23 Oct 2011 16:52:51 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2903#comment-23</guid>
+					<description><![CDATA[[...] this framework, you get custom templates (including 404 and 503 error pages), the mother of all WordPress body tags, support for WordPress’ new menu system, Modernizr (i.e. HTML5 feature detection) and an HTML5 [...]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] this framework, you get custom templates (including 404 and 503 error pages), the mother of all WordPress body tags, support for WordPress’ new menu system, Modernizr (i.e. HTML5 feature detection) and an HTML5 [&#8230;]</p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

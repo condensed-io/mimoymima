@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>font &#8211; mimoYmima</title>
+	<atom:link href="/tag/font/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 22 Jan 2015 20:26:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>East River Institute</title>
+		<link>/east-river-institute/</link>
+				<comments>/east-river-institute/#respond</comments>
+				<pubDate>Thu, 22 Feb 2007 20:07:31 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Bodoni]]></category>
+		<category><![CDATA[East River Institute]]></category>
+		<category><![CDATA[font]]></category>
+		<category><![CDATA[foundation]]></category>
+		<category><![CDATA[identity]]></category>
+		<category><![CDATA[org]]></category>
+		<category><![CDATA[typography]]></category>
+
+		<guid isPermaLink="false">/?p=6387</guid>
+				<description><![CDATA[<p>We just finished the identity for the East River Institute, started by Timothy Brutus. We wanted to go with something simple and classic looking, we went with Bodoni for the font. It&#8217;s contrast in stroke makes it look really classy, we tracked out the letters and gave some white space around the logo to let [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/east-river-institute/">East River Institute</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We just finished the identity for the East River Institute, started by <a href="http://www.pinterest.com/timebrutus/" title="Tim Brutus on Pinterest">Timothy Brutus</a>.  We wanted to go with something simple and classic looking, we went with <a href="http://en.wikipedia.org/wiki/Bodoni" title="info about Giambattista Bodoni and the font Bodoni">Bodoni</a> for the font.  It&#8217;s contrast in stroke makes it look really classy, we tracked out the letters and gave some white space around the logo to let it be nicely placed on any photo (they had a lot of great water-front photography)</p>
+<p><a href="https://www.tumblr.com/search/east%20river%20institute" title="East River Institute"><img src="/wp-content/uploads/2015/01/identity_east-river-institute.jpg" alt="identity_east-river-institute" class="alignnone size-full" /></a></p>
+<p><a href="https://www.tumblr.com/search/east%20river%20institute" title="East River Institute">East River Institute on Tumblr</a></p>
+<p>The post <a rel="nofollow" href="/east-river-institute/">East River Institute</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/east-river-institute/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

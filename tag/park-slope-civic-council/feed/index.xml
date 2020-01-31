@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Park Slope Civic Council &#8211; mimoYmima</title>
+	<atom:link href="/tag/park-slope-civic-council/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Tue, 01 Nov 2011 18:50:35 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>In Progress: Park Slope Civic Council</title>
+		<link>/in-progress-park-slope-civic-council-redesign/</link>
+				<comments>/in-progress-park-slope-civic-council-redesign/#respond</comments>
+				<pubDate>Tue, 01 Nov 2011 18:50:35 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[park slope]]></category>
+		<category><![CDATA[Park Slope Civic Council]]></category>
+		<category><![CDATA[re-design]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4200</guid>
+				<description><![CDATA[<p>For the last few months we have been working on the redesign of the site for the Park Slope Civic Council, a non-profit organization that is an incredible resource to our community.</p>
+<p>The post <a rel="nofollow" href="/in-progress-park-slope-civic-council-redesign/">In Progress: Park Slope Civic Council</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="http://www.mimoymima.com/wp-content/uploads/2012/04/screen_pscc_preview.jpg" alt="Park Slope Civic Council Screenshot :: design by mimoymima.com" title="screen_pscc_preview" class="alignnone size-full wp-image-4342" /></p>
+<p class="Intro">For the last few months we have been working on the redesign of the site for the Park Slope Civic Council, a non-profit organization that holds this part of Brooklyn together and is an incredible resource to our community.</p>
+<p>We worked closely with <a href="http://davidhermanstudio.com/civic-council-website/">David Herman Studio</a> on the site, coming up with the right look and feel, and customizing the content management system.</p>
+<p>The post <a rel="nofollow" href="/in-progress-park-slope-civic-council-redesign/">In Progress: Park Slope Civic Council</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/in-progress-park-slope-civic-council-redesign/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

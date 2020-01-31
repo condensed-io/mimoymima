@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: WordPress sub-pages disappeared	</title>
+	<atom:link href="/wordpress-sub-pages-disappeared/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress-sub-pages-disappeared/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 02 Dec 2011 12:04:36 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: mimoymima				</title>
+				<link>/wordpress-sub-pages-disappeared/#comment-81</link>
+		<dc:creator><![CDATA[mimoymima]]></dc:creator>
+		<pubDate>Fri, 02 Dec 2011 12:04:36 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3019#comment-81</guid>
+					<description><![CDATA[yeah I&#039;m not sure either but somehow it gets refreshed by going through this process.  glad this helped you :D ]]></description>
+		<content:encoded><![CDATA[<p>yeah I&#039;m not sure either but somehow it gets refreshed by going through this process.  glad this helped you 😀 </p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: jennifer				</title>
+				<link>/wordpress-sub-pages-disappeared/#comment-80</link>
+		<dc:creator><![CDATA[jennifer]]></dc:creator>
+		<pubDate>Thu, 01 Dec 2011 14:59:07 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=3019#comment-80</guid>
+					<description><![CDATA[OMG THANK YOU! I wonder why it &#039;forgets&#039; how the permalinks are structured in the first place? ]]></description>
+		<content:encoded><![CDATA[<p>OMG THANK YOU! I wonder why it &#039;forgets&#039; how the permalinks are structured in the first place? </p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

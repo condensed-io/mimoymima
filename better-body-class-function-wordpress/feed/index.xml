@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: A better body-class function for WordPress	</title>
+	<atom:link href="/better-body-class-function-wordpress/feed/" rel="self" type="application/rss+xml" />
+	<link>/better-body-class-function-wordpress/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Sun, 25 Jan 2015 16:03:27 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+			<item>
+				<title>
+				By: Brent Lagerman				</title>
+				<link>/better-body-class-function-wordpress/#comment-116</link>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+		<pubDate>Fri, 18 Oct 2013 22:00:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4778#comment-116</guid>
+					<description><![CDATA[Thanks Marty, you&#039;ve convinced me to retire our function in favor of a filter on the body_class function...  My main gripe with it is that it returns SO much crap I don&#039;t need and not some of the obvious stuff a themer would want... Thanks for pointing out this method though, it seems like a better way to do it.]]></description>
+		<content:encoded><![CDATA[<p>Thanks Marty, you&#8217;ve convinced me to retire our function in favor of a filter on the body_class function&#8230;  My main gripe with it is that it returns SO much crap I don&#8217;t need and not some of the obvious stuff a themer would want&#8230; Thanks for pointing out this method though, it seems like a better way to do it.</p>
+]]></content:encoded>
+						</item>
+						<item>
+				<title>
+				By: Marty Thornley				</title>
+				<link>/better-body-class-function-wordpress/#comment-115</link>
+		<dc:creator><![CDATA[Marty Thornley]]></dc:creator>
+		<pubDate>Thu, 30 May 2013 20:34:00 +0000</pubDate>
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4778#comment-115</guid>
+					<description><![CDATA[You can add or remove any classes you want using the &#039;body_class&#039; filter. I personally use the body classes all the time but if you want simpler, it&#039;s easy to filter it to be whatever you want.
+
+
+
+return apply_filters( &#039;body_class&#039;, $classes, $class );
+
+
+
+http://core.trac.wordpress.org/browser/tags/3.5.1/wp-includes/post-template.php#L0]]></description>
+		<content:encoded><![CDATA[<p>You can add or remove any classes you want using the &#8216;body_class&#8217; filter. I personally use the body classes all the time but if you want simpler, it&#8217;s easy to filter it to be whatever you want.</p>
+<p>return apply_filters( &#8216;body_class&#8217;, $classes, $class );</p>
+<p><a href="http://core.trac.wordpress.org/browser/tags/3.5.1/wp-includes/post-template.php#L0" rel="nofollow ugc">http://core.trac.wordpress.org/browser/tags/3.5.1/wp-includes/post-template.php#L0</a></p>
+]]></content:encoded>
+						</item>
+			</channel>
+</rss>

@@ -1,0 +1,223 @@
+{"event":"message","time":1473766590,"u":"80","run":"0.83","mem":"79.25","data":"Pong! Server replied."}
+{"event":"details","time":1473767125,"u":"39","run":"1074.72","mem":"72.52","data":"Zip process exit code: 0"}
+{"event":"details","time":1473767125,"u":"40","run":"1074.72","mem":"72.52","data":"Zip process reported: 0 warnings"}
+{"event":"details","time":1473767125,"u":"40","run":"1074.72","mem":"72.52","data":"Moving Zip Archive file to local archive directory."}
+{"event":"details","time":1473767125,"u":"40","run":"1074.73","mem":"72.52","data":"Zip Archive file moved to local archive directory."}
+{"event":"message","time":1473767125,"u":"40","run":"1074.73","mem":"72.52","data":"Zip Archive file successfully created with no errors or actionable warnings."}
+{"event":"details","time":1473767125,"u":"41","run":"1074.73","mem":"72.52","data":"Zip Archive file size: 512516886 bytes, owned by user:group 354059:42702 with permissions 0600"}
+{"event":"details","time":1473767125,"u":"41","run":"1074.73","mem":"72.52","data":"Removing temporary directory."}
+{"event":"details","time":1473767125,"u":"41","run":"1074.74","mem":"72.51","data":"The exec method for ZIP was successful."}
+{"event":"message","time":1473767125,"u":"41","run":"1074.74","mem":"72.47","data":"Backup ZIP file successfully created."}
+{"event":"details","time":1473767125,"u":"42","run":"1074.74","mem":"72.47","data":"Chmod of ZIP file to 0644 succeeded."}
+{"event":"details","time":1473767125,"u":"42","run":"1074.74","mem":"72.47","data":"Saving meta data to zip comment."}
+{"event":"startAction","time":1473767125,"u":"43","run":"1074.75","mem":"72.88","data":"zipCommentMeta"}
+{"event":"details","time":1473767141,"u":"60","run":"1090.93","mem":"72.89","data":"exec (zip) set comment in file \/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/uploads\/backupbuddy_backups\/backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip"}
+{"event":"finishAction","time":1473767141,"u":"61","run":"1090.93","mem":"72.88","data":"zipCommentMeta"}
+{"event":"details","time":1473767141,"u":"61","run":"1090.93","mem":"72.88","data":"Saved meta data to zip comment."}
+{"event":"details","time":1473767141,"u":"61","run":"1090.93","mem":"72.91","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1473767141,"u":"61","run":"1090.94","mem":"72.91","data":"Pinging mysql."}
+{"event":"details","time":1473767141,"u":"61","run":"1090.94","mem":"72.91","data":"Database Server has gone away, attempting to reconnect."}
+{"event":"details","time":1473767141,"u":"62","run":"1090.94","mem":"72.91","data":"Pinging mysql."}
+{"event":"details","time":1473767141,"u":"62","run":"1090.95","mem":"72.91","data":"Database Server reconnection successful."}
+{"event":"details","time":1473767141,"u":"63","run":"1090.95","mem":"72.92","data":"Fileoptions `os7dnd52v8.txt` saved. 8740 bytes written."}
+{"event":"details","time":1473767141,"u":"63","run":"1090.96","mem":"72.90","data":"Finished function `backup_zip_files`. Peak memory usage: 73.056 MB with BackupBuddy v7.1.6.2"}
+{"event":"finishFunction","time":1473767141,"u":"63","run":"1090.96","mem":"72.90","data":"{\"function\":\"backup_zip_files\"}"}
+{"event":"details","time":1473767141,"u":"64","run":"1090.96","mem":"72.90","data":"-----"}
+{"event":"details","time":1473767141,"u":"64","run":"1090.96","mem":"72.91","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1473767141,"u":"64","run":"1090.97","mem":"72.90","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1473767141,"u":"64","run":"1090.97","mem":"72.90","data":"Scheduling Cron for `os7dnd52v8`."}
+{"event":"details","time":1473767141,"u":"64","run":"1090.97","mem":"72.90","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1473767141,"u":"65","run":"1090.97","mem":"72.90","data":"Pinging mysql."}
+{"event":"details","time":1473767141,"u":"65","run":"1090.97","mem":"72.90","data":"Database Server connection status verified."}
+{"event":"details","time":1473767141,"u":"65","run":"1090.97","mem":"72.90","data":"Scheduling next step to run at `1473767141` (localized time: Sep 13, 2016 11:45:41 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `os7dnd52v8`."}
+{"event":"details","time":1473767141,"u":"66","run":"1090.99","mem":"72.91","data":"Next step scheduled."}
+{"event":"startAction","time":1473767141,"u":"66","run":"1090.99","mem":"72.91","data":"cronPass"}
+{"event":"cronParams","time":1473767141,"u":"67","run":"1090.99","mem":"72.91","data":"eyJ0aW1lIjoxNDczNzY3MTQxLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm9zN2RuZDUydjgiXX0="}
+{"event":"details","time":1473767141,"u":"67","run":"1090.99","mem":"72.90","data":"Not calling spawn_cron()."}
+{"event":"details","time":1473767141,"u":"67","run":"1091.00","mem":"72.90","data":"About to run next step (integrity_check expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1473767141,"u":"68","run":"1091.00","mem":"72.90","data":"Completed step function `backup_zip_files`."}
+{"event":"details","time":1473767150,"u":"15","run":"0.79","mem":"69.85","data":"--- New PHP process."}
+{"event":"details","time":1473767150,"u":"15","run":"0.79","mem":"69.85","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1473767150,"u":"15","run":"0.79","mem":"69.85","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1473767150,"u":"15","run":"0.80","mem":"69.85","data":"Reported PHP execution time - Configured: 300; Original: 30; Current: 30"}
+{"event":"details","time":1473767150,"u":"17","run":"0.81","mem":"69.85","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (400M) or over-ridden value"}
+{"event":"details","time":1473767150,"u":"17","run":"0.81","mem":"69.85","data":"Reported PHP memory limits - Configured: 400M; Original: 400M; Current: 400M"}
+{"event":"message","time":1473767150,"u":"17","run":"0.82","mem":"69.85","data":"Running process for serial `os7dnd52v8`..."}
+{"event":"details","time":1473767150,"u":"33","run":"0.98","mem":"72.28","data":"Exec test (zip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1473767150,"u":"34","run":"0.99","mem":"72.28","data":"Exec test (zip) FAILED: Test zip file not found."}
+{"event":"details","time":1473767150,"u":"34","run":"0.99","mem":"72.28","data":"Exec test (zip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1473767150,"u":"35","run":"0.99","mem":"72.28","data":"Exec test (zip) trying executable path: ``."}
+{"event":"details","time":1473767150,"u":"42","run":"1.07","mem":"72.28","data":"Exec test (zip) PASSED."}
+{"event":"details","time":1473767150,"u":"43","run":"1.07","mem":"72.28","data":"Checking zip version..."}
+{"event":"details","time":1473767150,"u":"43","run":"1.08","mem":"72.28","data":"Found zip version: 3.0"}
+{"event":"details","time":1473767150,"u":"43","run":"1.08","mem":"72.28","data":"Exec test (unzip) checking test file readable: \/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/plugins\/backupbuddy\/lib\/zipbuddy\/zbzip.php"}
+{"event":"details","time":1473767150,"u":"43","run":"1.08","mem":"72.28","data":"Exec test (unzip) checking test file intact: 0a0f9b28c5ff89dfb4f2a0472be0ea8f"}
+{"event":"details","time":1473767150,"u":"44","run":"1.08","mem":"72.28","data":"Exec test (unzip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1473767150,"u":"46","run":"1.10","mem":"72.28","data":"Exec test (unzip) FAILED: Test unzip file test failed."}
+{"event":"details","time":1473767150,"u":"46","run":"1.10","mem":"72.28","data":"Exec test (unzip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1473767150,"u":"46","run":"1.10","mem":"72.28","data":"Exec test (unzip) trying executable path: ``."}
+{"event":"details","time":1473767150,"u":"47","run":"1.11","mem":"72.28","data":"Exec test (unzip) PASSED."}
+{"event":"details","time":1473767150,"u":"47","run":"1.12","mem":"72.28","data":"Checking unzip version..."}
+{"event":"details","time":1473767150,"u":"48","run":"1.12","mem":"72.28","data":"Found unzip version: 6.0"}
+{"event":"details","time":1473767150,"u":"51","run":"1.15","mem":"72.28","data":"ZipArchive test PASSED."}
+{"event":"details","time":1473767150,"u":"51","run":"1.15","mem":"72.28","data":"PCLZip class not found. Attempting to load from `\/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1473767150,"u":"53","run":"1.17","mem":"73.33","data":"PclZip test PASSED."}
+{"event":"details","time":1473767150,"u":"53","run":"1.18","mem":"73.34","data":"About to load fileoptions data for serial `os7dnd52v8`."}
+{"event":"details","time":1473767150,"u":"54","run":"1.18","mem":"73.46","data":"Fileoptions instance #39."}
+{"event":"details","time":1473767150,"u":"54","run":"1.18","mem":"73.47","data":"Created fileoptions lock file `os7dnd52v8.txt.lock` with ID: 57d7e6ee8497f7.19377499."}
+{"event":"details","time":1473767150,"u":"54","run":"1.19","mem":"73.50","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1473767150,"u":"54","run":"1.19","mem":"73.50","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1473767150,"u":"55","run":"1.19","mem":"73.50","data":"cronPass"}
+{"event":"details","time":1473767150,"u":"55","run":"1.19","mem":"73.52","data":"Fileoptions `os7dnd52v8.txt` saved. 8764 bytes written."}
+{"event":"details","time":1473767150,"u":"55","run":"1.19","mem":"73.50","data":"Found next step to run: `integrity_check`."}
+{"event":"details","time":1473767150,"u":"55","run":"1.20","mem":"73.50","data":"Peak memory usage: 73.914 MB"}
+{"event":"details","time":1473767150,"u":"55","run":"1.20","mem":"73.50","data":"-----"}
+{"event":"details","time":1473767150,"u":"55","run":"1.20","mem":"73.50","data":"Starting step function `integrity_check`. Attempt #1."}
+{"event":"startFunction","time":1473767150,"u":"55","run":"1.20","mem":"73.50","data":"{\"function\":\"integrity_check\",\"title\":\"Verifying backup file integrity\"}"}
+{"event":"milestone","time":1473767150,"u":"55","run":"1.20","mem":"73.50","data":"start_integrity"}
+{"event":"message","time":1473767150,"u":"56","run":"1.20","mem":"73.50","data":"Scanning and verifying backup file integrity."}
+{"event":"details","time":1473767150,"u":"56","run":"1.20","mem":"73.50","data":"Starting integrity check on `\/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/uploads\/backupbuddy_backups\/backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip`."}
+{"event":"details","time":1473767150,"u":"56","run":"1.20","mem":"73.65","data":"Started backup_integrity_check() function for `os7dnd52v8` for file `\/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/uploads\/backupbuddy_backups\/backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip`."}
+{"event":"details","time":1473767150,"u":"56","run":"1.21","mem":"73.66","data":"Verifying comment in zip archive."}
+{"event":"details","time":1473767150,"u":"57","run":"1.21","mem":"73.67","data":"exec (unzip) retrieved comment in file \/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/uploads\/backupbuddy_backups\/backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip"}
+{"event":"details","time":1473767150,"u":"57","run":"1.22","mem":"73.66","data":"NOTE: It is normal to see several \"File not found\" messages in the next several log lines."}
+{"event":"details","time":1473767150,"u":"57","run":"1.22","mem":"73.66","data":"Verifying DAT file in zip archive."}
+{"event":"details","time":1473767150,"u":"98","run":"1.62","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/backupbuddy_dat.php"}
+{"event":"details","time":1473767151,"u":"03","run":"1.67","mem":"73.67","data":"File not found (exec): wp-content\/uploads\/temp_os7dnd52v8\/backupbuddy_dat.php"}
+{"event":"details","time":1473767151,"u":"08","run":"1.72","mem":"73.67","data":"File not found (exec): backupbuddy_dat.php"}
+{"event":"details","time":1473767151,"u":"08","run":"1.72","mem":"73.66","data":"Verifying database SQL file in zip archive."}
+{"event":"details","time":1473767151,"u":"08","run":"1.72","mem":"73.66","data":"Forcing to a single db_1.sql file was NOT enabled for this backup."}
+{"event":"details","time":1473767151,"u":"08","run":"1.72","mem":"73.66","data":"BackupBuddy v5.0+ format database detected."}
+{"event":"details","time":1473767151,"u":"08","run":"1.73","mem":"73.66","data":"Not database-only type backup."}
+{"event":"details","time":1473767151,"u":"13","run":"1.78","mem":"73.67","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/db_1.sql"}
+{"event":"details","time":1473767151,"u":"13","run":"1.78","mem":"73.66","data":"PHP based database dump type."}
+{"event":"details","time":1473767151,"u":"19","run":"1.83","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_commentmeta.sql"}
+{"event":"details","time":1473767151,"u":"24","run":"1.89","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_comments.sql"}
+{"event":"details","time":1473767151,"u":"29","run":"1.94","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_itsec_lockouts.sql"}
+{"event":"details","time":1473767151,"u":"35","run":"1.99","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_itsec_log.sql"}
+{"event":"details","time":1473767151,"u":"40","run":"2.04","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_itsec_temp.sql"}
+{"event":"details","time":1473767151,"u":"45","run":"2.09","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_links.sql"}
+{"event":"details","time":1473767151,"u":"51","run":"2.15","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_options.sql"}
+{"event":"details","time":1473767151,"u":"58","run":"2.22","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_postmeta.sql"}
+{"event":"details","time":1473767151,"u":"69","run":"2.33","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_posts.sql"}
+{"event":"details","time":1473767151,"u":"74","run":"2.38","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_form.sql"}
+{"event":"details","time":1473767151,"u":"79","run":"2.44","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_form_meta.sql"}
+{"event":"details","time":1473767151,"u":"85","run":"2.50","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_form_view.sql"}
+{"event":"details","time":1473767151,"u":"90","run":"2.55","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_incomplete_submissions.sql"}
+{"event":"details","time":1473767151,"u":"95","run":"2.60","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_lead.sql"}
+{"event":"details","time":1473767152,"u":"01","run":"2.65","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_lead_detail.sql"}
+{"event":"details","time":1473767152,"u":"06","run":"2.71","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_lead_detail_long.sql"}
+{"event":"details","time":1473767152,"u":"12","run":"2.76","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_lead_meta.sql"}
+{"event":"details","time":1473767152,"u":"17","run":"2.81","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_lead_notes.sql"}
+{"event":"details","time":1473767152,"u":"22","run":"2.86","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_rg_zapier.sql"}
+{"event":"details","time":1473767152,"u":"27","run":"2.91","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_term_relationships.sql"}
+{"event":"details","time":1473767152,"u":"32","run":"2.96","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_term_taxonomy.sql"}
+{"event":"details","time":1473767152,"u":"37","run":"3.02","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_termmeta.sql"}
+{"event":"details","time":1473767152,"u":"43","run":"3.08","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_terms.sql"}
+{"event":"details","time":1473767152,"u":"48","run":"3.13","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_usermeta.sql"}
+{"event":"details","time":1473767152,"u":"53","run":"3.18","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_users.sql"}
+{"event":"details","time":1473767152,"u":"59","run":"3.24","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfBadLeechers.sql"}
+{"event":"details","time":1473767152,"u":"64","run":"3.29","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfBlockedIPLog.sql"}
+{"event":"details","time":1473767152,"u":"69","run":"3.34","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfBlocks.sql"}
+{"event":"details","time":1473767152,"u":"75","run":"3.39","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfBlocksAdv.sql"}
+{"event":"details","time":1473767152,"u":"80","run":"3.44","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfConfig.sql"}
+{"event":"details","time":1473767152,"u":"85","run":"3.49","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfCrawlers.sql"}
+{"event":"details","time":1473767152,"u":"97","run":"3.61","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfFileMods.sql"}
+{"event":"details","time":1473767153,"u":"04","run":"3.68","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfHits.sql"}
+{"event":"details","time":1473767153,"u":"09","run":"3.73","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfHoover.sql"}
+{"event":"details","time":1473767153,"u":"14","run":"3.78","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfIssues.sql"}
+{"event":"details","time":1473767153,"u":"19","run":"3.84","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfLeechers.sql"}
+{"event":"details","time":1473767153,"u":"24","run":"3.89","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfLockedOut.sql"}
+{"event":"details","time":1473767153,"u":"30","run":"3.94","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfLocs.sql"}
+{"event":"details","time":1473767153,"u":"35","run":"4.00","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfLogins.sql"}
+{"event":"details","time":1473767153,"u":"41","run":"4.05","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfNet404s.sql"}
+{"event":"details","time":1473767153,"u":"46","run":"4.10","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfReverseCache.sql"}
+{"event":"details","time":1473767153,"u":"51","run":"4.16","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfScanners.sql"}
+{"event":"details","time":1473767153,"u":"57","run":"4.21","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfStatus.sql"}
+{"event":"details","time":1473767153,"u":"62","run":"4.26","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfThrottleLog.sql"}
+{"event":"details","time":1473767153,"u":"67","run":"4.32","mem":"73.67","data":"File found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp_wfVulnScanners.sql"}
+{"event":"details","time":1473767153,"u":"67","run":"4.32","mem":"73.66","data":"Verifying WordPress wp-config.php configuration file in zip archive."}
+{"event":"details","time":1473767153,"u":"74","run":"4.38","mem":"73.67","data":"File found (exec): wp-config.php"}
+{"event":"details","time":1473767153,"u":"79","run":"4.44","mem":"73.67","data":"File not found (exec): wp-content\/uploads\/backupbuddy_temp\/os7dnd52v8\/wp-config.php"}
+{"event":"details","time":1473767153,"u":"79","run":"4.44","mem":"73.66","data":"Retrieving zip scan log."}
+{"event":"details","time":1473767153,"u":"79","run":"4.44","mem":"73.66","data":"Calculating integrity scan status,"}
+{"event":"details","time":1473767153,"u":"79","run":"4.44","mem":"73.66","data":"Status: `Pass`. Description: ``."}
+{"event":"details","time":1473767153,"u":"80","run":"4.44","mem":"73.66","data":"Getting file details such as size, timestamp, etc."}
+{"event":"details","time":1473767153,"u":"80","run":"4.44","mem":"73.67","data":"Saving backup file integrity check details."}
+{"event":"details","time":1473767153,"u":"80","run":"4.44","mem":"73.68","data":"Fileoptions `os7dnd52v8.txt` saved. 9460 bytes written."}
+{"event":"milestone","time":1473767153,"u":"80","run":"4.45","mem":"73.51","data":"finish_integrity"}
+{"event":"details","time":1473767153,"u":"81","run":"4.45","mem":"73.52","data":"Fileoptions `os7dnd52v8.txt` saved. 9492 bytes written."}
+{"event":"details","time":1473767153,"u":"81","run":"4.46","mem":"73.92","data":"Finished function `integrity_check`. Peak memory usage: 74.138 MB with BackupBuddy v7.1.6.2"}
+{"event":"finishFunction","time":1473767153,"u":"81","run":"4.46","mem":"73.92","data":"{\"function\":\"integrity_check\"}"}
+{"event":"details","time":1473767153,"u":"81","run":"4.46","mem":"73.92","data":"-----"}
+{"event":"details","time":1473767153,"u":"81","run":"4.46","mem":"73.92","data":"Closing & unlocking fileoptions."}
+{"event":"warnings","time":1473767153,"u":"81","run":"4.46","mem":"73.91","data":"Warning #438943984983. This warning may be okay and ignored. $this->_backup still appears to be set. Still a fileoptions object? May result in race condition issues if fileoptions still open and\/or locked. Set = empty string to verify it shuts down properly prior to calling this function."}
+{"event":"details","time":1473767153,"u":"82","run":"4.46","mem":"73.91","data":"Scheduling Cron for `os7dnd52v8`."}
+{"event":"details","time":1473767153,"u":"83","run":"4.47","mem":"73.94","data":"Database kicker loaded. Database object class: `wpdb` with database of type `mysql`."}
+{"event":"details","time":1473767153,"u":"83","run":"4.48","mem":"73.94","data":"Pinging mysql."}
+{"event":"details","time":1473767153,"u":"83","run":"4.48","mem":"73.94","data":"Database Server connection status verified."}
+{"event":"details","time":1473767153,"u":"83","run":"4.48","mem":"73.94","data":"Scheduling next step to run at `1473767153` (localized time: Sep 13, 2016 11:45:53 am), pushed to the top, with cron tag `backupbuddy_cron` to run method `process_backup` and serial arguments `os7dnd52v8`."}
+{"event":"details","time":1473767153,"u":"84","run":"4.48","mem":"73.95","data":"Next step scheduled."}
+{"event":"startAction","time":1473767153,"u":"84","run":"4.49","mem":"73.95","data":"cronPass"}
+{"event":"cronParams","time":1473767153,"u":"84","run":"4.49","mem":"73.95","data":"eyJ0aW1lIjoxNDczNzY3MTUzLCJ0YWciOiJiYWNrdXBidWRkeV9jcm9uIiwibWV0aG9kIjoicHJvY2Vzc19iYWNrdXAiLCJhcmdzIjpbIm9zN2RuZDUydjgiXX0="}
+{"event":"details","time":1473767153,"u":"84","run":"4.49","mem":"73.94","data":"Not calling spawn_cron()."}
+{"event":"details","time":1473767153,"u":"85","run":"4.49","mem":"73.95","data":"About to run next step (post_backup expected). If the backup does not proceed within 15 seconds then something is interfering with the WordPress CRON system such as: server loopback issues, caching plugins, scheduling plugins, another plugin using all available cron time, or another BackupBuddy process in progress (file transfers, other backups, Stash Live backup) taking up all cron time. Try disabling other plugins to see if it resolves issue.  Check the Server Information page cron section to see if the next BackupBuddy step is scheduled to run. Enable \"Classic\" backup mode on the \"Settings\" page to rule out non-cron issues. Additionally you may verify no other backup processes are trying to run at the same time by verifying there is not an existing backup process listed in the cron hogging the cron process."}
+{"event":"details","time":1473767153,"u":"85","run":"4.49","mem":"73.94","data":"Completed step function `integrity_check`."}
+{"event":"details","time":1473767267,"u":"42","run":"1.81","mem":"69.82","data":"--- New PHP process."}
+{"event":"details","time":1473767267,"u":"43","run":"1.81","mem":"69.82","data":"Checking max PHP execution time settings."}
+{"event":"details","time":1473767267,"u":"44","run":"1.82","mem":"69.82","data":"Skipped attempting to override max PHP execution time based on settings."}
+{"event":"details","time":1473767267,"u":"44","run":"1.82","mem":"69.82","data":"Reported PHP execution time - Configured: 300; Original: 300; Current: 300"}
+{"event":"details","time":1473767267,"u":"44","run":"1.82","mem":"69.82","data":"Attempted to set PHP memory limit to user defined WP_MAX_MEMORY_LIMIT (400M) or over-ridden value"}
+{"event":"details","time":1473767267,"u":"44","run":"1.82","mem":"69.82","data":"Reported PHP memory limits - Configured: 400M; Original: 400M; Current: 400M"}
+{"event":"message","time":1473767267,"u":"44","run":"1.82","mem":"69.82","data":"Running process for serial `os7dnd52v8`..."}
+{"event":"details","time":1473767267,"u":"54","run":"1.92","mem":"72.24","data":"Exec test (zip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1473767267,"u":"58","run":"1.96","mem":"72.25","data":"Exec test (zip) FAILED: Test zip file not found."}
+{"event":"details","time":1473767267,"u":"60","run":"1.98","mem":"72.25","data":"Exec test (zip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1473767267,"u":"61","run":"1.99","mem":"72.25","data":"Exec test (zip) trying executable path: ``."}
+{"event":"details","time":1473767267,"u":"68","run":"2.06","mem":"72.25","data":"Exec test (zip) PASSED."}
+{"event":"details","time":1473767267,"u":"68","run":"2.06","mem":"72.25","data":"Checking zip version..."}
+{"event":"details","time":1473767267,"u":"69","run":"2.08","mem":"72.25","data":"Found zip version: 3.0"}
+{"event":"details","time":1473767267,"u":"70","run":"2.09","mem":"72.25","data":"Exec test (unzip) checking test file readable: \/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/plugins\/backupbuddy\/lib\/zipbuddy\/zbzip.php"}
+{"event":"details","time":1473767267,"u":"71","run":"2.09","mem":"72.25","data":"Exec test (unzip) checking test file intact: 0a0f9b28c5ff89dfb4f2a0472be0ea8f"}
+{"event":"details","time":1473767267,"u":"71","run":"2.09","mem":"72.25","data":"Exec test (unzip) trying executable path: `\/usr\/local\/bin`."}
+{"event":"details","time":1473767267,"u":"76","run":"2.14","mem":"72.25","data":"Exec test (unzip) FAILED: Test unzip file test failed."}
+{"event":"details","time":1473767267,"u":"76","run":"2.14","mem":"72.25","data":"Exec test (unzip) FAILED: exec Exit Code: 127"}
+{"event":"details","time":1473767267,"u":"76","run":"2.15","mem":"72.25","data":"Exec test (unzip) trying executable path: ``."}
+{"event":"details","time":1473767267,"u":"84","run":"2.22","mem":"72.25","data":"Exec test (unzip) PASSED."}
+{"event":"details","time":1473767267,"u":"84","run":"2.22","mem":"72.25","data":"Checking unzip version..."}
+{"event":"details","time":1473767267,"u":"89","run":"2.27","mem":"72.25","data":"Found unzip version: 6.0"}
+{"event":"details","time":1473767267,"u":"91","run":"2.29","mem":"72.25","data":"ZipArchive test PASSED."}
+{"event":"details","time":1473767267,"u":"91","run":"2.29","mem":"72.25","data":"PCLZip class not found. Attempting to load from `\/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-admin\/includes\/class-pclzip.php`."}
+{"event":"details","time":1473767267,"u":"96","run":"2.35","mem":"73.30","data":"PclZip test PASSED."}
+{"event":"details","time":1473767267,"u":"98","run":"2.36","mem":"73.30","data":"About to load fileoptions data for serial `os7dnd52v8`."}
+{"event":"details","time":1473767267,"u":"00","run":"2.39","mem":"73.43","data":"Fileoptions instance #39."}
+{"event":"details","time":1473767267,"u":"01","run":"2.39","mem":"73.43","data":"Created fileoptions lock file `os7dnd52v8.txt.lock` with ID: 57d7e764029691.06153542."}
+{"event":"details","time":1473767268,"u":"04","run":"2.43","mem":"73.47","data":"Fileoptions load using 0.04 MB of memory."}
+{"event":"details","time":1473767268,"u":"05","run":"2.43","mem":"73.47","data":"Fileoptions data loaded."}
+{"event":"finishAction","time":1473767268,"u":"05","run":"2.43","mem":"73.47","data":"cronPass"}
+{"event":"details","time":1473767268,"u":"06","run":"2.44","mem":"73.49","data":"Fileoptions `os7dnd52v8.txt` saved. 9512 bytes written."}
+{"event":"details","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"Found next step to run: `post_backup`."}
+{"event":"details","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"Peak memory usage: 73.878 MB"}
+{"event":"details","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"-----"}
+{"event":"details","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"Starting step function `post_backup`. Attempt #1."}
+{"event":"startFunction","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"{\"function\":\"post_backup\",\"title\":\"Cleaning up\"}"}
+{"event":"message","time":1473767268,"u":"06","run":"2.44","mem":"73.47","data":"Cleaning up after backup."}
+{"event":"details","time":1473767268,"u":"07","run":"2.46","mem":"73.47","data":"Removing temp data directory."}
+{"event":"details","time":1473767268,"u":"19","run":"2.58","mem":"73.47","data":"Trimming old archives (if needed)."}
+{"event":"details","time":1473767268,"u":"20","run":"2.58","mem":"73.48","data":"Trimmed 0 old archives based on settings archive limits."}
+{"event":"details","time":1473767268,"u":"20","run":"2.58","mem":"73.47","data":"Final ZIP file size: 488.77 MB"}
+{"event":"archiveSize","time":1473767268,"u":"20","run":"2.59","mem":"73.47","data":"488.77 MB"}
+{"event":"details","time":1473767268,"u":"20","run":"2.59","mem":"73.47","data":"Updating statistics for last backup completed and number of edits since last backup."}
+{"event":"details","time":1473767268,"u":"21","run":"2.59","mem":"73.84","data":"Cleaning up any old temporary zip directories in: `\/nfs\/c05\/h05\/mnt\/40749\/domains\/mimoymima.com\/html\/wp-content\/uploads\/backupbuddy_temp\/`. If no recent backups then the temp directory will also be purged."}
+{"event":"message","time":1473767268,"u":"22","run":"2.60","mem":"73.84","data":"Finished cleaning up."}
+{"event":"archiveInfo","time":1473767268,"u":"22","run":"2.61","mem":"73.84","data":"{\"file\":\"backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip\",\"url\":\"https:\\\/\\\/mimoymima.com\\\/wp-admin\\\/admin-ajax.php?action=pb_backupbuddy_backupbuddy&function=download_archive&backupbuddy_backup=backup-mimoymima_com-2016_09_13-11_27am-full-os7dnd52v8.zip\"}"}
+{"event":"details","time":1473767268,"u":"23","run":"2.61","mem":"73.85","data":"Fileoptions `os7dnd52v8.txt` saved. 9552 bytes written."}
+{"event":"details","time":1473767268,"u":"23","run":"2.62","mem":"74.25","data":"Finished function `post_backup`. Peak memory usage: 74.019 MB with BackupBuddy v7.1.6.2"}
+{"event":"finishFunction","time":1473767268,"u":"23","run":"2.62","mem":"74.25","data":"{\"function\":\"post_backup\"}"}
+{"event":"details","time":1473767268,"u":"24","run":"2.62","mem":"74.25","data":"-----"}
+{"event":"details","time":1473767268,"u":"24","run":"2.62","mem":"74.25","data":"No more backup steps remain. Finishing..."}
+{"event":"details","time":1473767268,"u":"24","run":"2.62","mem":"74.27","data":"Fileoptions `os7dnd52v8.txt` saved. 9576 bytes written."}
+{"event":"startFunction","time":1473767268,"u":"24","run":"2.62","mem":"74.25","data":"{\"function\":\"backup_success\",\"title\":\"Backup completed successfully.\"}"}
+{"event":"finishFunction","time":1473767268,"u":"24","run":"2.62","mem":"74.25","data":"{\"function\":\"backup_success\"}"}
+{"event":"details","time":1473767268,"u":"24","run":"2.62","mem":"74.25","data":"Closing & unlocking fileoptions."}
+{"event":"details","time":1473767268,"u":"25","run":"2.63","mem":"74.24","data":"Completed step function `post_backup`."}

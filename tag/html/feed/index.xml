@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>HTML &#8211; mimoYmima</title>
+	<atom:link href="/tag/html/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Thu, 26 Feb 2015 14:26:41 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>SUPER SIMPLE FULL PAGE PRELOADER</title>
+		<link>/super-simple-preloader/</link>
+				<comments>/super-simple-preloader/#comments</comments>
+				<pubDate>Fri, 14 Sep 2012 22:42:50 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[@font-face]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[fout]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[pre-load]]></category>
+		<category><![CDATA[preloader]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=4701</guid>
+				<description><![CDATA[<p>Here's a super simple preloader that you can add onto any type of project</p>
+<p>The post <a rel="nofollow" href="/super-simple-preloader/">SUPER SIMPLE FULL PAGE PRELOADER</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Here&#8217;s a super simple pre-loader that you can add onto any type of project</p>
+<p>We put it on CodePen to make it easy to see it working:</p>
+<p data-height="268" data-theme-id="0" data-slug-hash="fisgL" data-default-tab="result" data-user="mimoYmima" class='codepen'>See the Pen <a href='http://codepen.io/mimoYmima/pen/fisgL/'>SUPER SIMPLE FULL PAGE PRELOADER</a> by Brent Lagerman (<a href='http://codepen.io/mimoYmima'>@mimoYmima</a>) on <a href='http://codepen.io/'>CodePen</a>.</p>
+<p><script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+<p><a href="http://codepen.io/mimoYmima/pen/fisgL">http://codepen.io/mimoYmima/pen/fisgL</a></p>
+<p>The post <a rel="nofollow" href="/super-simple-preloader/">SUPER SIMPLE FULL PAGE PRELOADER</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/super-simple-preloader/feed/</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+							</item>
+		<item>
+		<title>Browser Specific Stylesheets</title>
+		<link>/browser-specific-stylesheets/</link>
+				<comments>/browser-specific-stylesheets/#comments</comments>
+				<pubDate>Fri, 06 Nov 2009 20:04:00 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[conditional comments]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[explorer]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[ie]]></category>
+		<category><![CDATA[pc]]></category>
+		<category><![CDATA[stylesheets]]></category>
+		<category><![CDATA[web development]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2165</guid>
+				<description><![CDATA[<p>It's unfortunate, but all browsers don't use the same rendering engines to show web pages.  This means that the same combination of HTML and CSS can look different on different browsers. Figuring out how to make your site look the same on all browsers is a big part of web design.</p>
+<p>The post <a rel="nofollow" href="/browser-specific-stylesheets/">Browser Specific Stylesheets</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="Intro">It&#8217;s unfortunate, but all browsers don&#8217;t use the same rendering engines to show web pages.  This means that the same combination of <acronym title="Hypertext Markup Language">HTML</acronym> and <acronym title="Cascading Stylesheets">CSS</acronym> can look different on different browsers. Figuring out how to make your site look the same on all browsers is a big part of web design.</p>
+
+<h2>First Thing: Clean Code</h2>
+
+<a href="https://browserlab.adobe.com/" class="Popup"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_stylesheets.jpg" alt="foggy road, hard to see what is around the corner" width="525" height="195" class="aligncenter" /></a>
+
+<p>You want your HTML and CSS to be <acronym title="The World Wide Web Consortium">W3C</acronym> compliant.  This means that <a href="http://validator.w3.org/docs/why.html" class="lightview" title="HTML validator :: :: fullscreen: true">you should validate all your pages</a>.  You should <em>not</em> use tables for layout purposes, and you <em>should</em> keep all the CSS in external stylesheets.</p>
+
+<p>While you are writing this clean beautiful code you should use <a href="http://www.mozilla.com/en-US/firefox/" class="lightview" title="Get Firefox :: :: fullscreen: true">Firefox</a> to see what the page looks like.  Firefox (to my knowledge) renders pages closest to the W3C standard.</p>
+
+<h2><acronym title="Internet Explorer">IE</acronym>6</h2>
+
+<p>Once you have the general layout looking good in Firefox you should take a look at Internet Explorer 6.  If you don&#8217;t have a copy you can get a quick screenshot of any page by going to <a href="http://ipinfo.info/netrenderer/" class="Popup" title="IE Net Renderer :: See what your site looks like on Internet Explorer :: fullscreen: true">NetRenderer</a> or <a href="https://browserlab.adobe.com/" class="Popup">Adobe Browser Labs</a>.  If you&#8217;ve used CSS for your layout, you&#8217;ll probably see some problems with the way the page looks.  Many problems can be worked out just by seeing what they are and rethinking your CSS, but you will get to many points where you just need to tell IE6 a few things that you don&#8217;t want to tell other browsers.</p>
+
+<h2>Conditional Comments for IE</h2>
+
+<p>Conditional comments are special comments that are understood by IE and are used to feed just certain versions of IE pieces of HTML that the rest of the browsers in the world will ignore.  When you make the head of your HTML pages you should use these special comments to feed IE6 a specific stylesheet and also one for IE7.  With these &#8220;hack&#8221; stylesheets we will help them to look like the rest of the browsers out there.</p>
+
+<p>Separating your IE hacks also means that your good meaningful styles are in one sheet and your hacks in another, so later <span title="will this ever happen?">when nobody uses IE6 anymore</span> you can throw out the hacks easily.</p>
+
+<p>Here&#8217;s a copy of the head of our documents which shows you how we include the normal and the &#8220;hack&#8221; stylesheets.</p>
+
+<!--BEGIN: simplified mimoYmima document head to show stylesheet importing-->
+<pre class="crayon-plain-tag">&amp;lt;head&amp;gt;
+&amp;lt;title&amp;gt;Cross Browser Stylesheets ~ mimoYmima&amp;lt;/title&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/basic.css&quot; media=&quot;all&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/screen.css&quot; media=&quot;screen&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/print.css&quot; media=&quot;print&quot; /&amp;gt;
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/handheld.css&quot; media=&quot;handheld&quot; /&amp;gt;
+&amp;lt;!--[if lt IE 7]&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/ie6.css&quot; media=&quot;screen&quot; /&amp;gt;&amp;lt;![endif]--&amp;gt;
+&amp;lt;!--[if IE 7]&amp;gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;/css/ie7.css&quot; media=&quot;screen&quot; /&amp;gt;&amp;lt;![endif]--&amp;gt;
+&amp;lt;meta name=&quot;description&quot; content=&quot;Add your page description here.&quot; /&amp;gt;
+&amp;lt;script type=&quot;text/JavaScript&quot; src=&quot;/includes/global.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/head&amp;gt;</pre>
+<!--END: simplified mimoYmima document head to show stylesheet importing-->
+
+<p>In this bit of code we get all our normal sheets: basic.css, screen.css, print.css, and handheld.css (if you only have one sheet reference it instead) and then after that we pick up hacks-ie-win.css with a conditional comment as well as hacks-ie7.css.</p>
+
+<h2>Example Files</h2>				
+<p>The files in this example package show the working relationship between the different stylesheets and the index.html file.</p>				
+<h3><a href='http://www.mimoymima.com/wp-content/uploads/2009/11/cond-styles.zip'>download the example</a></h3>
+
+<h3><a href="http://feeds.feedburner.com/mym_lab">mYm Dev Feed <img src="/images/icon_rss_lg.png" width="28" height="28" title="Subscribe to the mym-dev RSS Feed" alt="RSS" /></a></h3>
+ <p>The post <a rel="nofollow" href="/browser-specific-stylesheets/">Browser Specific Stylesheets</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/browser-specific-stylesheets/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>HTML links</title>
+		<link>/html-links/</link>
+				<comments>/html-links/#respond</comments>
+				<pubDate>Fri, 06 Nov 2009 20:28:41 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[Lab]]></category>
+		<category><![CDATA[HTML]]></category>
+
+		<guid isPermaLink="false">http://www.mimoymima.com/?p=2137</guid>
+				<description><![CDATA[<p>HTML, it's at the root of all web pages, (even flash sites)  you cannot be a good web designer without knowing HTML</p>
+<p>The post <a rel="nofollow" href="/html-links/">HTML links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p class="intro">HTML, it&#8217;s at the root of all web pages, you cannot be a good web designer without knowing HTML</p>
+
+<a href="http://www.mimoymima.com/wp-content/uploads/2009/12/html_lg.jpg"><img src="http://www.mimoymima.com/wp-content/uploads/2009/11/img_html.jpg" alt="" title="img_html" width="525" height="123" class="aligncenter size-full wp-image-2623" /></a>
+
+<dl class="dict-list">
+
+<dt><a href="http://alistapart.com/" title="Online Magazine for learning HTML :: :: fullscreen: true">A List Apart</a></dt>
+<dd>Great online magazine for learning all kinds of web design techniques.</dd>
+
+<dt><a href="http://www.amazon.com/HTML-XHTML-Definitive-Guide-6th/dp/0596527322/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1228490485&amp;sr=8-1" title="Great book for learning XHTML :: :: fullscreen: true">XHTML: The Definitive Guide</a></dt>
+<dd>This is a good place to get started, and also something that you will be able to go back to throughout the years as you have questions</dd>
+
+<dt><a href="http://htmlhelp.com/tools/validator/" title="Validate your entire site :: :: fullscreen: true">Validate Your Site</a></dt>
+<dd>Validates your entire site (up to 100 pages anyway).  You can also target directories to get the rest if you have over 100 pages.</dd>
+			
+<dt><a href="http://www.digitalmediaminute.com/reference/entity/index.php" title="Character Entities Reference :: :: fullscreen: true">XHTML Character Entities</a></dt>
+<dd>By far the best reference for Character Entities</dd>
+			
+<dt><a href="http://www.campaignmonitor.com/design-guidelines/" title="HTML Email Advice :: :: fullscreen: true">HTML Email Design</a></dt>
+<dd>Some advice for HTML emails</dd>
+			
+<dt><a href="http://24ways.org/" title="More Links to HTML stuff :: :: fullscreen: true">24 Ways</a></dt>
+<dd>Similar to this page, 24 Ways is a collection of links to other tutorials.</dd>
+			
+<dt><a href="http://thinkvitamin.com/" title="Another great online Web magazine to check out :: :: fullscreen: true">Vitamin</a></dt>
+<dd>A online magazine for learning front end development techniques.</dd>
+
+<dt><a href="http://isc.sans.org/diary.html?storyid=1836" title="HTML form security tricks" :: :: fullscreen: true">HTML Form Security</a></dt>
+<dd>Techniques for improving the security of web forms</dd>
+
+<dt><a href="http://myphpform.com/contact.php" title="More web form security" :: :: fullscreen: true">More HTML Form Security</a></dt>
+<dd>Techniques for improving the security of web forms</dd>
+
+</dl> <p>The post <a rel="nofollow" href="/html-links/">HTML links</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/html-links/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

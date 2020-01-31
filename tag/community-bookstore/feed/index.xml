@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>community bookstore &#8211; mimoYmima</title>
+	<atom:link href="/tag/community-bookstore/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Web Design Brooklyn</description>
+	<lastBuildDate>Fri, 21 Nov 2014 15:11:15 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.3.2</generator>
+	<item>
+		<title>Community Bookstore</title>
+		<link>/community-bookstore/</link>
+				<comments>/community-bookstore/#respond</comments>
+				<pubDate>Sat, 17 Nov 2007 20:32:33 +0000</pubDate>
+		<dc:creator><![CDATA[Brent Lagerman]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[animation]]></category>
+		<category><![CDATA[brooklyn]]></category>
+		<category><![CDATA[community bookstore]]></category>
+		<category><![CDATA[park slope]]></category>
+
+		<guid isPermaLink="false">/?p=5802</guid>
+				<description><![CDATA[<p>We designed the website for the Community Bookstore on 7th ave in Park Slope, Brooklyn. We worked with the shop owner Catherine and the amazing Kim Hui to create animations that tell the story of the store and it&#8217;s many pets. The animations are archived below, refresh the page to replay them ! (you need [&#8230;]</p>
+<p>The post <a rel="nofollow" href="/community-bookstore/">Community Bookstore</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>We designed the website for the <a href="http://communitybookstore.net/">Community Bookstore</a> on 7th ave in Park Slope, Brooklyn. We worked with the shop owner Catherine and the amazing <a href="http://www.kim-hui.com/" title="this blog sucks">Kim Hui</a> to create animations that tell the story of the store and it&#8217;s many pets. The animations are archived below, refresh the page to replay them ! <em>(you need flash to be enabled to see the videos)</em></p>
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/events.swf"><param name="movie" value="/wp-content/themes/mimoymima-theme/flash/events.swf" />You need flash to watch these animations</object>
+</div>
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/information.swf"><param name="movie" value="/wp-content/themes/mimoymima-theme/flash/information.swf" />You need flash to watch these animations</object>
+</div>
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/messing.swf"><param name="movie" value="/wp-content/themes/mimoymima-theme/flash/messing.swf" />You need flash to watch these animations</object>
+</div>
+<div class="fitvid">
+<object type="application/x-shockwave-flash" data="/wp-content/themes/mimoymima-theme/flash/home.swf"><param name="movie" value="/wp-content/themes/mimoymima-theme/flash/home.swf" />You need flash to watch these animations</object>
+</div>
+<p>The post <a rel="nofollow" href="/community-bookstore/">Community Bookstore</a> appeared first on <a rel="nofollow" href="/">mimoYmima</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>/community-bookstore/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
